@@ -25,10 +25,17 @@ ninja.data = [{
           },
         },{id: "nav-lezingen",
           title: "lezingen",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Informatie over aankomende lezingen en slides van voorbije lezingen.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/lezingen/";
+          },
+        },{id: "nav-people",
+          title: "people",
+          description: "members of the lab or group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
           },
         },{id: "post-a-post-with-image-galleries",
       
