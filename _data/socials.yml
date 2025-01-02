@@ -46,6 +46,6 @@ scholar_userid: fyQ8MmcAAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.ap.be/sites/default/files/users/user663/AP_logo_staand_rgb.jpg # can be png, svg, jpg
+  logo: assets/img/AP_logo_vierkant.jpg # can be png, svg, jpg
   title: AP Hogeschool
   url: https://www.ap.be/expert/wim-casteels
