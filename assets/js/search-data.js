@@ -9,19 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-lezingen",
+          title: "lezingen",
+          description: "Informatie over aankomende en voorbije lezingen.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/lezingen/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "🔨Wordt aan gewerkt🔨",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-lezingen",
-          title: "lezingen",
-          description: "Informatie over aankomende en voorbije lezingen.",
+        },{id: "nav-publicaties",
+          title: "publicaties",
+          description: "Wetenschappelijke publicaties van Wim Casteels",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/lezingen/";
+            window.location.href = "/publications/";
           },
         },{id: "post-a-post-with-image-galleries",
       
