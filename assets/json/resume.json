@@ -61,7 +61,7 @@
       "url": "https://www.argenta.be/nl.html",
       "startDate": "2018-09-01",
       "endDate": "2019-11-31",
-      "summary": "Data scientist with the central Data and Analytics Office"
+      "summary": "Data scientist bij het centrale Data & Analytics Office"
     },
     {
       "name": "Pius X College",
@@ -99,27 +99,75 @@
   "education": [
     {
       "institution": "Universiteit Antwerpen",
-      "location": "Antwerpen, België",
-      "url": "https://www.uzh.ch/",
+      "location": "Antwerpen",
+      "url": "https://www.uantwerpen.be/nl/onderzoeksgroep/tqc/",
       "area": "Fysica",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01"
+      "startDate": "2009-09-01",
+      "endDate": "2013-06-30",
+      "courses": ["Thesis: 'Ultracold Gases as a Quantum Simulator for the Polaron'"]
+    },
+    {
+      "institution": "AP Hogeschool",
+      "location": "Antwerpen",
+      "url": "https://www.ap.be/",
+      "studyType": "Lerarenopleiding",
+      "startDate": "2019-09-01",
+      "endDate": "2021-06-30",
+      "summary": "onderscheiding",
+      "courses": ["Onderscheiding"]
+    },
+    {
+      "institution": "Universiteit Antwerpen",
+      "location": "Antwerpen",
+      "url": "https://www.uantwerpen.be/",
+      "area": "Fysica",
+      "studyType": "Master",
+      "startDate": "2007-09-01",
+      "endDate": "2009-06-30",
+      "courses": ["Hoogste onderscheiding (89%)"]
+    },
+    {
+      "institution": "Universiteit Antwerpen",
+      "location": "Antwerpen",
+      "url": "https://www.uantwerpen.be/",
+      "area": "Fysica",
+      "studyType": "Bachelor",
+      "startDate": "2004-09-01",
+      "endDate": "2007-06-30",
+      "courses": "Onderscheiding"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Fysica",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Data Science",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Lesgeven",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Project management",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Artificiële intelligentie",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag"
     }
   ],
   "languages": [
@@ -141,16 +189,8 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Wetenschappen",
+      "icon": "fa-solid fa-tag"
     }
   ]
 }
