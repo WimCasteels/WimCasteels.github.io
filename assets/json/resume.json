@@ -24,7 +24,7 @@
   "work": [
     {
       "name": "imec",
-      "position": "Senior onderzoeker",
+      "position": "Onderzoeker",
       "url": "https://www.uantwerpen.be/en/research-groups/idlab/",
       "startDate": "2019-12-01",
       "endDate": "2021-08-31",
@@ -33,12 +33,11 @@
     },
     {
       "name": "Koninklijk Meteorologisch Instituut (KMI)",
-      "position": "Senior onderzoeker",
+      "position": "Onderzoeker",
       "url": "https://www.meteo.be/",
       "startDate": "2021-09-01",
       "endDate": "2021-12-31",
-      "summary": "FED-tWIN mandaat bij KMI en IDLab voor onderzoek naar het gebruik van artificiele intelligentie voor meteorologische toepassingen.",
-      "highlights": [""]
+      "summary": "FED-tWIN mandaat bij KMI en IDLab voor onderzoek naar het gebruik van artificiële intelligentie voor meteorologische toepassingen."
     },
     {
       "name": "Universiteit Antwerpen",
@@ -46,14 +45,55 @@
       "url": "https://www.uantwerpen.be/en/research-groups/idlab/",
       "startDate": "2021-09-01",
       "endDate": "2021-12-31",
-      "summary": "FED-tWIN mandaat bij KMI en IDLab voor onderzoek naar het gebruik van artificiele intelligentie voor meteorologische toepassingen."
+      "summary": "FED-tWIN mandaat bij KMI en IDLab voor onderzoek naar het gebruik van artificiële intelligentie voor meteorologische toepassingen."
     },
     {
       "name": "AP Hogeschool",
       "position": "Docent",
       "url": "https://www.ap.be/",
       "startDate": "2022-01-01",
-      "summary": "Gedeelde aanstelling bij KMI en IDLab voor onderzoek naar het gebruik van artificiele intelligentie voor meteorologische toepassingen."
+      "summary": "Coördinator IT & AI",
+      "highlights": ["Contacten met werkveld", "Lesgeven en coachen in het AI-domein", "Praktijkgericht onderzoek"]
+    },
+    {
+      "name": "Argenta",
+      "position": "Data Scientist",
+      "url": "https://www.argenta.be/nl.html",
+      "startDate": "2018-09-01",
+      "endDate": "2019-11-31",
+      "summary": "Data scientist with the central Data and Analytics Office"
+    },
+    {
+      "name": "Pius X College",
+      "position": "Leerkracht wetenschappen",
+      "url": "https://secundair.piustien.net/",
+      "startDate": "2018-02-01",
+      "endDate": "2018-06-30",
+      "summary": "Leerkracht fysica, wiskunde en natuurwetenschappen in de 3de graad"
+    },
+    {
+      "name": "Universiteit Antwerpen",
+      "position": "Onderzoeker",
+      "url": "https://www.uantwerpen.be/nl/onderzoeksgroep/tqc/",
+      "startDate": "2016-09-01",
+      "endDate": "2017-08-31",
+      "summary": "Postdoctoraal onderzoeker bij het labo Theorie van Kwantumsystemen en Complexe systemen (TQC)"
+    },
+    {
+      "name": "Université Denis Diderot (Paris VII)",
+      "position": "Onderzoeker",
+      "url": "https://mpq.u-paris.fr/en/home/",
+      "startDate": "2014-09-01",
+      "endDate": "2016-08-31",
+      "summary": "Postdoctoraal onderzoeker bij het labo Matériaux et Phénomènes Quantiques (MPQ) "
+    },
+    {
+      "name": "Universiteit Antwerpen",
+      "position": "Onderzoeker",
+      "url": "https://www.uantwerpen.be/nl/onderzoeksgroep/tqc/",
+      "startDate": "2013-11-01",
+      "endDate": "2014-07-31",
+      "summary": "Postdoctoraal onderzoeker bij het labo Theorie van Kwantumsystemen en Complexe systemen (TQC)"
     }
   ],
   "education": [
