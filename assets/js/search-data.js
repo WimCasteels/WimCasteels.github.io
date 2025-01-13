@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-quiz",
+          title: "quiz",
+          description: "Test hier je kennis over de maatschappelijke uitdagingen van AI met onze quiz!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/quiz/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
