@@ -168,6 +168,21 @@
       "name": "Artificiële intelligentie",
       "level": "Master",
       "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Data visualisatie",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Coaching",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "IT",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag"
     }
   ],
   "languages": [
@@ -190,6 +205,14 @@
   "interests": [
     {
       "name": "Wetenschappen",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Maatschappelijke uitdagingen van AI",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "(trail) running",
       "icon": "fa-solid fa-tag"
     }
   ]
