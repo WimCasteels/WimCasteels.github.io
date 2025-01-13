@@ -2,9 +2,9 @@
 layout: page
 permalink: /quiz/
 title: quiz
-description: Test hier je kennis over de maatschappelijke uitdagingen van AI met onze quiz!
+description: Test hier je kennis over de maatschappelijke uitdagingen van AI met deze quiz!
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 <iframe

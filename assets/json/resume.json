@@ -6,7 +6,7 @@
     "email": "casteels.wim@gmail.com",
     "phone": "",
     "url": "https://wimcasteels.be",
-    "summary": "Wim Casteels heeft een achtergrond als fysicus en werkt nu in het AI domein met ervaring als data scientist, onderzoeker en lesgever. Momenteel werkt bij de AP Hogeschool als docent en onderzoeker en coördineert het afstudeertraject AI & IT.",
+    "summary": "Wim Casteels heeft een achtergrond als fysicus en werkt nu in het AI domein waar hij ervaring heeft als data scientist, onderzoeker en lesgever. Momenteel werkt hij bij de AP Hogeschool in Antwerpen als docent en onderzoeker en coördineert de afstudeerrichting IT & AI.",
     "location": {
       "address": "Ellermanstraat 33",
       "postalCode": "2060",
@@ -28,8 +28,7 @@
       "url": "https://www.uantwerpen.be/en/research-groups/idlab/",
       "startDate": "2019-12-01",
       "endDate": "2021-08-31",
-      "summary": "Management van onderzoeksprojecten en doctoraatstudenten bij IDLab Antwerpen.",
-      "highlights": [""]
+      "summary": "Management van onderzoeksprojecten en begeleiden van doctoraatstudenten bij IDLab Antwerpen."
     },
     {
       "name": "Koninklijk Meteorologisch Instituut (KMI)",
@@ -37,7 +36,7 @@
       "url": "https://www.meteo.be/",
       "startDate": "2021-09-01",
       "endDate": "2021-12-31",
-      "summary": "FED-tWIN mandaat bij KMI en IDLab voor onderzoek naar het gebruik van artificiële intelligentie voor meteorologische toepassingen."
+      "summary": "FED-tWIN mandaat bij KMI en IDLab (UAntwerpen) voor onderzoek naar artificiële intelligentie voor meteorologische toepassingen."
     },
     {
       "name": "Universiteit Antwerpen",
@@ -45,7 +44,7 @@
       "url": "https://www.uantwerpen.be/en/research-groups/idlab/",
       "startDate": "2021-09-01",
       "endDate": "2021-12-31",
-      "summary": "FED-tWIN mandaat bij KMI en IDLab voor onderzoek naar het gebruik van artificiële intelligentie voor meteorologische toepassingen."
+      "summary": "FED-tWIN mandaat bij KMI en IDLab voor onderzoek naar artificiële intelligentie voor meteorologische toepassingen."
     },
     {
       "name": "AP Hogeschool",
@@ -142,47 +141,52 @@
     {
       "name": "Fysica",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-atom"
     },
     {
       "name": "Machine Learning",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-laptop-file"
     },
     {
       "name": "Data Science",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-database"
     },
     {
       "name": "Lesgeven",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-chalkboard-user"
     },
     {
       "name": "Project management",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-list-check"
     },
     {
       "name": "Artificiële intelligentie",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-robot"
     },
     {
       "name": "Data visualisatie",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-magnifying-glass-chart"
     },
     {
       "name": "Coaching",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-user-group"
     },
     {
       "name": "IT",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-computer"
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "icon": "fa-brands fa-python"
     }
   ],
   "languages": [
@@ -205,15 +209,15 @@
   "interests": [
     {
       "name": "Wetenschappen",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-flask"
     },
     {
       "name": "Maatschappelijke uitdagingen van AI",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-robot"
     },
     {
       "name": "(trail) running",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-person-running"
     }
   ]
 }
