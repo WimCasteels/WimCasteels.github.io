@@ -8,7 +8,6 @@ nav_order: 2
 ---
 
 ## Aankomend:
-- 3/2/2025: workshop [AI voor Beeldherkenning](https://www.ictdag.be/46/aanbod/sessie/32) op [ICT-praktijkdag](https://www.ictdag.be/)
 - 5/2/2025 en 12/2/2025: [Train the Trainer: Generatieve Artificiële Intelligentie voor IT-leerkrachten](https://www.ap.be/event/train-trainer-generatieve-artificiele-intelligentie-voor-it-leerkrachten)
 - 13/3/2025 - 03/04/2025: [Masterclasses: Software applicaties met generatieve AI](https://www.ap.be/event/masterclass-software-applicaties-met-generatieve-ai-editie-2-2025) (in Antwerpen, samenwerking met Howest)
 
