@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/lezingen/";
           },
-        },{id: "nav-quiz",
-          title: "quiz",
-          description: "Test hier je kennis over de maatschappelijke uitdagingen van AI met deze quiz!",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/quiz/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -51,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-chinese-startup-zet-ai-en-financiële-wereld-op-zijn-kop",
+        },{id: "post-maakt-ai-ons-dommer",
+      
+        title: "Maakt AI ons dommer?",
+      
+      description: "AI maakt ons productiever op het werk, maar wat is het effect op de mensen die deze tools gebruiken?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/dommer/";
+        
+      },
+    },{id: "post-chinese-startup-zet-ai-en-financiële-wereld-op-zijn-kop",
       
         title: "Chinese startup zet AI en financiële wereld op zijn kop",
       
@@ -60,6 +64,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/deepseek/";
+        
+      },
+    },{id: "post-sociale-media-voor-jongeren",
+      
+        title: "Sociale media voor jongeren",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/social-media/";
         
       },
     },{id: "news-de-eerste-aflevering-van-de-genius-podcast-staat-online-intelligent-omgaan-met-artificiële-intelligentie-met-caroline-van-cauwelaert-ceo-van-epcon-en-wim-casteels",
