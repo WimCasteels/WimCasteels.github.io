@@ -3,7 +3,7 @@ layout: page
 permalink: /quiz/
 title: quiz
 description: Test hier je kennis over de maatschappelijke uitdagingen van AI met deze quiz!
-nav: true
+nav: false
 nav_order: 3
 ---
 
