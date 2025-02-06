@@ -23,9 +23,6 @@ function submitHandler(event) {
   var timestamp = time.valueOf();
   var previousTimestamp = localStorage.getItem("loops-form-timestamp");
 
-// Debugging output
-console.log("Current timestamp:", timestamp);
-console.log("Previous timestamp:", previousTimestamp);
 
   // If last sign up was less than a minute ago
   // display error
