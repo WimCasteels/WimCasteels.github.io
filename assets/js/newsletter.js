@@ -23,6 +23,10 @@ function submitHandler(event) {
   var timestamp = time.valueOf();
   var previousTimestamp = localStorage.getItem("loops-form-timestamp");
 
+// Debugging output
+console.log("Current timestamp:", timestamp);
+console.log("Previous timestamp:", previousTimestamp);
+
   // If last sign up was less than a minute ago
   // display error
   if (previousTimestamp && Number(previousTimestamp) + 60000 > timestamp) {
@@ -34,13 +38,12 @@ function submitHandler(event) {
   submitButton.style.display = "none";
   loadingButton.style.display = "flex";
 
-  var formBody = "userGroup=&email=" + encodeURIComponent(formInput.value);
+  var formBody = "userGroup=website&email=" + encodeURIComponent(formInput.value);
   fetch(event.target.action, {
     method: "POST",
     body: formBody,
     headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
+      "Content-Type": "application/x-www-form-urlencoded",    },
   })
     .then((res) => [res.ok, res.json(), res])
     .then(([ok, dataPromise, res]) => {
