@@ -101,8 +101,8 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
+  repo: WimCasteels/WimCasteels.github.io # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDONkt_nw # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
@@ -111,7 +111,7 @@ giscus:
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-  lang: en
+  lang: nl
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: wimcasteels # put your disqus shortname
@@ -266,7 +266,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: ["china", "big-tech", "werk", "sociale-media"] # these categories will be displayed on the front page of your blog
+display_categories: ["Europa", "china", "big-tech", "werk", "sociale-media", "AI-Act"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
