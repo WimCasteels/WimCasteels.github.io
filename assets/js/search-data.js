@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-maakt-ai-ons-dommer",
+        },{id: "post-eerste-stap-van-de-ai-act-binnenkort-allemaal-ai-geletterd",
+      
+        title: "Eerste stap van de AI Act. Binnenkort allemaal AI geletterd?",
+      
+      description: "Begin februari trad de eerste fase van de AI Act in werking. Deze Europese wetgeving verbiedt AI-systemen met een onacceptabel risico en stelt verplichtingen over AI-geletterdheid.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/AI-Act-stap-1/";
+        
+      },
+    },{id: "post-maakt-ai-ons-dommer",
       
         title: "Maakt AI ons dommer?",
       
