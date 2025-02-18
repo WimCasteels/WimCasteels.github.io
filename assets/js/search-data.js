@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-eerste-stap-van-de-ai-act-binnenkort-allemaal-ai-geletterd",
+        },{id: "post-wie-ligt-er-nog-wakker-van-de-veiligheid-van-ai",
+      
+        title: "Wie ligt er nog wakker van de veiligheid van AI?",
+      
+      description: "Na de komst van ChatGPT stond AI veiligheid hoog op de (politieke) agenda maar dat lijkt met de AI Action top in Parijs vorige week definitief verleden tijd.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/AI-Veiligheid/";
+        
+      },
+    },{id: "post-eerste-stap-van-de-ai-act-binnenkort-allemaal-ai-geletterd",
       
         title: "Eerste stap van de AI Act. Binnenkort allemaal AI geletterd?",
       
