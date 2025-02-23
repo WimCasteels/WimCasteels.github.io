@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-wie-ligt-er-nog-wakker-van-de-veiligheid-van-ai",
+        },{id: "post-de-groeiende-ecologische-voetafdruk-van-ai",
+      
+        title: "De Groeiende Ecologische Voetafdruk van AI",
+      
+      description: "De opkomst van AI verbruikt enorme hoeveelheden grondstoffen, waardoor grote technologiebedrijven hun klimaatdoelstellingen niet kunnen halen.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ecologische-duurzaamheid/";
+        
+      },
+    },{id: "post-wie-ligt-er-nog-wakker-van-de-veiligheid-van-ai",
       
         title: "Wie ligt er nog wakker van de veiligheid van AI?",
       
