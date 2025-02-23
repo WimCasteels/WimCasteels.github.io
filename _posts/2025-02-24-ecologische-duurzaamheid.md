@@ -1,0 +1,65 @@
+---
+layout: post
+title: De Groeiende Ecologische Voetafdruk van AI
+date: 2025-02-23 00:00:00
+description: De opkomst van AI verbruikt enorme hoeveelheden grondstoffen, waardoor grote technologiebedrijven hun klimaatdoelstellingen niet kunnen halen. 
+tags: 
+categories: Duurzaamheid Uitstoot
+giscus_comments: true
+thumbnail: assets/img/250224.webp
+---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/250224.webp" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+Generatieve AI heeft in korte tijd een enorme gebruikersbasis opgebouwd met toepassingen zoals ChatGPT voor gesprekken, Stable Diffusion voor het maken van afbeeldingen en Suno voor muziekgeneratie. Het succes van deze tools is deels te danken aan hun gebruiksvriendelijke interfaces, maar die verbergen de complexe infrastructuur die erachter schuilgaat. Zoals Sam Altman, CEO van OpenAI (het bedrijf achter ChatGPT), het verwoordt: [’feels like magic'](https://x.com/sama/status/1788989777452408943). De realiteit is echter dat deze tools enorme hoeveelheden energie, water en mineralen verbruiken, wat resulteert in een aanzienlijke uitstoot van broeikasgassen.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">not gpt-5, not a search engine, but we’ve been hard at work on some new stuff we think people will love! feels like magic to me.<br><br>monday 10am PT. <a href="https://t.co/nqftf6lRL1">https://t.co/nqftf6lRL1</a></p>&mdash; Sam Altman (@sama) <a href="https://twitter.com/sama/status/1788989777452408943?ref_src=twsrc%5Etfw">May 10, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Het proces van AI-ontwikkeling gebruikt natuurlijke grondstoffen in verschillende stappen: de ontginning van grondstoffen, de productie van de serverinfrastructuur, de ontwikkeling van het model, het gebruik ervan, en uiteindelijk de afvalverwerking. De ecologische voetafdruk van veel van deze stappen blijft onduidelijk door de complexiteit van de processen en beperkte transparantie van bedrijven. Het meeste onderzoek richt zich op de ontwikkeling en het gebruik van AI-modellen, aangezien deze fasen beter meetbaar zijn. 
+
+Gedreven door de [schalingswetten](https://arxiv.org/abs/2001.08361) worden AI-modellen almaar groter. Deze empirische wetten stellen dat meer data, parameters en computerkracht leiden tot betere nauwkeurigheid. Als gevolg hiervan zijn de modellen de afgelopen jaren exponentieel gegroeid, met een steeds grotere behoefte aan rekenkracht. In de grafiek hieronder zien we voor verschillende modellen het aantal benodigde FLOPS voor de ontwikkeling. Een FLOP, wat staat voor Floating Point Operation, is een elementaire computerberekening. 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/250224-1.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Het uitvoeren van al deze FLOPs vereist enorme hoeveelheden energie. Hoewel er over de meeste modellen weinig informatie beschikbaar is, biedt [GPT-3](https://arxiv.org/abs/2104.10350) een interessant inzicht. Dit OpenAI-model uit 2020, met 175 miljard parameters dat de eerste versie van ChatGPT mogelijk maakte, verbruikte 1.287 MWh en stootte 552 ton CO2 uit tijdens zijn ontwikkeling. Dit energieverbruik staat gelijk aan wat 500 Vlaamse gezinnen jaarlijks verbruiken, terwijl de CO2-uitstoot overeenkomt met die van 120 benzineauto's per jaar. De nieuwere modellen overtreffen deze cijfers ruimschoots: GPT-4 telt naar schatting 1,8 biljoen parameters, terwijl Gemini Ultra van Google nog eens aanzienlijk groter zou zijn.
+
+Zodra een AI-model ontwikkeld is, begint het pas echt: het gebruik ervan wat nog meer energie verbruikt dan de ontwikkeling. Bij [ChatGPT](https://arxiv.org/abs/2409.14160), met zijn miljoenen dagelijkse gebruikers, overtreft het energieverbruik voor gebruik al na enkele weken dat van de training. [Google](https://www.reuters.com/technology/tech-giants-ai-like-bing-bard-poses-billion-dollar-search-problem-2023-02-22/) geeft aan dat een vraag via hun AI-model het bedrijf 10 keer meer kost dan een traditionele Google-zoekopdracht. Een typische ChatGPT-vraag verbruikt ongeveer 0,3 wattuur. Dit is minder dan een LED-lamp of laptop gedurende enkele minuten maar varieert wel sterk met de lengte van de vraag (zie figuur). De impact wordt pas echt duidelijk in de totaalsom: OpenAI heeft wekelijks meer dan [400 miljoen gebruikers](https://www.reuters.com/technology/artificial-intelligence/openais-weekly-active-users-surpass-400-million-2025-02-20/) die dagelijks meer dan een miljard berichten versturen. OpenAI is bovendien niet de enige aanbieder: er zijn ook [Claude](https://claude.ai/new) van Anthropic, [Gemini](https://gemini.google.com/app) van Google en nog vele andere zoals het Chinese Deepseek – dat in januari ChatGPT zelfs onttroonde als [populairste app](https://techcrunch.com/2025/01/27/deepseek-displaces-chatgpt-as-the-app-stores-top-app/) in zowel de Android Play Store als de iPhone App Store. AI wordt ook steeds vaker geïntegreerd in andere toepassingen, zoals [Kate](https://www.demorgen.be/nieuws/en-de-kbc-werknemer-van-het-jaar-is-kate-hoe-de-ai-assistente-de-bank-naar-nieuwe-hoogtes-stuwt~b60c0b42/), de AI-assistente van KBC. Het energieverbruik verschilt sterk per taak, waarbij taken met afbeeldingen meer energie vergen. Zo is de energiekost van het genereren van één afbeelding vergelijkbaar met het opladen van een smartphone (220 wattuur).
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/250224-2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Het geschatte [wereldwijde elektriciteitsverbruik](https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks) van datacenters in 2022 was 240-340 TWh, ongeveer 1-1,3% van de mondiale finale elektriciteitsvraag. In 2020 stonden datacenters en de transmissie van data in voor 0,6% van de totale uitstoot van broeikasgassen, vergelijkbaar met de totale uitstoot van de luchtvaartindustrie. Deze datacenters worden natuurlijk niet enkel gebruikt voor AI-toepassingen en er wordt geschat dat AI momenteel instaat voor [10-20%](https://www.epri.com/research/products/000000003002028905) van het gebruik, maar dit percentage [stijgt snel](https://www.goldmansachs.com/insights/articles/AI-poised-to-drive-160-increase-in-power-demand) (zie figuur).
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/250224-3.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Minder dan de helft van de energie die een datacenter verbruikt, gaat naar het voeden van de servers. Een aanzienlijk deel wordt gebruikt voor koeling. Net zoals een laptop tijdens gebruik warm wordt en een ventilator nodig heeft voor koeling of serverruimtes actief gekoeld worden door speciale airco's. Voor datacenters volgepakt met servers vormt koeling een significante uitdaging: zo'n 30 à 40% van de totale energie gaat hiernaartoe. Dit koelproces vereist grote hoeveelheden water om warmte af te voeren, waarvan een aanzienlijk deel verdampt. [Onderzoek](https://arxiv.org/abs/2304.03271) schat dat GPT-3, het AI-model achter ChatGPT, 500ml water verbruikt voor elke 10 tot 50 vragen (al ligt dit voor de nieuwere modellen waarschijnlijk [4 keer hoger](https://www.thetimes.com/uk/technology-uk/article/thirsty-chatgpt-uses-four-times-more-water-than-previously-thought-bc0pqswdr)).
+
+De enorme energiebehoefte van AI-systemen heeft ervoor gezorgd dat verschillende grote technologiebedrijven zoals [Microsoft](https://www.bloomberg.com/news/articles/2024-05-15/microsoft-s-ai-investment-imperils-climate-goal-as-emissions-jump-30?embedded-checkout=true) en [Google](https://www.bloomberg.com/news/articles/2024-07-02/google-s-emissions-shot-up-48-over-five-years-due-to-ai?embedded-checkout=true) hun klimaatdoelstellingen niet halen en de vooropgestelde reductie in broeikasgassen niet bereiken. Deze bedrijven zoeken nu naar alternatieve oplossingen om alsnog hun klimaatambities waar te maken zoals het gebruik van groene stroom uit hernieuwbare energie om datacenters te voeden. IJsland is hierdoor een aantrekkelijke locatie geworden voor datacenters: het land beschikt over uitgebreide mogelijkheden voor geothermische en hydroelektrische energie, en door het koude klimaat is er minder energie en water nodig voor koeling. Dit heeft echter ook een [keerzijde](https://www.technologyreview.com/2019/06/18/134902/icelands-data-centers-are-booming-heres-why-thats-a-problem/). Zo vragen milieuactivisten zich af of dit wel een goede besteding van energie is en of deze niet beter gebruikt kan worden voor IJsland zelf. 
+
+Een andere optie waar de technologiebedrijven in investeren is [kernenergie](https://www.nytimes.com/2024/10/16/business/energy-environment/amazon-google-microsoft-nuclear-energy.html). Hoewel dit een oplossing biedt voor de uitstoot van broeikasgassen, brengt het andere uitdagingen met zich mee, zoals de verwerking van radioactief afval en veiligheidsrisico's. Een voorbeeld is Microsoft's overeenkomst om de kerncentrale [Three Mile Island](https://www.technologyreview.com/2024/09/26/1104516/three-mile-island-microsoft/) in Pennsylvania te heropenen, een centrale die bekend staat om een gedeeltelijke nucleaire meltdown in 1978. 
+
+Enkele bedrijven gaan nog verder door datacenters in de ruimte te ontwikkelen, zoals het Europese [Ascend](https://ascend-horizon.eu/) en het Amerikaanse [Starcloud](https://www.starcloud.com/). De ruimte biedt twee belangrijke voordelen: ononderbroken toegang tot zonne-energie en natuurlijke koeling door de extreme kou. Voorlopig blijft dit echter science fiction, aangezien het lanceren van de benodigde apparatuur niet rendabel is, ook al dalen deze kosten dankzij bedrijven zoals SpaceX gestaag.
+
+Voor de productie van AI-servers zijn verschillende metalen nodig waarvan de ontginning grote ecologische schade veroorzaakt. Sommige van deze metalen, zoals kobalt en wolfraam, zijn conflictmineralen die uit conflictgebieden komen. De ontginning en handel van deze mineralen dragen bij aan mensenrechtenschendingen en gewapende conflicten. 
+
+De energiehonger van AI-toepassingen blijft onverminderd groeien. De Amerikaanse president Donald Trump kondigde direct na zijn inauguratie het [Stargate](https://www.forbes.com/sites/moorinsights/2025/01/30/the-stargate-project-trump-touts-500-billion-bid-for-ai-dominance/) project aan, een ambitieus plan met een geplande investering van 500 miljard dollar in AI-datacenters. Op de AI Action top in Parijs presenteerde de Franse president Emmanuel Macron de overcapaciteit aan kernenergie als Franse troef. Waar volgens hem de VS het motto "drill, baby, drill" hanteert, is het in Frankrijk "[plug, baby, plug](https://www.politico.eu/article/emmanuel-macron-answer-donald-trump-fossil-fuel-drive-artificial-intelligence-ai-action-summit/)". Het [Chinese Deepseek](https://www.nytimes.com/2025/01/27/technology/what-is-deepseek-china-ai.html) bewees dat efficiëntere AI-systemen mogelijk zijn, wat een schokgolf door de AI- en financiële wereld stuurde. De langetermijnimpact blijft echter onduidelijk. Volgens Jensen Huang, de CEO van chipmaker NVIDIA, zal de vraag naar servers hierdoor zelfs verder toenemen.
+
+Er ontbreken nog veel gegevens voor een volledig beeld van de ecologische voetafdruk van AI. Dit geldt bijvoorbeeld voor informatie over de productie van servers en het [industrieel afval](https://restofworld.org/2024/microsoft-data-center-india-mekaguda-industrial-waste/) van datacenters, dat risico's voor het milieu met zich meebrengt. Daarnaast kan het gebruik van AI voor efficiëntieverbeteringen in vervuilende sectoren paradoxaal genoeg leiden tot meer vervuiling, zoals bij de [exploratie van olie en gas](https://www.greenpeace.org/usa/oil-in-the-cloud/). Daarnaast draagt AI infrastructuur bij aan de groeiende berg e-waste, volgens schattingen tot wel [5 miljoen ton in 2030](https://www.technologyreview.com/2024/10/28/1106316/ai-e-waste/).
+
+De uitdagingen rond de ecologische impact van AI vereisen een breed maatschappelijk debat. Technologische vooruitgang hoeft niet ten koste te gaan van het milieu, maar dit vraagt om doordachte keuzes en innovatieve oplossingen. Bedrijven, overheden en consumenten moeten samenwerken om de energietransitie te versnellen en duurzame alternatieven te ontwikkelen. Alleen door de milieukosten volledig mee te rekenen in de ontwikkeling van AI-systemen, kunnen we ervoor zorgen dat artificiële intelligentie bijdraagt aan een duurzame toekomst in plaats van deze te ondermijnen.
