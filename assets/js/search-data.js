@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-de-groeiende-ecologische-voetafdruk-van-ai",
+        },{id: "post-ai-als-bewaker-van-fort-europa",
+      
+        title: "AI als bewaker van fort Europa",
+      
+      description: "De inzet van AI voor grensbewaking en immigratiecontrole is een snel groeiende toepassing van deze technologie. Europa investeert miljarden in de ontwikkeling en implementatie van AI-systemen die moeten helpen bij het monitoren en controleren van migratie. Deze ontwikkeling roept belangrijke ethische en praktische vragen op over effectiviteit, mensenrechten en discriminatie.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/fort-europa/";
+        
+      },
+    },{id: "post-de-groeiende-ecologische-voetafdruk-van-ai",
       
         title: "De Groeiende Ecologische Voetafdruk van AI",
       
