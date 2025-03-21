@@ -37,14 +37,25 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-contact",
-          title: "contact",
+        },{id: "nav-",
+          title: "",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-ai-als-bewaker-van-fort-europa",
+        },{id: "post-de-opkomst-van-ai-therapeuten",
+      
+        title: "De opkomst van AI therapeuten",
+      
+      description: "AI neemt steeds meer de rol van therapeut op zich in onze digitale samenleving. Van ELIZA in de jaren &#39;60 tot moderne chatbots als ChatGPT en Character.AI, steeds meer mensen delen hun diepste emoties met AI. Maar terwijl sommigen hier verlichting in vinden, waarschuwen experts voor de risico&#39;s van deze nieuwe vorm van &#39;therapie&#39;.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/AI-therapie/";
+        
+      },
+    },{id: "post-ai-als-bewaker-van-fort-europa",
       
         title: "AI als bewaker van fort Europa",
       
