@@ -120,7 +120,15 @@ disqus_shortname: wimcasteels # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-#external_sources:
+external_sources:
+  - name: EOS Wetenschap
+    posts:
+      - url: https://www.eoswetenschap.eu/technologie/waarom-onderzoek-naar-artificiele-algemene-intelligentie-contraproductief-kan-zijn
+        published_date: 2025-03-25
+  - name: VAIA
+    posts:
+      - url: https://www.vaia.be/nl/blog/hoe-vervuilend-is-ai
+        published_date: 2025-02-25
 #  - name: medium.com
 #    rss_url: https://medium.com/@al-folio/feed
 #  - name: Google Blog
