@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-de-opkomst-van-ai-therapeuten",
+        },{id: "post-waarom-onderzoek-naar-artificiële-algemene-intelligentie-contraproductief-kan-zijn-eos-wetenschap",
+      
+        title: 'Waarom onderzoek naar artificiële algemene intelligentie contraproductief kan zijn | EOS Wetenschap <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Het doel van&amp;nbsp;artificiële intelligentie is altijd geweest om machines te maken die menselijke intelligentie simuleren. Toch kan het nastreven ervan onbed...",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.eoswetenschap.eu/technologie/waarom-onderzoek-naar-artificiele-algemene-intelligentie-contraproductief-kan-zijn", "_blank");
+        
+      },
+    },{id: "post-de-opkomst-van-ai-therapeuten",
       
         title: "De opkomst van AI therapeuten",
       
@@ -64,6 +75,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/fort-europa/";
+        
+      },
+    },{id: "post-hoe-vervuilend-is-ai-de-afdruk-van-ai-vaia-vlaamse-ai-academie",
+      
+        title: 'Hoe vervuilend is AI? De afdruk van AI - VAIA - Vlaamse AI... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Generatieve AI werd razendsnel populair dankzij gebruiksvriendelijke interfaces die de complexe infrastructuur verbergen. Maar in al hun eenvoud gebruiken deze tools enorme hoeveelheden energie, water en grondstoffen. Wim Casteels van AP Hogeschool bespreekt de grootste problemen.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.vaia.be/nl/blog/hoe-vervuilend-is-ai", "_blank");
         
       },
     },{id: "post-de-groeiende-ecologische-voetafdruk-van-ai",
