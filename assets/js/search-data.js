@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-prompten",
+          title: "prompten",
+          description: "De 5 Promptgeboden om beter gebruik te maken van AI-tools.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/prompt-hulp/";
+          },
         },{id: "nav-lezingen",
           title: "lezingen",
           description: "Informatie over aankomende en voorbije lezingen.",
