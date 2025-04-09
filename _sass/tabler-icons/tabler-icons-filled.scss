@@ -8,6 +8,8 @@ $ti-font-path: './fonts' !default;
 $ti-font-display: null !default;
 $ti-prefix: 'ti' !default;
 
+@use "sass:string";
+
 @font-face {
   font-family: $ti-font-family;
   font-style: normal;
@@ -33,7 +35,7 @@ $ti-prefix: 'ti' !default;
 }
 
 @function unicode($str) {
-  @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+  @return string.unquote("\"")+string.unquote(string.insert($str, "\\", 1))+string.unquote("\"")
 }
 
 

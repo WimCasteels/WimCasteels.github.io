@@ -5,6 +5,7 @@
 
 // Dimensions
 $max-content-width: {{ site.max_width }};
+@use "sass:string";
 
 @import
   "variables",
