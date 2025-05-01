@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-waarom-onderzoek-naar-artificiële-algemene-intelligentie-contraproductief-kan-zijn-eos-wetenschap",
+        },{id: "post-aan-de-slag-met-vibe-coding-van-prompt-engineering-tot-web-applicaties",
+      
+        title: "Aan de Slag met Vibe Coding: van Prompt Engineering tot Web Applicaties",
+      
+      description: "Vibe coding is een nieuwe trend waarbij je software ontwikkelt zonder zelf een regel code te schrijven. Hiervoor gebruik je AI-tools. De belofte is dat iedereen software kan maken, zelfs zonder enige ervaring met programmeren.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/vibe-coding/";
+        
+      },
+    },{id: "post-waarom-onderzoek-naar-artificiële-algemene-intelligentie-contraproductief-kan-zijn-eos-wetenschap",
       
         title: 'Waarom onderzoek naar artificiële algemene intelligentie contraproductief kan zijn | EOS Wetenschap <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
