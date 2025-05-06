@@ -8,13 +8,12 @@ nav_order: 3
 ---
 
 ## Aankomend:
-- 6/05/2025: [A.I. in de zorg: zegen of vloek?](https://www.ap.be/event/lezingen-binnen-de-sociaal-agogische-community-2025)
 - 29/05/2025: [Workshop Prompt Engineering & Vibecoding](https://www.ap.be/professionals/opleiding/workshop-prompt-engineering-vibecoding)
 - 12/06/2025: Lezing: *AI en de veranderende arbeidswereld* op [Congres Navorming 2025](https://www.ap.be/professionals/congres-navorming-2025)
 - 18/06/2025: Panel Discussion: *Frugal AI, the only credible path?* op [Greentech Forum Brussels](https://www.greentech-forum-brussels.com/)
 
 ## Voorbij:
-- 6/05/2025: [A.I. in de zorg: zegen of vloek?](https://www.ap.be/event/lezingen-binnen-de-sociaal-agogische-community-2025) ([slides]({{ site.url }}/assets/pdf/AI_zorg))
+- 6/05/2025: [A.I. in de zorg: zegen of vloek?](https://www.ap.be/event/lezingen-binnen-de-sociaal-agogische-community-2025) ([slides]({{ site.url }}/assets/pdf/AI_zorg.pdf))
 - 25/2/2025: Inspiratiesessie voor Antwerpse technologiestudenten over AI en duurzaamheid op [TECHNIGHT](https://www.technight.be/) in Antwerp Expo.
 - 5/2/2025 en 12/2/2025: [Train the Trainer: Generatieve Artificiële Intelligentie voor IT-leerkrachten](https://www.ap.be/event/train-trainer-generatieve-artificiele-intelligentie-voor-it-leerkrachten)
 - 21/11/2024: Inspiratiesessie over Ethical AI op [TINC FEST](https://apbc.be/tincfest)
