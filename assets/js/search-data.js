@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-aan-de-slag-met-vibe-coding-van-prompt-engineering-tot-web-applicaties",
+        },{id: "post-de-onzichtbare-manager-hoe-ai-de-werkvloer-vormgeeft",
+      
+        title: "De Onzichtbare Manager: Hoe AI de Werkvloer Vormgeeft",
+      
+      description: "AI neemt steeds vaker de rol van manager over, met verstrekkende gevolgen voor de werkvloer. Van het screenen van sollicitanten tot het monitoren van werknemers - algoritmes bepalen steeds meer hoe we werken. Wat betekent deze onzichtbare manager voor de toekomst van werk?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/AI-work/";
+        
+      },
+    },{id: "post-aan-de-slag-met-vibe-coding-van-prompt-engineering-tot-web-applicaties",
       
         title: "Aan de Slag met Vibe Coding: van Prompt Engineering tot Web Applicaties",
       
