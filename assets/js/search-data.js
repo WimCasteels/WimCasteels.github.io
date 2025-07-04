@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-de-onzichtbare-manager-hoe-ai-de-werkvloer-vormgeeft",
+        },{id: "post-error-the-request-could-not-be-satisfied",
+      
+        title: 'ERROR: The request could not be satisfied <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.knack.be/nieuws/technologie/verklein-je-werkelijk-je-ecologische-voetafdruk-door-minder-vriendelijk-te-zijn-tegen-chatgpt/", "_blank");
+        
+      },
+    },{id: "post-de-onzichtbare-manager-hoe-ai-de-werkvloer-vormgeeft",
       
         title: "De Onzichtbare Manager: Hoe AI de Werkvloer Vormgeeft",
       
