@@ -129,6 +129,10 @@ external_sources:
     posts:
       - url: https://www.vaia.be/nl/blog/hoe-vervuilend-is-ai
         published_date: 2025-02-25
+  - name: Knack
+    posts:
+      - url: https://www.knack.be/nieuws/technologie/verklein-je-werkelijk-je-ecologische-voetafdruk-door-minder-vriendelijk-te-zijn-tegen-chatgpt/
+        published_date: 2025-06-14
 #  - name: medium.com
 #    rss_url: https://medium.com/@al-folio/feed
 #  - name: Google Blog
