@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-prompten",
           title: "prompten",
-          description: "De 5 Promptgeboden om beter gebruik te maken van AI-tools.",
+          description: "De 7 Promptgeboden om verantwoord gebruik te maken van AI-tools.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/prompt-hulp/";
