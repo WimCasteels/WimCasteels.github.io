@@ -2,7 +2,7 @@
 layout: page
 permalink: /prompt-hulp/
 title: prompten
-description: De 5 <i>Promptgeboden</i> om beter gebruik te maken van AI-tools.
+description: De <i>7 Promptgeboden</i> om verantwoord gebruik te maken van AI-tools.
 nav: true
 nav_order: 2
 ---
