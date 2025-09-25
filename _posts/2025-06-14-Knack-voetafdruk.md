@@ -2,6 +2,7 @@
 layout: post
 title: "Verklein je werkelijk je ecologische voetafdruk door minder vriendelijk te zijn tegen ChatGPT?"
 date: 2025-06-14
+description: ‘De ware kost van onze beleefdheden aan het adres van ChatGPT zullen we wellicht nooit weten. Deze discussie leidt ons echter af van fundamentelere vragen over de maatschappelijke impact’, schrijft Wim Casteels.
 external_source: "Knack"
 categories: duurzaamheid
 thumbnail: assets/img/knack-voetafdruk.png

@@ -2,6 +2,7 @@
 layout: post
 title: "AI-zoekmachines ondermijnen verdienmodel internet"
 date: 2025-09-04
+description: Als contentmakers niet langer voldoende inkomsten genereren, zal de kwaliteit en de diversiteit van online informatie waarschijnlijk afnemen. Zonder duidelijke regelgeving of technische oplossingen dreigt een machtsverschuiving naar de grote AI-bedrijven.
 external_source: "De Tijd"
 categories: 
 thumbnail: assets/img/DeTijd-AI-zoekmachines.png

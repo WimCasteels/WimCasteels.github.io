@@ -2,6 +2,7 @@
 layout: post
 title: "Gemiste kansen in het Belgisch charter voor verantwoord AI-gebruik"
 date: 2025-09-14
+description: ‘Dit charter lijkt eerder een verplicht nummer dan een document dat vertrouwen opbouwt of aantoont dat de overheid het verantwoord gebruik van AI serieus neemt’, schrijft Wim Casteels over een charter dat 40 Belgische organisaties hebben aangenomen voor het verantwoord gebruik van AI in overheidsdiensten.
 external_source: "Knack"
 categories: overheid
 thumbnail: assets/img/knack-charter.png

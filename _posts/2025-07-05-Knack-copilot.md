@@ -2,6 +2,7 @@
 layout: post
 title: "Na aankondiging Diependaele over Copilot: wordt Vlaanderen te afhankelijk van een Amerikaans technologiebedrijf?"
 date: 2025-07-05
+description: De Vlaamse regering trekt miljoenen uit voor de aankoop van de AI van Microsoft Copilot, schrijft Wim Casteels. ‘Wellicht is het verstandiger om de beschikbare middelen te investeren in een doordacht AI-beleid.’
 external_source: "Knack"
 categories: big-tech overheid
 thumbnail: assets/img/knack-copilot.png
