@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <i>If you can't explain it simply, you don't understand it yourself</i> - Albert Einstein
-
+subtitle: <p><b>Docent | AI Specialist | Fysicus | Keynote Spreker </b></p>
+  <p><i>If you can't explain it simply, you don't understand it yourself</i> - Albert Einstein </p>
 profile:
   align: right
   image: prof_pic.jpg
@@ -20,3 +20,9 @@ social: true # includes social icons at the bottom of the page
 <p style="text-align: justify;">Wim behaalde een doctoraat in de fysica aan de Universiteit Antwerpen. Na enkele jaren onderzoek in de theoretische fysica besloot hij zich te richten op vraagstukken met grotere maatschappelijke relevantie. Zijn interesse werd gewekt door het AI-domein, specifiek door de combinatie van elegante wiskundige modellen met concrete praktijktoepassingen. In de afgelopen jaren vervulde Wim diverse rollen binnen dit domein: data scientist bij een financiële instelling, academisch onderzoeker, projectleider in toepassingsgericht onderzoek en lesgever. Deze veelzijdige ervaring biedt hem een unieke blik op dit snel evoluerende vakgebied.</p>
 
 <p style="text-align: justify;">Wim is overtuigd van het potentieel van AI om de mensheid vooruit te helpen, van baanbrekende verbeteringen in de gezondheidszorg tot gepersonaliseerd en inclusief onderwijs tot industriële innovaties. Tegelijk gelooft hij dat de adoptie van AI gepaard gaat met complexe maatschappelijke uitdagingen. Via deze website wil hij deze vaak onderbelichte aspecten belichten en bijdragen aan een breder begrip van AI en de impact ervan op onze samenleving.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hetmaskervanai.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

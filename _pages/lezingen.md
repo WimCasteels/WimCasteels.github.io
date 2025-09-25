@@ -9,6 +9,7 @@ nav_order: 3
 
 ## Aankomend:
 - 7/10/2025: Panelgesprek *Artificiële Intelligentie: hefboom of slagboom voor e-inclusie?* op [Netwerkmoment E-inclusie als sociale hefboom](https://www.saamo.be/agenda-item/netwerkmoment-e-inclusie-als-sociale-hefboom/)
+- 23/10/2025: [Boekvoorstelling Het masker van AI](https://mailings.lannoo.com/ct/m17/k1/iLikWH1xg7bR0wK3ViZrEMcOloTFTVn8qVzb40ukU-Zpt6xHmhkU2WyuMUa5iWkJbiDjHEi35STXqo0gGekxZ18MV6BJ8mOQsArWC4dW_PKX8kZcIX8s93fmDwzbLRRk/Aw66tKz5UH5dw37) op campus Noord van AP Hogeschool. 
 
 ## Voorbij:
 - 18/06/2025: Panel Discussion: *Frugal AI, the only credible path?* op [Greentech Forum Brussels](https://www.greentech-forum-brussels.com/)
