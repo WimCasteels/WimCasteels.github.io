@@ -51,7 +51,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-na-aankondiging-diependaele-over-copilot-wordt-vlaanderen-te-afhankelijk-van-een-amerikaans-technologiebedrijf",
+        },{id: "post-gemiste-kansen-in-het-belgisch-charter-voor-verantwoord-ai-gebruik",
+      
+        title: "Gemiste kansen in het Belgisch charter voor verantwoord AI-gebruik",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Knack-charter/";
+        
+      },
+    },{id: "post-ai-zoekmachines-ondermijnen-verdienmodel-internet",
+      
+        title: "AI-zoekmachines ondermijnen verdienmodel internet",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/De-Tijd-AI-Zoekmachines/";
+        
+      },
+    },{id: "post-na-aankondiging-diependaele-over-copilot-wordt-vlaanderen-te-afhankelijk-van-een-amerikaans-technologiebedrijf",
       
         title: "Na aankondiging Diependaele over Copilot: wordt Vlaanderen te afhankelijk van een Amerikaans technologiebedrijf?...",
       
@@ -207,6 +229,9 @@ ninja.data = [{
       },
     },{id: "news-de-eerste-aflevering-van-de-genius-podcast-staat-online-intelligent-omgaan-met-artificiële-intelligentie-met-caroline-van-cauwelaert-ceo-van-epcon-en-wim-casteels",
           title: 'De eerste aflevering van de Genius Podcast staat online: Intelligent omgaan met artificiële...',
+          description: "",
+          section: "News",},{id: "news-het-boek-het-masker-van-ai-verschijnt-op-21-oktober-bij-lannoo-campus-iedereen-is-welkom-voor-de-boekvoorstelling-op-23-oktober-om-19u-op-campus-noord-van-de-ap-hogeschool",
+          title: 'Het boek Het masker van AI verschijnt op 21 oktober bij Lannoo Campus....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
