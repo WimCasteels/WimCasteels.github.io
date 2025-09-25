@@ -55,7 +55,7 @@ ninja.data = [{
       
         title: "Gemiste kansen in het Belgisch charter voor verantwoord AI-gebruik",
       
-      description: "",
+      description: "‘Dit charter lijkt eerder een verplicht nummer dan een document dat vertrouwen opbouwt of aantoont dat de overheid het verantwoord gebruik van AI serieus neemt’, schrijft Wim Casteels over een charter dat 40 Belgische organisaties hebben aangenomen voor het verantwoord gebruik van AI in overheidsdiensten.",
       section: "Posts",
       handler: () => {
         
@@ -66,7 +66,7 @@ ninja.data = [{
       
         title: "AI-zoekmachines ondermijnen verdienmodel internet",
       
-      description: "",
+      description: "Als contentmakers niet langer voldoende inkomsten genereren, zal de kwaliteit en de diversiteit van online informatie waarschijnlijk afnemen. Zonder duidelijke regelgeving of technische oplossingen dreigt een machtsverschuiving naar de grote AI-bedrijven.",
       section: "Posts",
       handler: () => {
         
@@ -77,7 +77,7 @@ ninja.data = [{
       
         title: "Na aankondiging Diependaele over Copilot: wordt Vlaanderen te afhankelijk van een Amerikaans technologiebedrijf?...",
       
-      description: "",
+      description: "De Vlaamse regering trekt miljoenen uit voor de aankoop van de AI van Microsoft Copilot, schrijft Wim Casteels. ‘Wellicht is het verstandiger om de beschikbare middelen te investeren in een doordacht AI-beleid.’",
       section: "Posts",
       handler: () => {
         
@@ -88,7 +88,7 @@ ninja.data = [{
       
         title: "Verklein je werkelijk je ecologische voetafdruk door minder vriendelijk te zijn tegen ChatGPT?...",
       
-      description: "",
+      description: "‘De ware kost van onze beleefdheden aan het adres van ChatGPT zullen we wellicht nooit weten. Deze discussie leidt ons echter af van fundamentelere vragen over de maatschappelijke impact’, schrijft Wim Casteels.",
       section: "Posts",
       handler: () => {
         
