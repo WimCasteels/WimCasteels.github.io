@@ -4,7 +4,7 @@ permalink: /publications/
 title: publicaties
 description: Wetenschappelijke publicaties van Wim Casteels
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <!-- _pages/publications.md -->

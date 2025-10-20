@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <p><b>Docent | AI Specialist | Fysicus | Keynote Spreker </b></p>
+subtitle: <p><b>Docent | Onderzoeker | AI Specialist | Datawetenschapper | Fysicus | Keynote Spreker </b></p>
   <p><i>If you can't explain it simply, you don't understand it yourself</i> - Albert Einstein </p>
 profile:
   align: right

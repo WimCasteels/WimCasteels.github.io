@@ -3,7 +3,7 @@ layout: page
 permalink: /lezingen/
 title: lezingen
 description: Informatie over aankomende en voorbije lezingen.
-nav: true
+nav: false
 nav_order: 3
 ---
 
