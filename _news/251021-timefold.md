@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Panelgesprek op het [Indispensible 2025](https://indispensable.timefold.ai/) event van Timefold.ai.
+Panelgesprek op het [Indispensible 2025](https://indispensable.timefold.ai/) event van **Timefold.ai**.

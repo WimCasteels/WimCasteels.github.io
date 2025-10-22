@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Publicatie van [Het masker van AI](https://www.lannoo.be/nl/het-masker-van-ai) bij Lannoo Campus.
+Publicatie van [Het masker van AI](https://www.lannoo.be/nl/het-masker-van-ai) bij **Lannoo Campus**.
