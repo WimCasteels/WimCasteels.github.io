@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gastlezing *Het masker van AI* op de openingsavond van [Tech Tapas 2025](https://lrd.kuleuven.be/kuleuvenkick/programmas/tech_tapas) bij de KUL.
+Gastlezing *Het masker van AI* op de openingsavond van [Tech Tapas 2025](https://lrd.kuleuven.be/kuleuvenkick/programmas/tech_tapas) bij de KUL ([slides]({{ site.url }}/assets/pdf/KUL-Tech-Tapas.pdf)).
