@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Lezing tijdens de **Dag van de Wetenschap**: [Het masker van AI](https://www.dagvandewetenschap.be/) (start om 16:15 op de Stadscampus van de Universiteit Antwerpen).
+Lezing tijdens de **Dag van de Wetenschap**: [Het masker van AI](https://www.dagvandewetenschap.be/) (start om 16:15 op de Stadscampus van de Universiteit Antwerpen) ([slides]({{ site.url }}/assets/pdf/DagvdWetenschap.pdf)).
