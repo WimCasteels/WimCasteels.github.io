@@ -281,7 +281,7 @@ ninja.data = [{
           section: "News",},{id: "news-gastlezing-het-masker-van-ai-op-de-openingsavond-van-tech-tapas-2025-bij-de-kul-slides",
           title: 'Gastlezing Het masker van AI op de openingsavond van Tech Tapas 2025 bij...',
           description: "",
-          section: "News",},{id: "news-lezing-tijdens-de-dag-van-de-wetenschap-het-masker-van-ai-start-om-16-15-op-de-stadscampus-van-de-universiteit-antwerpen",
+          section: "News",},{id: "news-lezing-tijdens-de-dag-van-de-wetenschap-het-masker-van-ai-start-om-16-15-op-de-stadscampus-van-de-universiteit-antwerpen-slides",
           title: 'Lezing tijdens de Dag van de Wetenschap: Het masker van AI (start om...',
           description: "",
           section: "News",},{id: "projects-project-1",
