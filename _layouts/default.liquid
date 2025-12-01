@@ -13,12 +13,45 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+
+    <!-- Globale stijl: navigatie verbergen + header-image -->
+    <style>
+      /* Navigatie verbergen (header.liquid, navbar, etc.) */
+      header[role="banner"],
+      .navbar,
+      .site-nav,
+      nav {
+        display: none !important;
+      }
+
+      body {
+        padding-top: 0 !important; /* geen ruimte reserveren voor navbar */
+      }
+
+      /* Header-afbeelding volledig breedte */
+      .about-header-image {
+        width: 100%;
+        margin-bottom: 1.5rem;
+      }
+
+      .about-header-image img {
+        width: 100%;
+        object-fit: cover;      /* mooi bijsnijden */
+        display: block;
+      }
+    </style>
   </head>
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
+
+    <!-- Header (wordt met CSS verborgen, maar blijft technisch bestaan) -->
     {% include header.liquid %}
+
+    <!-- FULL-WIDTH HEADER IMAGE (voor alle pagina's) -->
+    <div class="about-header-image">
+      <img src="{{ 'assets/img/hetmaskervanai.jpg' | relative_url }}" alt="Header image">
+    </div>
 
     <!-- Content -->
     <div class="container mt-5" role="main">

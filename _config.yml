@@ -8,13 +8,13 @@ middle_name:
 last_name: Casteels
 contact_note: # You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Webpagina van Wim Casteels.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: AI, keynote, docent, boek # add your own keywords or leave empty
 lang: nl # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: logo.png #⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://wimcasteels.github.io # the base hostname & protocol for your site
 baseurl:
@@ -46,9 +46,9 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 bib_search: true
 
@@ -141,7 +141,7 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 newsletter:
-  enabled: true
+  enabled: false
   endpoint: https://app.loops.so/api/newsletter-form/cm6t46ulb00520lkyh4b436f6 # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 

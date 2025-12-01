@@ -3,7 +3,7 @@ layout: page
 permalink: /prompt-hulp/
 title: Bewust Prompten
 description: De <i>7 Promptgeboden</i> om verantwoord gebruik te maken van AI-tools.
-nav: true
+nav: false
 nav_order: 2
 ---
 
