@@ -9,28 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-bewust-prompten",
-          title: "Bewust Prompten",
-          description: "De 7 Promptgeboden om verantwoord gebruik te maken van AI-tools.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/prompt-hulp/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-publicaties",
-          title: "publicaties",
-          description: "Wetenschappelijke publicaties van Wim Casteels",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "post-gemiste-kansen-in-het-belgisch-charter-voor-verantwoord-ai-gebruik",
+  },{id: "post-gemiste-kansen-in-het-belgisch-charter-voor-verantwoord-ai-gebruik",
       
         title: "Gemiste kansen in het Belgisch charter voor verantwoord AI-gebruik",
       
@@ -281,8 +260,20 @@ ninja.data = [{
           section: "News",},{id: "news-gastlezing-het-masker-van-ai-op-de-openingsavond-van-tech-tapas-2025-bij-de-kul-slides",
           title: 'Gastlezing Het masker van AI op de openingsavond van Tech Tapas 2025 bij...',
           description: "",
+          section: "News",},{id: "news-opiniestuk-de-filibuster-van-van-quickenborne-een-noodzakelijk-signaal-tegen-massasurveillance-knack",
+          title: 'Opiniestuk De filibuster van Van Quickenborne? Een noodzakelijk signaal tegen massasurveillance (Knack).',
+          description: "",
           section: "News",},{id: "news-lezing-tijdens-de-dag-van-de-wetenschap-het-masker-van-ai-start-om-16-15-op-de-stadscampus-van-de-universiteit-antwerpen-slides",
           title: 'Lezing tijdens de Dag van de Wetenschap: Het masker van AI (start om...',
+          description: "",
+          section: "News",},{id: "news-opiniestuk-het-europese-dilemma-ai-reguleren-of-innoveren-de-tijd",
+          title: 'Opiniestuk Het Europese dilemma: AI reguleren of innoveren  (De Tijd).',
+          description: "",
+          section: "News",},{id: "news-lezing-tijdens-de-ict-praktijkdag-ai-ontmaskerd-macht-data-en-invloed",
+          title: 'Lezing tijdens de ICT Praktijkdag: AI ontmaskerd: macht, data en invloed.',
+          description: "",
+          section: "News",},{id: "news-workshop-tijdens-de-ict-praktijkdag-maak-je-eigen-ai-assistent",
+          title: 'Workshop tijdens de ICT Praktijkdag: Maak je eigen AI-assistent.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
