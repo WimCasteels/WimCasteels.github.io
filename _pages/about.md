@@ -40,7 +40,7 @@ social: true # includes social icons at the bottom of the page
 
 Wim is een enthousiaste spreker en verzorgt lezingen en workshops over de mogelijkheden en uitdagingen van AI. Hij richt zich zowel op een breed publiek als op specifieke doelgroepen: professionals die op een verantwoorde manier met AI aan de slag willen gaan, onderwijzers, onderzoekers en jongeren.
 
-Interesse? Neem gerust contact op via [LinkedIn](https://www.linkedin.com/in/wim-casteels-213720b4/) of [mail](mailto:wim.casteels@ap.com), of via [telefoon](tel:+32485634672) voor dringende vragen. 
+Interesse? Neem gerust contact op via [LinkedIn](https://www.linkedin.com/in/wim-casteels-213720b4/) of [mail](mailto:wim.casteels@ap.be), of via [telefoon](tel:+32485634672) voor dringende vragen. 
 
 # Het masker van AI
 
