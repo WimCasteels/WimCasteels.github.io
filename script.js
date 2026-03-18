@@ -102,76 +102,115 @@ if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
 }
 
-// Load latest news items from nieuws.html on homepage
+// Helper: escape HTML to prevent XSS
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// Helper: create a news entry article element from a data item
+function createNewsEntry(item) {
+    const article = document.createElement('article');
+    article.className = 'news-entry';
+    article.dataset.category = item.category;
+
+    const titleHtml = item.titleUrl
+        ? `<a href="${escapeHtml(item.titleUrl)}" target="_blank">${escapeHtml(item.title)}</a>`
+        : escapeHtml(item.title);
+
+    const linkHtml = item.linkUrl && item.linkText
+        ? `<a href="${escapeHtml(item.linkUrl)}" target="_blank" class="news-entry-link">${escapeHtml(item.linkText)}</a>`
+        : '';
+
+    article.innerHTML = `
+        <time class="news-entry-date">${escapeHtml(item.date)}</time>
+        <div class="news-entry-content">
+            <span class="news-label news-label-${escapeHtml(item.category)}">${escapeHtml(item.label)}</span>
+            <h2>${titleHtml}</h2>
+            <p>${escapeHtml(item.description)}</p>
+            ${linkHtml}
+        </div>
+    `;
+
+    return article;
+}
+
+// Load news data from JSON
+async function loadNewsData() {
+    try {
+        const response = await fetch('nieuws.json');
+        return await response.json();
+    } catch (error) {
+        console.log('Could not load news data:', error);
+        return [];
+    }
+}
+
+// Load news items on the nieuws.html page
+async function loadNewsPage() {
+    const newsList = document.getElementById('news-list');
+    if (!newsList) return;
+
+    const newsData = await loadNewsData();
+
+    newsData.forEach(item => {
+        newsList.appendChild(createNewsEntry(item));
+    });
+
+    // Set up filter functionality
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const newsEntries = newsList.querySelectorAll('.news-entry');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const filter = button.dataset.filter;
+
+            newsEntries.forEach(entry => {
+                if (filter === 'all' || entry.dataset.category === filter) {
+                    entry.style.display = '';
+                } else {
+                    entry.style.display = 'none';
+                }
+            });
+        });
+    });
+}
+
+// Load latest news items on the homepage
 async function loadLatestNews() {
     const newsGrid = document.querySelector('#nieuws .news-grid');
     if (!newsGrid) return;
 
-    try {
-        const response = await fetch('nieuws.html');
-        const html = await response.text();
+    const newsData = await loadNewsData();
+    const latestThree = newsData.slice(0, 3);
 
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
+    if (latestThree.length === 0) return;
 
-        const newsEntries = doc.querySelectorAll('.news-entry');
-        const latestThree = Array.from(newsEntries).slice(0, 3);
+    newsGrid.innerHTML = '';
 
-        if (latestThree.length === 0) return;
+    latestThree.forEach(item => {
+        const newsItem = document.createElement('article');
+        newsItem.className = 'news-item';
+        newsItem.innerHTML = `
+            <span class="news-date">${escapeHtml(item.date)}</span>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.description)}</p>
+            <a href="nieuws.html" class="news-link">Lees meer</a>
+        `;
+        newsGrid.appendChild(newsItem);
+    });
 
-        newsGrid.innerHTML = '';
-
-        latestThree.forEach(entry => {
-            const date = entry.querySelector('.news-entry-date')?.textContent || '';
-            const title = entry.querySelector('.news-entry-content h2 a')?.textContent ||
-                         entry.querySelector('.news-entry-content h2')?.textContent || '';
-            const description = entry.querySelector('.news-entry-content p')?.textContent || '';
-
-            const newsItem = document.createElement('article');
-            newsItem.className = 'news-item';
-            newsItem.innerHTML = `
-                <span class="news-date">${date}</span>
-                <h3>${title}</h3>
-                <p>${description}</p>
-                <a href="nieuws.html" class="news-link">Lees meer</a>
-            `;
-
-            newsGrid.appendChild(newsItem);
-        });
-
-        // Re-observe new items for fade-in animation
-        newsGrid.querySelectorAll('.news-item').forEach(item => {
-            item.style.opacity = '0';
-            observer.observe(item);
-        });
-
-    } catch (error) {
-        console.log('Could not load news items:', error);
-    }
+    // Re-observe new items for fade-in animation
+    newsGrid.querySelectorAll('.news-item').forEach(item => {
+        item.style.opacity = '0';
+        observer.observe(item);
+    });
 }
 
 // Load news when DOM is ready
+loadNewsPage();
 loadLatestNews();
-
-// News filter functionality
-const filterButtons = document.querySelectorAll('.filter-btn');
-const newsEntries = document.querySelectorAll('.news-entry');
-
-filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        // Update active button
-        filterButtons.forEach(btn => btn.classList.remove('active'));
-        button.classList.add('active');
-
-        const filter = button.dataset.filter;
-
-        // Filter news entries
-        newsEntries.forEach(entry => {
-            if (filter === 'all' || entry.dataset.category === filter) {
-                entry.style.display = '';
-            } else {
-                entry.style.display = 'none';
-            }
-        });
-    });
-});
