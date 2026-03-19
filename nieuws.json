@@ -1,5 +1,15 @@
 [
     {
+        "date": "Mar 19, 2026",
+        "category": "lezingen",
+        "label": "Workshop",
+        "title": "Workshop op Vormings2daagse Bataljon: \"De do’s en don’ts van AI\"",
+        "titleUrl": "https://bataljong.be/boek-je-vorming/vormingskalender/vormings2daagse-2026",
+        "description": "AI zorgt voor verdeelde meningen. Sommigen onder ons zijn heel enthousiast, anderen eerder terughoudend. Deze sessie heeft iets voor beide. We bieden tips en inspiratie om op een doordachte manier met AI aan de slag te gaan. En daarnaast staan we ook stil bij de aandachtspunten die je misschien nog niet gezien had. We starten met een korte uitwisseling, en daarna neemt Wim Casteels ons mee in zijn 7 promptgeboden.",
+        "linkText": "Slides bekijken",
+        "linkUrl": "pdf/bataljon.pdf"
+    },
+    {
         "date": "Mar 18, 2026",
         "category": "lezingen",
         "label": "Lezing",
