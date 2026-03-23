@@ -1,5 +1,15 @@
 [
     {
+        "date": "Mar 21, 2026",
+        "category": "media",
+        "label": "Media",
+        "title": "Opiniestuk Knack: \"De zaak-Peter Vandermeersch is géén individuele uitglijder\"",
+        "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/de-zaak-peter-vandermeersch-is-geen-individuele-uitglijder/",
+        "description": "Dat uitgerekend een overtuigde pleitbezorger van AI als journalist Peter Vandermeersch zo spectaculair struikelt, maakt deze zaak extra pijnlijk, schrijft AI-expert Wim Casteels. ‘Toch is de kwestie ook leerzaam.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/de-zaak-peter-vandermeersch-is-geen-individuele-uitglijder/"
+    },
+    {
         "date": "Mar 19, 2026",
         "category": "lezingen",
         "label": "Workshop",
@@ -18,6 +28,26 @@
         "description": "Lezing tijdens VNOJ Docentendag 2026 | Tussen Boomer en Bèta.",
         "linkText": "Slides bekijken",
         "linkUrl": "pdf/VNOJ.pdf"
+    },
+    {
+        "date": "Feb 18, 2026",
+        "category": "media",
+        "label": "Media",
+        "title": "Opiniestuk Knack: \"Hype of keerpunt? Er lijkt iets groots te gebeuren in de AI-wereld\"",
+        "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/hype-of-keerpunt-er-lijkt-iets-groots-te-gebeuren-in-de-ai-wereld/",
+        "description": "AI-agents zullen een almaar grotere rol spelen in hoe we werken,’ schrijft Wim Casteels, ‘maar de weg naar brede adoptie zal er een zijn met veel vallen en opstaan.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/hype-of-keerpunt-er-lijkt-iets-groots-te-gebeuren-in-de-ai-wereld/"
+    },
+    {
+        "date": "Feb 02, 2026",
+        "category": "media",
+        "label": "Media",
+        "title": "Opiniestuk De Tijd: \"Ongebreideld optimisme is slechte gids in AI-debat\"",
+        "titleUrl": "https://www.tijd.be/opinie/algemeen/ongebreideld-optimisme-is-slechte-gids-in-ai-debat/10645673.html",
+        "description": "Alleen met een kritische blik kunnen we de beloftes van AI verzilveren, zonder dat de maatschappij achteraf de rekening betaalt.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.tijd.be/opinie/algemeen/ongebreideld-optimisme-is-slechte-gids-in-ai-debat/10645673.html"
     },
     {
         "date": "Feb 02, 2026",
