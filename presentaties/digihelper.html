@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-vaardigheid voor digihelpers — presentatie</title>
+<meta name="description" content="Slides over het 4V-kader voor AI-vaardigheid. Geen trucjes om te prompten, wel een manier van denken.">
+
+<!-- reveal.js core (lokaal, werkt offline) -->
+<link rel="stylesheet" href="reveal.js/dist/reset.css">
+<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+
+<style>
+  /* Handgeschreven look via ingebouwd systeemfont (geen fontbestand nodig).
+     Ink Free zit standaard op Windows 10/11; fallbacks voor andere systemen. */
+
+  /* ============================================================
+     AI-vaardigheid voor digihelpers — reveal.js editie
+     Huisstijl 'Het masker van AI': monochroom paars op cream,
+     hand-drawn line art, geen tweede accentkleur.
+     Geen externe afhankelijkheden (werkt offline op de beamer).
+     ============================================================ */
+
+  :root{
+    --cream:    #F5EFE3;
+    --cream-2:  #EDE4D2;
+    --ink:      #1F1A2E;
+    --ink-soft: #574E6B;
+    --line:     #D9CDBC;
+
+    --paars:    #5B3A8C;
+    --paars-dp: #3A2459;
+    --paars-lt: #9B7DC4;
+
+    --v-verdelen:    #9B7DC4;
+    --v-verwoorden:  #5B3A8C;
+    --v-verifieren:  #4A3072;
+    --v-verantw:     #3A2459;
+
+    --shadow: 0 14px 38px -20px rgba(58,36,89,.55);
+    --radius: 16px;
+
+    --sans: "Inter", "Source Sans 3", "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    --hand: "Ink Free", "Segoe Print", "Bradley Hand", "Comic Sans MS", cursive;
+  }
+
+  html, body{ background:var(--cream); }
+  .reveal-viewport{ background:var(--cream); }
+
+  /* zachte paarse gloed op het papier */
+  .reveal-viewport::before{
+    content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(1200px 800px at 82% -10%, rgba(91,58,140,.08), transparent 60%),
+      radial-gradient(900px 700px at -10% 110%, rgba(58,36,89,.07), transparent 60%);
+  }
+
+  /* ---------- basistypografie binnen reveal ---------- */
+  .reveal{
+    font-family:var(--sans);
+    color:var(--ink);
+    font-size:26px;
+    line-height:1.5;
+  }
+  .reveal .slides{ text-align:left; }
+  .reveal .slides section{ height:100%; }
+
+  .reveal h1, .reveal h2, .reveal h3{
+    font-family:var(--sans); font-weight:800; line-height:1.12;
+    letter-spacing:-.015em; color:var(--ink); text-transform:none; text-shadow:none;
+  }
+  .reveal h1{ font-size:2.9em; margin:.05em 0 .2em; }
+  .reveal h1 .thin{ font-weight:400; }
+  .reveal h2{ font-size:1.95em; margin:0 0 .45em; }
+  .reveal h3{ font-size:1.15em; margin:0 0 .35em; }
+  .reveal p{ margin:0 0 .7em; }
+  .reveal a{ color:var(--paars-dp); }
+  .reveal strong, .reveal b{ font-weight:800; }
+
+  .lead{ font-size:1.12em; color:var(--ink-soft); }
+  .small{ font-size:.78em; color:var(--ink-soft); line-height:1.45; }
+
+  .eyebrow{
+    display:block; font-weight:700; font-size:.62em; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--paars); margin-bottom:.7em;
+  }
+
+  /* ---------- vaste handtekening linksonder ---------- */
+  .sig{
+    position:fixed; left:20px; bottom:16px; z-index:40;
+    display:flex; align-items:center; gap:9px;
+    text-decoration:none; color:var(--ink-soft); font-weight:600; font-size:14px;
+    opacity:.85; font-family:var(--sans);
+  }
+  .sig img{ width:30px; height:30px; object-fit:contain; display:block; }
+
+  /* ---------- hero ---------- */
+  .hero-grid{
+    display:grid; grid-template-columns:1.5fr .85fr; gap:48px; align-items:center;
+  }
+  .promise{
+    display:inline-block; margin-top:.3em;
+    font-family:var(--hand); font-size:1.5em; color:var(--paars-dp); transform:rotate(-1deg);
+  }
+  .speaker{
+    margin-top:1.1em; display:flex; gap:20px; align-items:center;
+    background:var(--cream); border:2px solid var(--paars); border-radius:var(--radius);
+    padding:16px 20px; box-shadow:var(--shadow);
+  }
+  .speaker img.avatar{
+    width:84px; height:84px; border-radius:50%; object-fit:cover; flex:0 0 auto;
+    border:3px solid var(--paars); filter:saturate(.9);
+  }
+  .speaker .who{ font-weight:800; font-size:1.1em; line-height:1.2; }
+  .speaker .role{ color:var(--ink-soft); font-size:.8em; margin-top:2px; }
+  .speaker .book{ margin-top:7px; font-size:.74em; color:var(--ink-soft); line-height:1.4; }
+  .speaker .book b{ color:var(--ink); }
+
+  .cover-col{ display:flex; flex-direction:column; align-items:center; gap:10px; }
+  .cover-col img{
+    width:min(220px, 90%); border-radius:8px;
+    box-shadow:0 22px 50px -18px rgba(31,26,46,.7); transform:rotate(2deg);
+  }
+
+  /* ---------- de 4 V kaarten ---------- */
+  .v-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:1em; }
+  .v-card{
+    background:var(--cream); border:1.5px solid var(--line); border-left:6px solid var(--c,var(--paars));
+    border-radius:14px; padding:16px 20px; box-shadow:var(--shadow);
+  }
+  .v-card .v-name{ font-weight:800; font-size:1.2em; color:var(--c); }
+  .v-card p{ margin:.4em 0 0; font-size:.84em; }
+  .v-verdelen{ --c:var(--v-verdelen); }
+  .v-verwoorden{ --c:var(--v-verwoorden); }
+  .v-verifieren{ --c:var(--v-verifieren); }
+  .v-verantw{ --c:var(--v-verantw); }
+
+  .note{
+    margin-top:1.1em; padding:13px 18px; border-radius:12px; font-size:.82em; color:var(--ink-soft);
+    background:var(--cream-2);
+    background-image:repeating-linear-gradient(45deg, rgba(91,58,140,.05) 0 2px, transparent 2px 7px);
+    border:1px solid var(--line);
+  }
+
+  /* ---------- de drie lagen ---------- */
+  .layers{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:1.1em 0; }
+  .layer{
+    background:var(--cream); border:1.5px solid var(--line); border-top:4px solid var(--paars);
+    border-radius:12px; padding:14px 16px;
+  }
+  .layer .tag{ font-family:var(--hand); font-size:.95em; color:var(--paars); }
+  .layer .h{ font-weight:800; font-size:1.02em; margin:.1em 0 .25em; }
+  .layer p{ font-size:.78em; margin:0; color:var(--ink-soft); }
+
+  /* ---------- prompt-blokken ---------- */
+  .prompt{
+    font-family:ui-monospace, "Cascadia Code", Consolas, monospace;
+    background:var(--ink); color:#EDE4F5; border-radius:12px;
+    padding:18px 20px; font-size:.78em; line-height:1.55; white-space:pre-wrap;
+    box-shadow:var(--shadow); position:relative; margin-top:1.1em;
+  }
+  .prompt.bad{ background:var(--paars-dp); }
+  .prompt .lbl{
+    position:absolute; top:-11px; left:16px; font-family:var(--sans);
+    font-size:.62em; letter-spacing:.1em; text-transform:uppercase; font-weight:700;
+    background:var(--paars); color:var(--cream); padding:3px 10px; border-radius:20px;
+  }
+  .prompt.bad .lbl{ background:var(--ink-soft); }
+  .prompt.good .lbl{ background:var(--paars-lt); color:var(--ink); }
+
+  /* drie lagen aanduiden binnen het verrijkte voorbeeld */
+  .prompt.annotated .seg{ box-shadow:inset 0 -1.5px 0 rgba(201,182,230,.85); border-radius:2px; }
+  .prompt.annotated .seg-core{ opacity:.82; }
+  .prompt.annotated .seg-tag{
+    font-family:var(--hand); text-transform:none; letter-spacing:0;
+    color:#C9B6E6; font-size:1.25em; white-space:nowrap;
+  }
+  .prompt.annotated .seg-tag::before{ content:"\2190  "; }
+
+  /* ---------- AI-antwoordkaart ---------- */
+  .ai-output{
+    position:relative; margin-top:.6em;
+    background:#fff; border:1.5px solid var(--line); border-left:4px solid var(--paars);
+    border-radius:12px; padding:20px 24px 16px; box-shadow:var(--shadow);
+    font-size:.72em; line-height:1.5;
+  }
+  .ai-output .lbl{
+    position:absolute; top:-11px; left:16px; font-family:var(--sans);
+    font-size:.8em; letter-spacing:.1em; text-transform:uppercase; font-weight:700;
+    background:var(--paars); color:var(--cream); padding:3px 10px; border-radius:20px;
+  }
+  .reveal .ai-output h2{ font-size:1.5em; margin:.1em 0 .4em; }
+  .reveal .ai-output h3{ font-size:1.1em; margin:.8em 0 .15em; color:var(--paars-dp); }
+  .ai-output p{ margin:0 0 .5em; }
+  .ai-output ul{ margin:.2em 0 .5em; padding-left:1.3em; }
+  .ai-output li{ margin:.2em 0; }
+  .ai-output hr{ border:none; border-top:1px solid var(--line); margin:.9em 0; }
+
+  /* ---------- oefenkaart ---------- */
+  .exercise{
+    border:2.5px dashed var(--paars); border-radius:var(--radius);
+    background:var(--cream);
+    background-image:repeating-linear-gradient(45deg, rgba(91,58,140,.05) 0 2px, transparent 2px 8px);
+    padding:22px 26px; margin:1.2em 0; box-shadow:var(--shadow); position:relative;
+  }
+  .exercise::before{
+    content:"Nu jullie"; position:absolute; top:-15px; left:24px;
+    background:var(--paars); color:var(--cream); font-family:var(--hand); font-size:1em;
+    padding:3px 16px; border-radius:20px; transform:rotate(-1.5deg);
+  }
+  .reveal .exercise h3{ color:var(--paars-dp); margin-top:.1em; }
+  .exercise ol{ margin:.4em 0 0; padding-left:1.3em; }
+  .exercise li{ margin:.3em 0; }
+
+  /* ---------- dubbele-pet accent ---------- */
+  .hat{
+    display:flex; gap:14px; align-items:flex-start; margin:1em 0;
+    background:rgba(91,58,140,.08); border-left:5px solid var(--paars);
+    padding:13px 18px; border-radius:0 12px 12px 0; font-size:.85em;
+  }
+  .hat .t b{ color:var(--paars-dp); }
+
+  /* ---------- stelling ---------- */
+  .statement{
+    font-family:var(--hand); font-size:2em; line-height:1.3;
+    color:var(--paars-dp); border-left:5px solid var(--paars);
+    padding:6px 0 6px 22px; margin:.8em 0;
+  }
+
+  /* ---------- de lus ---------- */
+  .loop-wrap{ margin:.7em 0; text-align:center; }
+  .loop-wrap svg{ width:100%; max-width:640px; height:auto; }
+
+  .turn{ margin:.6em 0; display:flex; gap:12px; }
+  .turn .badge{ flex:0 0 auto; width:56px; font-family:var(--hand); font-size:.95em;
+    padding-top:9px; color:var(--ink-soft); }
+  .turn .bubble{ background:var(--cream); border:1px solid var(--line); border-radius:12px;
+    padding:10px 15px; font-size:.8em; }
+  .turn.you .bubble{ border-left:4px solid var(--v-verwoorden); }
+  .turn.ai .bubble{ border-left:4px solid var(--v-verifieren); background:var(--cream-2); }
+
+  /* ---------- checklist ---------- */
+  .checklist{ display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin:1em 0; }
+  .check-card{ background:var(--cream); border:1.5px solid var(--line); border-top:4px solid var(--c,var(--paars));
+    border-radius:12px; padding:14px 18px; }
+  .reveal .check-card h3{ color:var(--c); font-size:1.05em; margin-bottom:.2em; }
+  .check-card ul{ margin:.2em 0 0; padding-left:1.2em; font-size:.78em; color:var(--ink-soft); }
+  .check-card li{ margin:.2em 0; }
+
+  /* hint onderaan een slide met verticale verdieping */
+  .more-hint{
+    font-family:var(--hand); color:var(--paars); font-size:.9em;
+    display:flex; align-items:center; gap:8px; margin-top:.8em;
+  }
+
+  /* reveal eigen accenten in huisstijl */
+  .reveal .progress{ color:var(--paars); }
+  .reveal .controls{ color:var(--paars); }
+  .reveal .slide-number{ background:rgba(91,58,140,.85); }
+  ::selection{ background:var(--paars-lt); color:var(--ink); }
+</style>
+</head>
+<body>
+
+<a class="sig" href="https://wimcasteels.be" target="_blank" rel="noopener">
+  <img src="afbeeldingen/logo.png" alt="Logo Wim Casteels"><span>wimcasteels.be</span>
+</a>
+
+<div class="reveal">
+  <div class="slides">
+
+    <!-- ============ SLIDE 0: TITEL EN SPREKER ============ -->
+    <section id="hero">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow">Netwerkmoment Stad Antwerpen &middot; 12/6 &middot; 14u30 - 15u30</span>
+          <h1>AI-vaardigheid<br><span class="thin">voor digihelpers</span></h1>
+          <div><span class="promise">Geen trucjes om te prompten, wel een manier van denken.</span></div>
+
+          <div class="speaker">
+            <img class="avatar" src="afbeeldingen/profielfoto.jpg" alt="Portret van Wim Casteels">
+            <div>
+              <div class="who">Wim Casteels</div>
+              <div class="role">Docent en onderzoeker IT &amp; AI aan de AP Hogeschool.</div>
+              <div class="book">Auteur van <b>Het masker van AI</b> (Lannoo Campus), over AI-geletterdheid als gids bij maatschappelijke kansen en uitdagingen.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cover-col">
+          <img src="afbeeldingen/boek-cover.jpg" alt="Boekcover: Het masker van AI, door Wim Casteels">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SLIDE: WAT IS AI-VAARDIGHEID ============ -->
+    <section id="watis">
+      <span class="eyebrow">Het kader</span>
+      <h2>Wat is AI-vaardigheid?</h2>
+      <p class="lead">AI-vaardigheid is leren om <b style="color:var(--paars)">effectief</b>, <b style="color:var(--paars)">effici&euml;nt</b>, <b style="color:var(--paars)">ethisch</b> en <b style="color:var(--paars)">veilig</b> samen te werken met AI-systemen.</p>
+      <p>Het gaat niet om technische trucs of perfecte prompts, maar om een manier van denken: bewust kiezen wanneer je AI inzet, helder communiceren, kritisch beoordelen en eerlijk verantwoorden. Vandaag vatten we dat samen in vier V's.</p>
+
+      <div class="note">
+        Het kader is ontwikkeld door prof. <b>Rick Dakan</b> (Ringling College of Art and Design) en prof. <b>Joseph Feller</b> (University College Cork), vanuit hun onderzoek naar goed samenwerken met AI.
+        Meer lezen: <a href="https://aifluencyframework.org/" target="_blank" rel="noopener">aifluencyframework.org</a>.
+      </div>
+    </section>
+
+    <!-- ============ SLIDE 1: WAAROM (met verticale verdieping) ============ -->
+    <section>
+      <section id="waarom">
+        <span class="eyebrow">Even proberen</span>
+        <h2>Waarom dit ertoe doet</h2>
+        <p class="lead">Stel: je vraagt AI om een handleiding te schrijven. Je typt het eerste wat in je opkomt.</p>
+
+        <div class="prompt bad">
+          <span class="lbl">De vage vraag</span>
+          Schrijf een handleiding om de Itsme-app te installeren.
+        </div>
+
+        <div class="note">
+          <b>Vraag aan de zaal:</b> wat ontbreekt hier, waarom is dit nog niet bruikbaar?<br>
+          Precies die ontbrekende dingen vormen samen het kader van vandaag: <b>de 4 V's</b>.
+        </div>
+        <div class="more-hint">
+          Naar beneden voor wat de AI antwoordt
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5B3A8C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></svg>
+        </div>
+      </section>
+
+      <section id="waarom-output">
+        <p class="small" style="margin-bottom:.4em">Op het eerste gezicht ziet dit er prima uit:</p>
+        <div class="ai-output">
+          <span class="lbl">Antwoord van de AI</span>
+          <h2>Itsme installeren</h2>
+          <p>Stap voor stap, voor Android (Google Play) en iPhone (App Store).</p>
+
+          <h3>1. App downloaden</h3>
+          <p>Open de Google Play Store (Android) of App Store (iPhone), zoek op <strong>itsme</strong> en tik op <strong>Installeren</strong>. Open daarna de app.</p>
+
+          <h3>2. Telefoonnummer invoeren</h3>
+          <p>Geef je Belgische gsm-nummer op. Je krijgt een sms met een verificatiecode die je in de app invoert.</p>
+
+          <h3>3. Identiteit bevestigen</h3>
+          <p>Kies één van de manieren om je account te activeren:</p>
+          <ul>
+            <li><strong>Met je bankkaart en kaartlezer</strong> (digipass) van je bank</li>
+            <li><strong>Met je bank-app</strong>, als je bank dit ondersteunt</li>
+            <li><strong>Met je eID</strong> (elektronische identiteitskaart) en een nfc-toestel of kaartlezer</li>
+          </ul>
+          <p>Volg de instructies op het scherm. Je geeft je gegevens in en bevestigt met je pincode of bankcode.</p>
+
+          <h3>4. Itsme-code instellen</h3>
+          <p>Kies een persoonlijke 5-cijferige itsme-code. Met deze code (of vingerafdruk/gezichtsherkenning) bevestig je voortaan al je acties.</p>
+
+          <h3>5. Klaar</h3>
+          <p>Je itsme is geactiveerd. Je kan nu inloggen bij overheidsdiensten, banken, verzekeraars en andere websites die itsme ondersteunen.</p>
+        </div>
+        <p style="margin-top:.7em; font-size:.82em">Maar kijk nog eens met de ogen van wie jij helpt. Het kiest geen toestel, gooit drie activatiemanieren tegelijk op tafel, en gebruikt woorden als <b>nfc</b> en <b>digipass</b> zonder uitleg. Voor iemand met weinig ervaring is dit nog te veel. En: klopt elke stap wel echt?</p>
+      </section>
+    </section>
+
+    <!-- ============ SLIDE 2: DE 4 V'S ============ -->
+    <section id="kader">
+      <span class="eyebrow">Vier vragen</span>
+      <h2>De vier V's</h2>
+      <p class="lead">Geen strak stappenplan, maar een manier van werken. Vier vragen die je jezelf stelt zodra je AI inschakelt.</p>
+
+      <div class="v-grid">
+        <div class="v-card v-verdelen fragment">
+          <div class="v-name">Verdelen</div>
+          <p>Wanneer schakel je AI in, en wanneer niet?</p>
+        </div>
+        <div class="v-card v-verwoorden fragment">
+          <div class="v-name">Verwoorden</div>
+          <p>Hoe communiceer je helder en gericht met AI?</p>
+        </div>
+        <div class="v-card v-verifieren fragment">
+          <div class="v-name">Verifieren</div>
+          <p>Hoe beoordeel je kritisch wat AI oplevert?</p>
+        </div>
+        <div class="v-card v-verantw fragment">
+          <div class="v-name">Verantwoorden</div>
+          <p>Hoe gebruik je AI verantwoordelijk en transparant?</p>
+        </div>
+      </div>
+
+      <div class="note">
+        De vier hangen samen. Vandaag kaderen we ze alle vier kort, en oefenen we hands-on op de twee in het midden:
+        <b style="color:var(--v-verwoorden)">Verwoorden</b> en <b style="color:var(--v-verifieren)">Verifieren</b>.
+      </div>
+    </section>
+
+    <!-- ============ SLIDE 3: VERDELEN ============ -->
+    <section id="verdelen">
+      <span class="eyebrow">Wanneer wel, wanneer niet</span>
+      <h2>Verdelen</h2>
+      <p class="lead">AI inschakelen is zelf een beslissing. Sommige taken geef je gerust uit handen, andere nooit.</p>
+
+      <div class="exercise">
+        <h3>In duo's, 2 minuten</h3>
+        <p>Noem <b>een taak die je wel</b> aan AI zou geven, en <b>een die je nooit</b> zou uitbesteden. Waarom?</p>
+      </div>
+    </section>
+
+    <!-- ============ SLIDE: VERANTWOORDEN ============ -->
+    <section id="verantwoorden">
+      <span class="eyebrow">Open kaart spelen</span>
+      <h2>Verantwoorden</h2>
+      <p class="lead">Gebruik je AI, wees daar dan transparant over. Eerlijkheid en controle horen erbij.</p>
+
+      <div class="statement">"Als ik AI gebruik om een handleiding te maken, moet ik dat zeggen tegen de persoon die ik help."</div>
+      <p class="small">Eens of oneens? Een kort gesprek over transparantie, eerlijkheid en controle.</p>
+
+      <div class="hat">
+        <div class="t"><b>Om mee te nemen:</b> welke afspraak over AI-gebruik zou jij willen in jouw organisatie?</div>
+      </div>
+    </section>
+
+    <!-- ============ SLIDE 4: VERWOORDEN (met verticale verdieping) ============ -->
+    <section>
+      <section id="verwoorden">
+        <span class="eyebrow">Eerste hands-on</span>
+        <h2>Verwoorden</h2>
+        <p class="lead">Een vage vraag geeft een vaag antwoord. Je rijkt je prompt aan met drie lagen.</p>
+
+        <div class="layers">
+          <div class="layer">
+            <div class="tag">Laag 1, product</div>
+            <div class="h">Resultaat</div>
+            <p>Wat moet eruit komen? </p>
+            <br>
+            <p> Vb.:<i> Max. 8 stappen, eenvoudige taal, korte zinnen.</i></p>
+          </div>
+          <div class="layer">
+            <div class="tag">Laag 2, proces</div>
+            <div class="h">Aanpak</div>
+            <p>Hoe moet de AI te werk gaan? </p>
+            <br>
+            <p>Vb.:<i> Stap voor stap, en stel mij eerst vragen voor je begint.</i></p>
+          </div>
+          <div class="layer">
+            <div class="tag">Laag 3, samenspel</div>
+            <div class="h">Samenwerking</div>
+            <p>Welke context geef je mee? </p>
+            <br>
+            <p>Vb.: Ik ben digihelper, mijn doelgroep heeft weinig smartphone-ervaring.</p>
+          </div>
+        </div>
+
+        <div class="more-hint">
+          Naar beneden voor de oefening en een voorbeeld
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5B3A8C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></svg>
+        </div>
+      </section>
+
+      <section id="verwoorden-oefening">
+        <div class="exercise">
+          <h3>Verrijk de prompt</h3>
+          <p>Vertrek van dezelfde vraag en bouw de drie lagen erin. Typ hem in en vergelijk met de eerste versie.</p>
+          <div class="prompt bad">
+            <span class="lbl">Vertrek hiervan</span>
+            Schrijf een handleiding om de Itsme-app te installeren.
+          </div>
+        </div>
+
+        <div class="prompt good fragment annotated">
+          <span class="lbl">Verrijkt voorbeeld</span>
+<span class="seg">Ik ben digihelper en help senioren met weinig smartphone-ervaring.</span> <span class="seg-tag">Samenwerking (context)</span>
+<span class="seg-core">Schrijf een handleiding om de Itsme-app te installeren op een Android-telefoon.</span>
+<span class="seg">Max. 8 stappen, eenvoudige taal, korte zinnen, een handeling per stap.</span> <span class="seg-tag">Resultaat</span>
+<span class="seg">Stel mij eerst twee vragen als er iets onduidelijk is voor je begint.</span> <span class="seg-tag">Aanpak</span>
+        </div>
+      </section>
+    </section>
+
+    <!-- ============ SLIDE 5: VERIFIEREN ============ -->
+    <section id="verifieren">
+      <span class="eyebrow">Tweede hands-on</span>
+      <h2>Verifieren: de foutenjacht</h2>
+      <p class="lead">Wat je vooraf beschrijft, controleer je achteraf. Dezelfde drie lagen, nu als controle.</p>
+
+      <div class="layers">
+        <div class="layer">
+          <div class="tag">Resultaat</div>
+          <div class="h">Klopt elke stap?</div>
+          <p>Bestaat die knop met die naam echt? Is er niets verzonnen?</p>
+        </div>
+        <div class="layer">
+          <div class="tag">Aanpak</div>
+          <div class="h">Logische volgorde?</div>
+          <p>Is er een stap overgeslagen of omgedraaid?</p>
+        </div>
+        <div class="layer">
+          <div class="tag">Samenwerking</div>
+          <div class="h">Veel bijsturen?</div>
+          <p>Kreeg je te veel of te weinig? Moest je vaak corrigeren?</p>
+        </div>
+      </div>
+
+      <div class="exercise">
+        <h3>Jaag op de fouten</h3>
+        <p>Neem de handleiding die jullie AI net maakte. Markeer concreet wat fout of verzonnen is, op de drie niveaus hierboven.</p>
+        <div class="hat" style="background:rgba(58,36,89,.08); border-color:var(--paars-dp); margin-bottom:0">
+          <div class="t"><b>Let op:</b> juist bij <b>concrete, app-specifieke stappen</b> (een knop in de Itsme-app, een procedure aan het stadsloket) verzint AI vaak plausibel klinkende onzin. Die exacte knopnamen en schermen kent het model niet, dus het gokt ernaar. Er valt gegarandeerd iets te vinden: vergelijk elke knopnaam met wat echt op het scherm staat.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SLIDE 6: DE LUS (met verticale verdieping) ============ -->
+    <section>
+      <section id="lus">
+        <span class="eyebrow">Het hart van goed samenwerken</span>
+        <h2>De lus: Verwoorden en Verifieren</h2>
+        <p class="lead">AI is een gesprek, geen commando. Je verbetert je prompt op basis van wat je net vond, en draait opnieuw in <b>hetzelfde chatvenster</b>.</p>
+
+        <div class="loop-wrap">
+          <svg viewBox="0 0 560 250" aria-label="De lus: pijl van Verwoorden naar Verifieren en weer terug">
+            <defs>
+              <marker id="arrowR" markerWidth="13" markerHeight="13" refX="8.5" refY="5" orient="auto">
+                <path d="M0,0 L10,5 L0,10 z" fill="#5B3A8C"/>
+              </marker>
+              <marker id="arrowL" markerWidth="13" markerHeight="13" refX="8.5" refY="5" orient="auto">
+                <path d="M0,0 L10,5 L0,10 z" fill="#4A3072"/>
+              </marker>
+            </defs>
+
+            <!-- twee cirkels -->
+            <circle cx="125" cy="125" r="80" fill="none" stroke="#5B3A8C" stroke-width="3.5"/>
+            <circle cx="435" cy="125" r="80" fill="none" stroke="#4A3072" stroke-width="3.5"/>
+
+            <!-- bovenste pijl: Verwoorden -> Verifieren -->
+            <path d="M205,74 Q280,26 354,72" fill="none" stroke="#5B3A8C" stroke-width="4.5" stroke-linecap="round" marker-end="url(#arrowR)"/>
+            <!-- onderste pijl: Verifieren -> Verwoorden -->
+            <path d="M355,176 Q280,224 206,178" fill="none" stroke="#4A3072" stroke-width="4.5" stroke-linecap="round" marker-end="url(#arrowL)"/>
+
+            <!-- namen in de cirkels -->
+            <text x="125" y="133" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-weight="800" font-size="25" fill="#1F1A2E">Verwoorden</text>
+            <text x="435" y="133" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-weight="800" font-size="25" fill="#1F1A2E">Verifieren</text>
+
+            <!-- labels bij de pijlen -->
+            <text x="280" y="20" text-anchor="middle" font-family="Segoe Script, cursive" font-size="18" fill="#574E6B">je beschrijft</text>
+            <text x="280" y="244" text-anchor="middle" font-family="Segoe Script, cursive" font-size="18" fill="#574E6B">je controleert &amp; verbetert</text>
+          </svg>
+        </div>
+        <p class="small" style="text-align:center; margin-top:-.2em">Niet opnieuw beginnen, maar verderwerken. De AI neemt de eerdere context mee, en het resultaat wordt ronde na ronde beter.</p>
+        <div class="more-hint" style="justify-content:center">
+          Naar beneden: zo bouwt een gesprek zich op
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5B3A8C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></svg>
+        </div>
+      </section>
+
+      <section id="lus-gesprek">
+        <h3 style="margin-bottom:.6em">Zo bouwt een gesprek zich op</h3>
+        <div class="turn you"><div class="badge">Jij</div><div class="bubble">Schrijf een handleiding om de Itsme-app te installeren.</div></div>
+        <div class="turn ai"><div class="badge">AI</div><div class="bubble">Hier is een algemene handleiding in 5 stappen. <span class="small">(vaag, en stap 3 verwijst naar een knop die niet bestaat)</span></div></div>
+        <div class="turn you"><div class="badge">Jij</div><div class="bubble">Mijn doelgroep zijn senioren met een Android-toestel. Max. 8 stappen, een handeling per stap. En "Volg de stappen op het scherm" bestaat niet, wat staat er echt?</div></div>
+        <div class="turn ai"><div class="badge">AI</div><div class="bubble">Aangepast: concrete knopnamen per stap, eenvoudige taal. <span class="small">(scherper, maar mist het scannen van de identiteitskaart)</span></div></div>
+        <div class="turn you"><div class="badge">Jij</div><div class="bubble">De stap met de eID-kaart ontbreekt. Voeg toe voor de pincode-stap.</div></div>
+        <div class="turn ai"><div class="badge">AI</div><div class="bubble">Volledige, kloppende handleiding in 7 stappen.</div></div>
+
+        <div class="note">
+          <b>Het grotere zaadje:</b> vandaag deden we een rondje. Het echte werk is het gesprek dat blijft doorlopen, hoe je samen met AI een gedeelde taal en aanpak opbouwt over meerdere gesprekken heen.
+        </div>
+      </section>
+    </section>
+
+    <!-- ============ SLIDE 7: AFSLUITING ============ -->
+    <section id="afsluiting">
+      <span class="eyebrow">Afsluiting</span>
+      <h2>Wat ga jij hier morgen mee doen?</h2>
+      <p class="lead">Een zin per duo. Neem het mee naar je eigen begeleiding.</p>
+
+      <div class="statement" style="font-size:2.3em">
+        AI is een hulpmiddel dat je stuurt en controleert, niet andersom.
+      </div>
+
+      <p style="font-size:.9em">Goed met AI werken is geen technische truc, maar een manier van denken:
+        <b style="color:var(--v-verdelen)">helder verdelen</b>,
+        <b style="color:var(--v-verwoorden)">scherp verwoorden</b>,
+        <b style="color:var(--v-verifieren)">kritisch verifieren</b> en
+        <b style="color:var(--v-verantw)">eerlijk verantwoorden</b>.</p>
+    </section>
+
+    <!-- ============ SLIDE 8: NASLAG (met verticale verdieping) ============ -->
+    <section>
+      <section id="naslag">
+        <span class="eyebrow">Aan de slag, naslag</span>
+        <h2>Het kaartje om mee te nemen</h2>
+        <p class="lead">Een korte checklist per V, voor de volgende keer dat je met AI aan de slag gaat.</p>
+
+        <div class="checklist">
+          <div class="check-card v-verdelen" style="--c:var(--v-verdelen)">
+            <h3>Verdelen</h3>
+            <ul>
+              <li>Is dit een taak voor AI, of niet?</li>
+              <li>Wat houd ik bewust zelf in handen?</li>
+            </ul>
+          </div>
+          <div class="check-card v-verwoorden" style="--c:var(--v-verwoorden)">
+            <h3>Verwoorden</h3>
+            <ul>
+              <li><b>Resultaat:</b> wat moet eruit komen?</li>
+              <li><b>Aanpak:</b> hoe moet de AI werken?</li>
+              <li><b>Samenwerking:</b> welke context geef ik mee?</li>
+            </ul>
+          </div>
+          <div class="check-card v-verifieren" style="--c:var(--v-verifieren)">
+            <h3>Verifieren</h3>
+            <ul>
+              <li>Klopt elke stap echt? Niets verzonnen?</li>
+              <li>Is de volgorde logisch en volledig?</li>
+              <li>Moest ik veel bijsturen?</li>
+            </ul>
+          </div>
+          <div class="check-card v-verantw" style="--c:var(--v-verantw)">
+            <h3>Verantwoorden</h3>
+            <ul>
+              <li>Ben ik open over mijn AI-gebruik?</li>
+              <li>Blijf ik zelf verantwoordelijk voor het resultaat?</li>
+            </ul>
+          </div>
+        </div>
+        <div class="more-hint">
+          Naar beneden voor een sjabloon om te hergebruiken
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5B3A8C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></svg>
+        </div>
+      </section>
+
+      <section id="naslag-sjabloon">
+        <h3 style="margin-bottom:.4em">Voorbeeldprompt om te hergebruiken</h3>
+        <div class="prompt good">
+          <span class="lbl">Sjabloon</span>
+Ik ben [rol] en help [doelgroep en niveau].
+Schrijf [wat] voor [toestel of context].
+Eisen: [lengte, taal, vorm, bijvoorbeeld max. 8 stappen, korte zinnen, een handeling per stap].
+Stel mij eerst vragen als iets onduidelijk is voor je begint.
+        </div>
+        <p class="small" style="margin-top:1em">En na het antwoord: <b>jaag op de fouten</b>. Klopt elke stap, elke knopnaam? Verbeter je prompt en draai opnieuw in dezelfde chat.</p>
+
+        <div class="hat">
+          <div class="t">Deze slides blijven beschikbaar als naslagwerk. </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ============ SLOTSLIDE ============ -->
+    <section id="slot" data-background-color="#1F1A2E">
+      <div style="text-align:center; color:#EDE4D2">
+        <h2 style="color:#F5EFE3">Bedankt</h2>
+        <p style="color:#C8BCDC; font-size:1.05em"><b style="color:#F5EFE3">AI-vaardigheid voor digihelpers</b>, een workshop van <b style="color:#F5EFE3">Wim Casteels</b>.</p>
+        <p style="color:#C8BCDC; font-size:.85em">Netwerkmoment Stad Antwerpen. Gebaseerd op het AI Fluency Framework, de 4 V's.</p>
+        <p class="promise" style="color:#9B7DC4; margin-top:.4em">Geen trucjes om te prompten, wel een manier van denken.</p>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script>
+  Reveal.initialize({
+    width: 1280,
+    height: 800,
+    margin: 0.05,
+    minScale: 0.2,
+    maxScale: 1.6,
+    hash: true,
+    slideNumber: 'c/t',
+    progress: true,
+    controls: true,
+    controlsTutorial: true,
+    transition: 'slide',
+    plugins: [ RevealNotes ]
+  });
+</script>
+
+</body>
+</html>
