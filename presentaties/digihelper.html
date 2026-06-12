@@ -121,6 +121,22 @@
     width:min(220px, 90%); border-radius:8px;
     box-shadow:0 22px 50px -18px rgba(31,26,46,.7); transform:rotate(2deg);
   }
+  .slides-url{ text-align:center; margin-top:6px; }
+  .slides-url .su-label{
+    display:block; font-family:var(--hand); font-size:1.15em; color:var(--paars-dp);
+    transform:rotate(-1deg); margin-bottom:8px;
+  }
+  .slides-url .su-qr{
+    width:168px; height:168px; display:block; margin:0 auto 8px;
+    background:#fff; padding:9px; border-radius:10px;
+    border:1.5px solid var(--line); box-shadow:var(--shadow);
+  }
+  .slides-url .su-link{
+    display:inline-block; background:var(--paars); color:var(--cream);
+    font-weight:700; font-size:.66em; letter-spacing:.01em;
+    padding:6px 14px; border-radius:30px; box-shadow:var(--shadow);
+    word-break:break-all;
+  }
 
   /* ---------- de 4 V kaarten ---------- */
   .v-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:1em; }
@@ -289,6 +305,11 @@
 
         <div class="cover-col">
           <img src="afbeeldingen/boek-cover.jpg" alt="Boekcover: Het masker van AI, door Wim Casteels">
+          <div class="slides-url">
+            <span class="su-label">Deze slides vind je op</span>
+            <img class="su-qr" src="afbeeldingen/qrcode.png" alt="QR-code naar wimcasteels.be/presentaties/digihelper">
+            <span class="su-link">wimcasteels.be/presentaties/digihelper</span>
+          </div>
         </div>
       </div>
     </section>

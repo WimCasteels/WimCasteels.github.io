@@ -1,5 +1,55 @@
 [
     {
+        "date": "Juni 9, 2026",
+        "category": "media",
+        "label": "Media",
+        "title": "Opiniestuk De Tijd: \"De grootste beursgang ooit draait niet om raketten\"",
+        "titleUrl": "https://www.tijd.be/opinie/algemeen/de-grootste-beursgang-ooit-draait-niet-om-raketten/10674508.html",
+        "description": "De beursgang van SpaceX is vooral gebouwd op speculatie, met een markt die nog grotendeels moet ontstaan, ruimtedatacenters die de fysica tarten, chips die nog niemand kan maken en een AI-model dat verlies op verlies stapelt.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.tijd.be/opinie/algemeen/de-grootste-beursgang-ooit-draait-niet-om-raketten/10674508.html"
+    },
+    {
+        "date": "Apr 30, 2026",
+        "category": "media",
+        "label": "Media",
+        "title": "Opiniestuk Knack: \"Wat zit er in de gereedschapsk-AI-st van Diependaele?\"",
+        "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/wat-zit-er-in-de-gereedschapsk-ai-st-van-diependaele/",
+        "description": "‘In plaats van te spreken over “AI-technologie” als containerbegrip, zouden beleidsmakers en onderzoekers concreter moeten benoemen welke technologie ze bedoelen’, schrijft Wim Casteels naar aanleiding van de bespreking van de Vlaamse AI-barometer in het Vlaams parlement.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/wat-zit-er-in-de-gereedschapsk-ai-st-van-diependaele/"
+    },
+    {
+        "date": "Apr 29, 2026",
+        "category": "media",
+        "label": "Media",
+        "title": "Opiniestuk De Tijd: \"Laten we van AI zelfde transparantie eisen als van olie-industrie en luchtvaart\"",
+        "titleUrl": "https://www.tijd.be/opinie/algemeen/laten-we-van-ai-zelfde-transparantie-eisen-als-van-olie-industrie-en-luchtvaart/10658532.html",
+        "description": "Geen enkel groot AI-bedrijf deelt transparante cijfers over het totale energieverbruik en de uitstoot van zijn modellen.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.tijd.be/opinie/algemeen/laten-we-van-ai-zelfde-transparantie-eisen-als-van-olie-industrie-en-luchtvaart/10658532.html"
+    },
+    {
+        "date": "Apr 17, 2026",
+        "category": "media",
+        "label": "Media",
+        "title": "Opiniestuk De Tijd: \"16 uur werken per dag met AI: feature of ontwerpfout?\"",
+        "titleUrl": "https://www.tijd.be/opinie/algemeen/16-uur-werken-per-dag-met-ai-feature-of-ontwerpfout/10656788.html",
+        "description": "AI-agents beloven een nieuwe productiviteitsrevolutie, maar die winst heeft een stille prijs.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.tijd.be/opinie/algemeen/16-uur-werken-per-dag-met-ai-feature-of-ontwerpfout/10656788.html"
+    },
+    {
+        "date": "Apr 02, 2026",
+        "category": "media",
+        "label": "Media",
+        "title": "Opiniestuk De Tijd: \"Oorlog in Iran legt gevaarlijke blinde vlek van AI bloot\"",
+        "titleUrl": "https://www.tijd.be/opinie/algemeen/oorlog-in-iran-legt-gevaarlijke-blinde-vlek-van-ai-bloot/10655302.html",
+        "description": "Als zelfs de bouwers van het systeem zeggen dat het niet klaar is, waarom vertrouwen we er dan levens aan toe?",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.tijd.be/opinie/algemeen/oorlog-in-iran-legt-gevaarlijke-blinde-vlek-van-ai-bloot/10655302.html"
+    },
+    {
         "date": "Mar 21, 2026",
         "category": "media",
         "label": "Media",
