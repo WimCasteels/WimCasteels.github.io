@@ -674,6 +674,30 @@ p {
     color: var(--primary-color);
 }
 
+.lezing-type {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-color);
+    margin-bottom: 0.75rem;
+}
+
+.lezing-meta {
+    font-size: 0.875rem !important;
+    margin-top: 0.5rem;
+}
+
+.lezing-meta a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.lezing-meta a:hover {
+    text-decoration: underline;
+}
+
 .service-card h3 {
     font-size: 1.125rem;
     font-weight: 600;
