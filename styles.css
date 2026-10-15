@@ -464,40 +464,9 @@ h1, h2, h3, h4 {
     box-shadow: 10px 10px 0 var(--accent-tint);
 }
 
-.proof {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.75rem 1.5rem;
-    margin-top: 3.5rem;
-    padding-top: 1.75rem;
-    border-top: 1px solid var(--border-color);
-}
 
-.proof-label {
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-}
 
-.proof-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem 1.5rem;
-    list-style: none;
-    font-family: var(--font-heading);
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--primary-color);
-}
 
-.proof-extra {
-    flex-basis: 100%;
-    font-size: 0.9rem;
-    color: var(--text-muted);
-}
 
 /* --------------------------------------------------------------------------
    Aanbod (homepage)
@@ -511,7 +480,7 @@ h1, h2, h3, h4 {
 
 .offer-card {
     display: grid;
-    grid-template-columns: 170px 1fr;
+    grid-template-columns: 190px 1fr;
     gap: 1.5rem;
     padding: 1.5rem;
     overflow: hidden;
@@ -533,6 +502,60 @@ h1, h2, h3, h4 {
     width: 100%;
     aspect-ratio: 3 / 4;
     object-fit: contain;
+}
+
+.vs-tiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 1rem 0.75rem;
+    place-items: stretch;
+}
+
+.vs-tiles-title {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.vs-tiles ol {
+    list-style: none;
+    display: grid;
+    gap: 0.45rem;
+    width: 100%;
+    counter-reset: v;
+}
+
+.vs-tiles li {
+    counter-increment: v;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-width: 0;
+    padding: 0.5rem 0.5rem;
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    background-color: var(--bg-card);
+    border: 1.5px solid var(--accent-light);
+    border-radius: var(--radius);
+}
+
+.vs-tiles li::before {
+    content: counter(v);
+    flex: 0 0 1.35rem;
+    height: 1.35rem;
+    display: grid;
+    place-items: center;
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    color: var(--accent-color);
+    border: 1.5px solid var(--accent-color);
+    border-radius: 50%;
 }
 
 .offer-card h3 {
@@ -1601,6 +1624,14 @@ textarea:focus {
 
     .offer-card-image {
         max-width: 160px;
+    }
+
+    .offer-card-image.vs-tiles {
+        max-width: none;
+    }
+
+    .vs-tiles ol {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .form-grid,

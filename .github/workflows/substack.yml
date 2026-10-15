@@ -13,14 +13,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
+      # Python staat al op de runner; het script gebruikt alleen de standaardbibliotheek
       - name: Laatste edities ophalen
-        run: python scripts/update_substack.py
+        run: python3 scripts/update_substack.py
 
       - name: Committen als er iets veranderd is
         id: commit
