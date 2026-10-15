@@ -4,64 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nieuws | Wim Casteels</title>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-31NYL0FRHW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-31NYL0FRHW');
-    </script>
-    <meta name="description" content="Nieuws, lezingen en publicaties van Wim Casteels">
-    <link rel="icon" type="image/png" href="images/logo.png">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Lezingen, workshops, opiniestukken en media van Wim Casteels, met slides van eerdere lezingen.">
+    <link rel="canonical" href="https://wimcasteels.be/nieuws.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="nl_BE">
+    <meta property="og:site_name" content="Wim Casteels">
+    <meta property="og:title" content="Nieuws | Wim Casteels">
+    <meta property="og:description" content="Lezingen, workshops, opiniestukken en media van Wim Casteels, met slides van eerdere lezingen.">
+    <meta property="og:url" content="https://wimcasteels.be/nieuws.html">
+    <meta property="og:image" content="https://wimcasteels.be/images/web/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="icon" type="image/png" href="images/web/favicon-64.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" class="logo-img">Wim Casteels</a>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="index.html#projects">Activiteiten</a></li>
-                <li><a href="lezingen.html">Lezingen</a></li>
-                <li><a href="index.html#over">Over</a></li>
-                <li><a href="nieuws.html" class="active">Nieuws</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<body data-ga="G-31NYL0FRHW">
+    <a href="#inhoud" class="skip-link">Spring naar inhoud</a>
+    <nav class="navbar" aria-label="Hoofdmenu">
+    <div class="container navbar-inner">
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt="" class="logo-img" width="34" height="34">Wim Casteels</a>
+        <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="nav-links">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="lezingen.html">Lezingen</a></li>
+            <li><a href="boek.html">Boek</a></li>
+            <li><a href="index.html#nieuwsbrief">Nieuwsbrief</a></li>
+            <li><a href="nieuws.html" class="active" aria-current="page">Nieuws</a></li>
+            <li><a href="over.html">Over</a></li>
+            <li class="nav-cta-item"><a href="lezingen.html#aanvraag" class="btn btn-primary btn-small nav-cta">Boek een lezing</a></li>
+        </ul>
+    </div>
+</nav>
 
+    <main id="inhoud">
     <header class="page-header">
         <div class="container">
             <h1>Nieuws</h1>
-            <div class="news-filters">
-                <button class="filter-btn active" data-filter="all">Alles</button>
-                <button class="filter-btn" data-filter="lezingen">Lezingen & Workshops</button>
-                <button class="filter-btn" data-filter="media">Media</button>
+            <p>Lezingen, workshops, opiniestukken en media.</p>
+            <div class="news-filters" role="group" aria-label="Filter op soort">
+                <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">Alles <span class="filter-count"></span></button>
+                <button type="button" class="filter-btn" data-filter="lezing" aria-pressed="false">Lezingen <span class="filter-count"></span></button>
+                <button type="button" class="filter-btn" data-filter="workshop" aria-pressed="false">Workshops <span class="filter-count"></span></button>
+                <button type="button" class="filter-btn" data-filter="opinie" aria-pressed="false">Opiniestukken <span class="filter-count"></span></button>
+                <button type="button" class="filter-btn" data-filter="media" aria-pressed="false">Media <span class="filter-count"></span></button>
             </div>
         </div>
     </header>
 
-    <main class="news-page">
+    <section class="news-page">
         <div class="container">
-            <div class="news-list" id="news-list">
+            <div class="upcoming" id="binnenkort" hidden>
+                <h2 class="news-year">Binnenkort</h2>
+                <div class="news-list js-upcoming-list"></div>
+            </div>
+
+            <div class="news-list" id="news-list"></div>
+            <p class="news-empty" hidden>Er zijn geen items in deze categorie.</p>
+        </div>
+    </section>
+
+    </main>
+    <footer class="footer">
+    <div class="container footer-grid">
+        <div class="footer-col">
+            <a href="index.html" class="logo logo-footer"><img src="images/logo.svg" alt="" class="logo-img" width="34" height="34">Wim Casteels</a>
+            <p>Lezingen en workshops over AI, kritisch en wetenschappelijk onderbouwd.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/wim-casteels-213720b4/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://wimcasteels.substack.com" target="_blank" rel="noopener" aria-label="Substack">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3h16v2.4H4zM4 7.6h16V10H4zM4 12.2h16V22l-8-4.5L4 22z"></path></svg>
+                </a>
+                <a href="mailto:wim.casteels@ap.be" aria-label="E-mail">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
             </div>
         </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; <span id="year">2026</span> Wim Casteels. Alle rechten voorbehouden.</p>
+        <div class="footer-col">
+            <h2 class="footer-title">Snel naar</h2>
+            <ul class="footer-links">
+                <li><a href="lezingen.html">Lezing en workshop</a></li>
+                <li><a href="lezingen.html#aanvraag">Lezing aanvragen</a></li>
+                <li><a href="boek.html">Het masker van AI</a></li>
+                <li><a href="nieuws.html">Nieuws</a></li>
+                <li><a href="over.html">Over en perskit</a></li>
+            </ul>
         </div>
-    </footer>
+        <div class="footer-col">
+            <h2 class="footer-title">Nieuwsbrief</h2>
+            <p>Elke week een kritische blik op AI, in je mailbox.</p>
+            <a href="https://wimcasteels.substack.com/subscribe" class="btn btn-primary btn-small subscribe-btn" target="_blank" rel="noopener">Abonneer gratis <span aria-hidden="true">↗</span></a>
 
-    <script src="script.js"></script>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <p>&copy; <span class="js-year">2026</span> Wim Casteels</p>
+        <p><a href="privacy.html">Privacy</a> · <button type="button" class="link-button js-consent-open">Cookie-instellingen</button></p>
+    </div>
+</footer>
+
+    <div class="consent" role="dialog" aria-live="polite" aria-label="Cookies" hidden>
+    <p>Mag deze site anonieme bezoekersstatistieken bijhouden via Google Analytics? Dat gebeurt alleen als je akkoord gaat. <a href="privacy.html">Meer info</a></p>
+    <div class="consent-buttons">
+        <button type="button" class="btn btn-secondary btn-small js-consent-deny">Weigeren</button>
+        <button type="button" class="btn btn-primary btn-small js-consent-accept">Akkoord</button>
+    </div>
+</div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>

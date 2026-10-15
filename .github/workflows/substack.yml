@@ -1,0 +1,44 @@
+name: Nieuwsbrief bijwerken
+
+on:
+  schedule:
+    - cron: "0 10 * * 6"   # elke zaterdag om 10:00 UTC (11:00 of 12:00 Belgische tijd)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Laatste edities ophalen
+        run: python scripts/update_substack.py
+
+      - name: Committen als er iets veranderd is
+        id: commit
+        run: |
+          if git diff --quiet -- substack.json; then
+            echo "Geen nieuwe edities."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add substack.json
+            git commit -m "Nieuwsbrief: laatste edities bijwerken"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: GitHub Pages opnieuw laten bouwen
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages-build kon niet gestart worden; de volgende push bouwt de site opnieuw."

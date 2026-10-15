@@ -1,8 +1,61 @@
 [
     {
-        "date": "Juni 9, 2026",
-        "category": "media",
-        "label": "Media",
+        "date": "2026-09-25",
+        "category": "opinie",
+        "title": "Opiniestuk Knack: \"AI-agent die plots 'ontsnapt' is? Zo'n model doet exact wat gevraagd wordt\"",
+        "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/ai-agent-die-plots-ontsnapt-is-zon-model-doet-exact-wat-gevraagd-wordt/",
+        "description": "Berichten over AI-agents die 'ontsnappen' of 'op eigen houtje' inbreken, klinken spectaculair. Wie beter kijkt, ziet modellen die precies doen wat hun opdracht vraagt.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/ai-agent-die-plots-ontsnapt-is-zon-model-doet-exact-wat-gevraagd-wordt/"
+    },
+    {
+        "date": "2026-09-18",
+        "category": "opinie",
+        "title": "Opiniestuk De Tijd: \"Laten we AI vooral niet als een natuurverschijnsel zien\"",
+        "titleUrl": "https://www.tijd.be/opinie/algemeen/laten-we-ai-vooral-niet-als-een-natuurverschijnsel-zien/10686483.html",
+        "description": "De AI-bonzen zien de risico's van op hol geslagen AI, maar zetten toch door omdat de technologie er volgens hen hoe dan ook komt. In dat denken schuilt een gevaar.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.tijd.be/opinie/algemeen/laten-we-ai-vooral-niet-als-een-natuurverschijnsel-zien/10686483.html"
+    },
+    {
+        "date": "2026-08-11",
+        "category": "opinie",
+        "title": "Opiniestuk Knack: \"De eerste autonome AI-hack is een feit, wie houdt de controle?\"",
+        "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/de-eerste-autonome-ai-hack-is-een-feit-wie-houdt-de-controle/",
+        "description": "Een eerste concreet voorbeeld toont wat AI kan bij cyberaanvallen: ongekende snelheid, schaal en coördinatie. Wie houdt daar toezicht op?",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/de-eerste-autonome-ai-hack-is-een-feit-wie-houdt-de-controle/"
+    },
+    {
+        "date": "2026-07-21",
+        "category": "opinie",
+        "title": "Opiniestuk Knack: \"Het schrijven was het denken (maar nu zit er steeds vaker AI tussen ons in)\"",
+        "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/het-schrijven-was-het-denken-maar-nu-zit-er-steeds-vaker-ai-tussen-ons-in/",
+        "description": "Wie het schrijven uitbesteedt aan een chatbot, besteedt ook een deel van het denken uit. Over wat we verliezen als AI tussen ons en onze woorden komt te staan.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/het-schrijven-was-het-denken-maar-nu-zit-er-steeds-vaker-ai-tussen-ons-in/"
+    },
+    {
+        "date": "2026-07-16",
+        "category": "opinie",
+        "title": "Opiniestuk De Tijd: \"Waarom subsidieert Vlaanderen de chipfabrieken van Taiwan?\"",
+        "titleUrl": "https://www.tijd.be/opinie/algemeen/waarom-subsidieert-vlaanderen-de-chipfabrieken-van-taiwan/10679172.html",
+        "description": "Vlaams subsidiegeld voor Imec financiert onderzoek waarvan vooral Amerikaanse en Aziatische bedrijven de commerciële vruchten plukken. Nu chips een geopolitiek wapen zijn, is dat geen vanzelfsprekende prijs van open wetenschap meer.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.tijd.be/opinie/algemeen/waarom-subsidieert-vlaanderen-de-chipfabrieken-van-taiwan/10679172.html"
+    },
+    {
+        "date": "2026-07-10",
+        "category": "opinie",
+        "title": "Opiniestuk Knack: \"Parkeerboete terwijl ik in de wagen zat? Scanwagens hebben geen oogje om dicht te knijpen\"",
+        "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/verkeersboete-terwijl-ik-in-de-wagen-zat-scanwagens-hebben-geen-oogje-om-dicht-te-knijpen/",
+        "description": "Een parkeerboete terwijl je zelf in de auto zit: een persoonlijke ervaring met automatische scanwagens, en wat er verloren gaat als een algoritme de regels toepast zonder menselijke afweging.",
+        "linkText": "Artikel lezen",
+        "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/verkeersboete-terwijl-ik-in-de-wagen-zat-scanwagens-hebben-geen-oogje-om-dicht-te-knijpen/"
+    },
+    {
+        "date": "2026-06-09",
+        "category": "opinie",
         "title": "Opiniestuk De Tijd: \"De grootste beursgang ooit draait niet om raketten\"",
         "titleUrl": "https://www.tijd.be/opinie/algemeen/de-grootste-beursgang-ooit-draait-niet-om-raketten/10674508.html",
         "description": "De beursgang van SpaceX is vooral gebouwd op speculatie, met een markt die nog grotendeels moet ontstaan, ruimtedatacenters die de fysica tarten, chips die nog niemand kan maken en een AI-model dat verlies op verlies stapelt.",
@@ -10,9 +63,8 @@
         "linkUrl": "https://www.tijd.be/opinie/algemeen/de-grootste-beursgang-ooit-draait-niet-om-raketten/10674508.html"
     },
     {
-        "date": "Apr 30, 2026",
-        "category": "media",
-        "label": "Media",
+        "date": "2026-04-30",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"Wat zit er in de gereedschapsk-AI-st van Diependaele?\"",
         "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/wat-zit-er-in-de-gereedschapsk-ai-st-van-diependaele/",
         "description": "‘In plaats van te spreken over “AI-technologie” als containerbegrip, zouden beleidsmakers en onderzoekers concreter moeten benoemen welke technologie ze bedoelen’, schrijft Wim Casteels naar aanleiding van de bespreking van de Vlaamse AI-barometer in het Vlaams parlement.",
@@ -20,9 +72,8 @@
         "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/wat-zit-er-in-de-gereedschapsk-ai-st-van-diependaele/"
     },
     {
-        "date": "Apr 29, 2026",
-        "category": "media",
-        "label": "Media",
+        "date": "2026-04-29",
+        "category": "opinie",
         "title": "Opiniestuk De Tijd: \"Laten we van AI zelfde transparantie eisen als van olie-industrie en luchtvaart\"",
         "titleUrl": "https://www.tijd.be/opinie/algemeen/laten-we-van-ai-zelfde-transparantie-eisen-als-van-olie-industrie-en-luchtvaart/10658532.html",
         "description": "Geen enkel groot AI-bedrijf deelt transparante cijfers over het totale energieverbruik en de uitstoot van zijn modellen.",
@@ -30,9 +81,8 @@
         "linkUrl": "https://www.tijd.be/opinie/algemeen/laten-we-van-ai-zelfde-transparantie-eisen-als-van-olie-industrie-en-luchtvaart/10658532.html"
     },
     {
-        "date": "Apr 17, 2026",
-        "category": "media",
-        "label": "Media",
+        "date": "2026-04-17",
+        "category": "opinie",
         "title": "Opiniestuk De Tijd: \"16 uur werken per dag met AI: feature of ontwerpfout?\"",
         "titleUrl": "https://www.tijd.be/opinie/algemeen/16-uur-werken-per-dag-met-ai-feature-of-ontwerpfout/10656788.html",
         "description": "AI-agents beloven een nieuwe productiviteitsrevolutie, maar die winst heeft een stille prijs.",
@@ -40,9 +90,8 @@
         "linkUrl": "https://www.tijd.be/opinie/algemeen/16-uur-werken-per-dag-met-ai-feature-of-ontwerpfout/10656788.html"
     },
     {
-        "date": "Apr 02, 2026",
-        "category": "media",
-        "label": "Media",
+        "date": "2026-04-02",
+        "category": "opinie",
         "title": "Opiniestuk De Tijd: \"Oorlog in Iran legt gevaarlijke blinde vlek van AI bloot\"",
         "titleUrl": "https://www.tijd.be/opinie/algemeen/oorlog-in-iran-legt-gevaarlijke-blinde-vlek-van-ai-bloot/10655302.html",
         "description": "Als zelfs de bouwers van het systeem zeggen dat het niet klaar is, waarom vertrouwen we er dan levens aan toe?",
@@ -50,9 +99,8 @@
         "linkUrl": "https://www.tijd.be/opinie/algemeen/oorlog-in-iran-legt-gevaarlijke-blinde-vlek-van-ai-bloot/10655302.html"
     },
     {
-        "date": "Mar 21, 2026",
-        "category": "media",
-        "label": "Media",
+        "date": "2026-03-21",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"De zaak-Peter Vandermeersch is géén individuele uitglijder\"",
         "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/de-zaak-peter-vandermeersch-is-geen-individuele-uitglijder/",
         "description": "Dat uitgerekend een overtuigde pleitbezorger van AI als journalist Peter Vandermeersch zo spectaculair struikelt, maakt deze zaak extra pijnlijk, schrijft AI-expert Wim Casteels. ‘Toch is de kwestie ook leerzaam.",
@@ -60,29 +108,28 @@
         "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/de-zaak-peter-vandermeersch-is-geen-individuele-uitglijder/"
     },
     {
-        "date": "Mar 19, 2026",
-        "category": "lezingen",
-        "label": "Workshop",
+        "date": "2026-03-19",
+        "category": "workshop",
         "title": "Workshop op Vormings2daagse Bataljon: \"De do’s en don’ts van AI\"",
         "titleUrl": "https://bataljong.be/boek-je-vorming/vormingskalender/vormings2daagse-2026",
         "description": "AI zorgt voor verdeelde meningen. Sommigen onder ons zijn heel enthousiast, anderen eerder terughoudend. Deze sessie heeft iets voor beide. We bieden tips en inspiratie om op een doordachte manier met AI aan de slag te gaan. En daarnaast staan we ook stil bij de aandachtspunten die je misschien nog niet gezien had. We starten met een korte uitwisseling, en daarna neemt Wim Casteels ons mee in zijn 7 promptgeboden.",
         "linkText": "Slides bekijken",
-        "linkUrl": "pdf/bataljon.pdf"
+        "linkUrl": "pdf/bataljon.pdf",
+        "fileInfo": "PDF, 9 MB"
     },
     {
-        "date": "Mar 18, 2026",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2026-03-18",
+        "category": "lezing",
         "title": "VNOJ Docentendag Lezing: \"Het masker van AI\"",
         "titleUrl": "https://www.eventbrite.com/e/vnoj-docentendag-2026-tussen-boomer-en-beta-tickets-1982342555948",
         "description": "Lezing tijdens VNOJ Docentendag 2026 | Tussen Boomer en Bèta.",
         "linkText": "Slides bekijken",
-        "linkUrl": "pdf/VNOJ.pdf"
+        "linkUrl": "pdf/VNOJ.pdf",
+        "fileInfo": "PDF, 8 MB"
     },
     {
-        "date": "Feb 18, 2026",
-        "category": "media",
-        "label": "Media",
+        "date": "2026-02-18",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"Hype of keerpunt? Er lijkt iets groots te gebeuren in de AI-wereld\"",
         "titleUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/hype-of-keerpunt-er-lijkt-iets-groots-te-gebeuren-in-de-ai-wereld/",
         "description": "AI-agents zullen een almaar grotere rol spelen in hoe we werken,’ schrijft Wim Casteels, ‘maar de weg naar brede adoptie zal er een zijn met veel vallen en opstaan.",
@@ -90,9 +137,8 @@
         "linkUrl": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/hype-of-keerpunt-er-lijkt-iets-groots-te-gebeuren-in-de-ai-wereld/"
     },
     {
-        "date": "Feb 02, 2026",
-        "category": "media",
-        "label": "Media",
+        "date": "2026-02-02",
+        "category": "opinie",
         "title": "Opiniestuk De Tijd: \"Ongebreideld optimisme is slechte gids in AI-debat\"",
         "titleUrl": "https://www.tijd.be/opinie/algemeen/ongebreideld-optimisme-is-slechte-gids-in-ai-debat/10645673.html",
         "description": "Alleen met een kritische blik kunnen we de beloftes van AI verzilveren, zonder dat de maatschappij achteraf de rekening betaalt.",
@@ -100,29 +146,28 @@
         "linkUrl": "https://www.tijd.be/opinie/algemeen/ongebreideld-optimisme-is-slechte-gids-in-ai-debat/10645673.html"
     },
     {
-        "date": "Feb 02, 2026",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2026-02-02",
+        "category": "workshop",
         "title": "ICT Praktijkdag Workshop: \"Maak je eigen AI-assistent\"",
         "titleUrl": "https://www.ictdag.be/48/aanbod/sessie/102",
         "description": "Workshop tijdens de ICT Praktijkdag.",
         "linkText": "Slides bekijken",
-        "linkUrl": "pdf/ChatbotBouwen.pdf"
+        "linkUrl": "pdf/ChatbotBouwen.pdf",
+        "fileInfo": "PDF, 2 MB"
     },
     {
-        "date": "Feb 02, 2026",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2026-02-02",
+        "category": "lezing",
         "title": "ICT Praktijkdag Lezing: \"AI ontmaskerd: macht, data en invloed\"",
         "titleUrl": "https://www.ictdag.be/48/aanbod/sessie/11",
         "description": "Presentatie op de ICT Praktijkdag.",
         "linkText": "Slides bekijken",
-        "linkUrl": "pdf/AIOntmaskerd.pdf"
+        "linkUrl": "pdf/AIOntmaskerd.pdf",
+        "fileInfo": "PDF, 19 MB"
     },
     {
-        "date": "Dec 19, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-12-19",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"Waarom Van Dale's woord van het jaar 'hallucinaties' een kritische blik verdient\"",
         "titleUrl": "https://www.knack.be/nieuws/technologie/waarom-van-dales-woord-van-het-jaar-hallucinaties-een-kritische-blik-verdient/",
         "description": "Over hoe de metafoor 'hallucinaties' ons taalgebruik over AI vermenselijkt en onze kritische reflex kan verzwakken.",
@@ -130,9 +175,8 @@
         "linkUrl": "https://www.knack.be/nieuws/technologie/waarom-van-dales-woord-van-het-jaar-hallucinaties-een-kritische-blik-verdient/"
     },
     {
-        "date": "Nov 28, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-11-28",
+        "category": "opinie",
         "title": "Opiniestuk De Tijd: \"Het Europese dilemma: AI reguleren of innoveren\"",
         "titleUrl": "https://www.tijd.be/opinie/algemeen/het-europese-dilemma-ai-reguleren-of-innoveren/10638130.html",
         "description": "Over de afweging tussen regulering en innovatie voor AI in Europa.",
@@ -140,19 +184,18 @@
         "linkUrl": "https://www.tijd.be/opinie/algemeen/het-europese-dilemma-ai-reguleren-of-innoveren/10638130.html"
     },
     {
-        "date": "Nov 23, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-11-23",
+        "category": "lezing",
         "title": "Dag van de Wetenschap: \"Het masker van AI\"",
         "titleUrl": "https://wimcasteels.github.io/assets/pdf/DagvdWetenschap.pdf",
         "description": "Presentatie om 16:15 op de Universiteit Antwerpen Stadscampus.",
         "linkText": "Slides bekijken",
-        "linkUrl": "pdf/DagvdWetenschap.pdf"
+        "linkUrl": "pdf/DagvdWetenschap.pdf",
+        "fileInfo": "PDF, 7 MB"
     },
     {
-        "date": "Nov 20, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-11-20",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"De filibuster van Van Quickenborne?\"",
         "titleUrl": "https://www.knack.be/nieuws/belgie/politiek/de-filibuster-van-van-quickenborne-een-noodzakelijk-signaal-tegen-massasurveillance/",
         "description": "Over massasurveillance en de noodzaak van een kritisch signaal.",
@@ -160,19 +203,18 @@
         "linkUrl": "https://www.knack.be/nieuws/belgie/politiek/de-filibuster-van-van-quickenborne-een-noodzakelijk-signaal-tegen-massasurveillance/"
     },
     {
-        "date": "Nov 06, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-11-06",
+        "category": "lezing",
         "title": "Gastcollege KUL Tech Tapas 2025: \"Het masker van AI\"",
         "titleUrl": "https://wimcasteels.github.io/assets/pdf/KUL-Tech-Tapas.pdf",
         "description": "Openingsavond van Tech Tapas 2025 aan de KU Leuven.",
         "linkText": "Slides bekijken",
-        "linkUrl": "pdf/KUL-Tech-Tapas.pdf"
+        "linkUrl": "pdf/KUL-Tech-Tapas.pdf",
+        "fileInfo": "PDF, 16 MB"
     },
     {
-        "date": "Nov 01, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-11-01",
+        "category": "opinie",
         "title": "LinkedIn: \"Hoe ik met AI een boek schreef over de gevaren van AI\"",
         "titleUrl": "https://www.linkedin.com/pulse/hoe-ik-met-ai-een-boek-schreef-over-de-gevaren-van-wim-casteels-8ypwe/",
         "description": "Over het creatieproces van mijn boek met behulp van AI-tools.",
@@ -180,9 +222,8 @@
         "linkUrl": "https://www.linkedin.com/pulse/hoe-ik-met-ai-een-boek-schreef-over-de-gevaren-van-wim-casteels-8ypwe/"
     },
     {
-        "date": "Nov 01, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-11-01",
+        "category": "opinie",
         "title": "LinkedIn: \"Jongeren en hun foute AI vrienden\"",
         "titleUrl": "https://www.linkedin.com/pulse/jongeren-en-hun-foute-ai-vrienden-wim-casteels-c50ce/",
         "description": "Over hoe jongeren omgaan met AI-systemen.",
@@ -190,9 +231,8 @@
         "linkUrl": "https://www.linkedin.com/pulse/jongeren-en-hun-foute-ai-vrienden-wim-casteels-c50ce/"
     },
     {
-        "date": "Okt 26, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-10-26",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"Copilot en duurzaamheid\"",
         "titleUrl": "https://www.knack.be/nieuws/technologie/copilot-en-duurzaamheid-vlaamse-overheid-legt-verantwoordelijkheid-bij-de-verkeerde-partij/",
         "description": "Kritiek op hoe de Vlaamse overheid verantwoordelijkheid rond AI-duurzaamheid toewijst.",
@@ -200,19 +240,18 @@
         "linkUrl": "https://www.knack.be/nieuws/technologie/copilot-en-duurzaamheid-vlaamse-overheid-legt-verantwoordelijkheid-bij-de-verkeerde-partij/"
     },
     {
-        "date": "Okt 23, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-10-23",
+        "category": "lezing",
         "title": "Boekvoorstelling: \"Het masker van AI\"",
         "titleUrl": "https://wimcasteels.github.io/assets/pdf/boekvoorstelling.pdf",
         "description": "Lancering om 19:00 op AP Hogeschool campus Viaduct.",
         "linkText": "Slides bekijken",
-        "linkUrl": "pdf/boekvoorstelling.pdf"
+        "linkUrl": "pdf/boekvoorstelling.pdf",
+        "fileInfo": "PDF, 7 MB"
     },
     {
-        "date": "Okt 21, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-10-21",
+        "category": "lezing",
         "title": "Panelgesprek Indispensable 2025",
         "titleUrl": "https://indispensable.timefold.ai/",
         "description": "Paneldeelname op het Indispensable 2025 event van Timefold.ai.",
@@ -220,9 +259,8 @@
         "linkUrl": "https://indispensable.timefold.ai/"
     },
     {
-        "date": "Okt 21, 2025",
+        "date": "2025-10-21",
         "category": "media",
-        "label": "Media",
         "title": "Boekpublicatie: \"Het masker van AI\"",
         "titleUrl": "https://www.lannoo.be/nl/het-masker-van-ai",
         "description": "Mijn boek is gepubliceerd bij Lannoo Campus.",
@@ -230,19 +268,14 @@
         "linkUrl": "https://www.lannoo.be/nl/het-masker-van-ai"
     },
     {
-        "date": "Okt 17, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-10-17",
+        "category": "lezing",
         "title": "Gastcollege AP Hogeschool: \"Het masker van AI\"",
-        "titleUrl": null,
-        "description": "Lezing voor derdejaars studenten Grafische en Digitale Media.",
-        "linkText": null,
-        "linkUrl": null
+        "description": "Lezing voor derdejaars studenten Grafische en Digitale Media."
     },
     {
-        "date": "Okt 14, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-10-14",
+        "category": "opinie",
         "title": "Opiniestuk De Tijd: \"Zitten we echt te wachten op een datacenter van Google?\"",
         "titleUrl": "https://www.tijd.be/opinie/algemeen/zitten-we-echt-te-wachten-op-een-datacenter-van-google/10631111.html",
         "description": "Kritische blik op de noodzaak van Google's datacenter-investering.",
@@ -250,9 +283,8 @@
         "linkUrl": "https://www.tijd.be/opinie/algemeen/zitten-we-echt-te-wachten-op-een-datacenter-van-google/10631111.html"
     },
     {
-        "date": "Okt 07, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-10-07",
+        "category": "lezing",
         "title": "Panelgesprek: \"AI: hefboom of slagboom voor e-inclusie?\"",
         "titleUrl": "https://www.saamo.be/agenda-item/netwerkmoment-e-inclusie-als-sociale-hefboom/",
         "description": "Netwerkmoment E-inclusie als sociale hefboom.",
@@ -260,9 +292,8 @@
         "linkUrl": "https://www.saamo.be/agenda-item/netwerkmoment-e-inclusie-als-sociale-hefboom/"
     },
     {
-        "date": "Sep 14, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-09-14",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"Gemiste kansen in het Belgisch charter voor verantwoord AI-gebruik\"",
         "titleUrl": "https://www.knack.be/nieuws/technologie/gemiste-kansen-in-het-belgisch-charter-voor-verantwoord-ai-gebruik/",
         "description": "Analyse van de tekortkomingen in het Belgische AI-charter.",
@@ -270,9 +301,8 @@
         "linkUrl": "https://www.knack.be/nieuws/technologie/gemiste-kansen-in-het-belgisch-charter-voor-verantwoord-ai-gebruik/"
     },
     {
-        "date": "Sep 04, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-09-04",
+        "category": "opinie",
         "title": "Opiniestuk De Tijd: \"AI-zoekmachines ondermijnen verdienmodel internet\"",
         "titleUrl": "https://www.tijd.be/opinie/algemeen/ai-zoekmachines-ondermijnen-verdienmodel-internet/10621296.html",
         "description": "Hoe AI-zoekmachines het internetbusinessmodel bedreigen.",
@@ -280,9 +310,8 @@
         "linkUrl": "https://www.tijd.be/opinie/algemeen/ai-zoekmachines-ondermijnen-verdienmodel-internet/10621296.html"
     },
     {
-        "date": "Jul 05, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-07-05",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"Wordt Vlaanderen te afhankelijk van een Amerikaans technologiebedrijf?\"",
         "titleUrl": "https://www.knack.be/nieuws/belgie/politiek/na-aankondiging-diependaele-over-copilot-wordt-vlaanderen-te-afhankelijk-van-een-amerikaans-technologiebedrijf/",
         "description": "Na aankondiging Diependaele over Copilot.",
@@ -290,9 +319,8 @@
         "linkUrl": "https://www.knack.be/nieuws/belgie/politiek/na-aankondiging-diependaele-over-copilot-wordt-vlaanderen-te-afhankelijk-van-een-amerikaans-technologiebedrijf/"
     },
     {
-        "date": "Jun 18, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-06-18",
+        "category": "lezing",
         "title": "Panelgesprek Greentech Forum Brussels: \"Frugal AI, the only credible path?\"",
         "titleUrl": "https://www.greentech-forum-brussels.com/",
         "description": "Discussie over duurzame AI op het Greentech Forum in Brussel.",
@@ -300,9 +328,8 @@
         "linkUrl": "https://www.greentech-forum-brussels.com/"
     },
     {
-        "date": "Jun 14, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-06-14",
+        "category": "opinie",
         "title": "Opiniestuk Knack: \"Verklein je werkelijk je ecologische voetafdruk door minder vriendelijk te zijn tegen ChatGPT?\"",
         "titleUrl": "https://www.knack.be/nieuws/technologie/verklein-je-werkelijk-je-ecologische-voetafdruk-door-minder-vriendelijk-te-zijn-tegen-chatgpt/",
         "description": "Over de ecologische impact van AI-gebruik.",
@@ -310,19 +337,18 @@
         "linkUrl": "https://www.knack.be/nieuws/technologie/verklein-je-werkelijk-je-ecologische-voetafdruk-door-minder-vriendelijk-te-zijn-tegen-chatgpt/"
     },
     {
-        "date": "Mei 06, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-05-06",
+        "category": "lezing",
         "title": "Lezing: \"A.I. in de zorg: zegen of vloek?\"",
         "titleUrl": "https://wimcasteels.github.io/assets/pdf/AI_zorg.pdf",
         "description": "Over AI-toepassingen in de gezondheidszorg.",
         "linkText": "Slides bekijken",
-        "linkUrl": "pdf/AI_zorg.pdf"
+        "linkUrl": "pdf/AI_zorg.pdf",
+        "fileInfo": "PDF, 10 MB"
     },
     {
-        "date": "Feb 25, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-02-25",
+        "category": "lezing",
         "title": "TECHNIGHT Antwerp Expo: AI en duurzaamheid",
         "titleUrl": "https://www.technight.be/",
         "description": "Inspiratiesessie voor Antwerpse technologiestudenten.",
@@ -330,19 +356,17 @@
         "linkUrl": "https://www.technight.be/"
     },
     {
-        "date": "Feb 23, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-02-23",
+        "category": "opinie",
         "title": "EOS Wetenschap: \"Waarom onderzoek naar AGI contraproductief kan zijn\"",
         "titleUrl": "https://www.eoswetenschap.eu/technologie/waarom-onderzoek-naar-artificiele-algemene-intelligentie-contraproductief-kan-zijn",
-        "description": "Kritische blik op onderzoek naar artifici\u00eble algemene intelligentie.",
+        "description": "Kritische blik op onderzoek naar artificiële algemene intelligentie.",
         "linkText": "Artikel lezen",
         "linkUrl": "https://www.eoswetenschap.eu/technologie/waarom-onderzoek-naar-artificiele-algemene-intelligentie-contraproductief-kan-zijn"
     },
     {
-        "date": "Feb 23, 2025",
-        "category": "media",
-        "label": "Media",
+        "date": "2025-02-23",
+        "category": "opinie",
         "title": "VAIA Blog: \"Hoe vervuilend is AI? De ecologische afdruk van AI\"",
         "titleUrl": "https://www.vaia.be/nl/blog/hoe-vervuilend-is-ai",
         "description": "Analyse van de milieu-impact van AI-systemen.",
@@ -350,9 +374,8 @@
         "linkUrl": "https://www.vaia.be/nl/blog/hoe-vervuilend-is-ai"
     },
     {
-        "date": "Feb 05, 2025",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2025-02-05",
+        "category": "lezing",
         "title": "Train the Trainer: Generatieve AI voor IT-leerkrachten",
         "titleUrl": "https://www.ap.be/event/train-trainer-generatieve-artificiele-intelligentie-voor-it-leerkrachten",
         "description": "Professionele ontwikkeling voor IT-docenten.",
@@ -360,9 +383,8 @@
         "linkUrl": "https://www.ap.be/event/train-trainer-generatieve-artificiele-intelligentie-voor-it-leerkrachten"
     },
     {
-        "date": "Nov 21, 2024",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2024-11-21",
+        "category": "lezing",
         "title": "TINC FEST: Ethische AI inspiratiesessie",
         "titleUrl": "https://apbc.be/tincfest",
         "description": "Presentatie over ethische aspecten van AI.",
@@ -370,9 +392,8 @@
         "linkUrl": "https://apbc.be/tincfest"
     },
     {
-        "date": "Nov 14, 2024",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2024-11-14",
+        "category": "lezing",
         "title": "Masterclass Howest: \"Software applicaties met generatieve AI\"",
         "titleUrl": "https://www.howest.be/nl/opleidingen/navormingen/masterclass-software-applicaties-met-generatieve-ai#algemeen",
         "description": "Masterclass in Brugge in samenwerking met Howest.",
@@ -380,9 +401,8 @@
         "linkUrl": "https://www.howest.be/nl/opleidingen/navormingen/masterclass-software-applicaties-met-generatieve-ai#algemeen"
     },
     {
-        "date": "Nov 11, 2024",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2024-11-11",
+        "category": "lezing",
         "title": "ICERI2024: Machine learning onderzoekspresentatie",
         "titleUrl": "https://library.iated.org/view/CASTEELS2024PRE",
         "description": "Presentatie op de 17th International Conference of Education, Research and Innovation.",
@@ -390,9 +410,8 @@
         "linkUrl": "https://library.iated.org/view/CASTEELS2024PRE"
     },
     {
-        "date": "Mrt 07, 2024",
-        "category": "lezingen",
-        "label": "Lezing",
+        "date": "2024-03-07",
+        "category": "lezing",
         "title": "INTED2023: Responsible AI for student dropout prediction",
         "titleUrl": "https://library.iated.org/view/CASTEELS2023ANE",
         "description": "Presentatie op de 17th International Technology, Education and Development Conference.",
@@ -400,10 +419,9 @@
         "linkUrl": "https://library.iated.org/view/CASTEELS2023ANE"
     },
     {
-        "date": "Okt 19, 2023",
+        "date": "2023-10-19",
         "category": "media",
-        "label": "Media",
-        "title": "Genius Podcast: \"Intelligent omgaan met artifici\u00eble intelligentie\"",
+        "title": "Genius Podcast: \"Intelligent omgaan met artificiële intelligentie\"",
         "titleUrl": "https://www.geniusantwerp.be/podcast_afl_1/",
         "description": "Podcast met Caroline van Cauwelaert en Wim Casteels.",
         "linkText": "Beluisteren",

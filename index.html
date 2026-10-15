@@ -3,187 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wim Casteels | Docent, Onderzoeker, Schrijver, Spreker</title>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-31NYL0FRHW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-31NYL0FRHW');
-    </script>
-    <meta name="description" content="Wim Casteels - Docent, Onderzoeker, Schrijver, Spreker">
-    <link rel="icon" type="image/png" href="images/logo.png">
-    <link rel="stylesheet" href="styles.css">
+    <title>Wim Casteels | Lezingen en workshops over AI</title>
+    <meta name="description" content="Wim Casteels geeft lezingen en workshops over AI, kritisch en wetenschappelijk onderbouwd, op maat van je publiek. Auteur van Het masker van AI.">
+    <link rel="canonical" href="https://wimcasteels.be/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="nl_BE">
+    <meta property="og:site_name" content="Wim Casteels">
+    <meta property="og:title" content="Wim Casteels | Lezingen en workshops over AI">
+    <meta property="og:description" content="Wim Casteels geeft lezingen en workshops over AI, kritisch en wetenschappelijk onderbouwd, op maat van je publiek. Auteur van Het masker van AI.">
+    <meta property="og:url" content="https://wimcasteels.be/">
+    <meta property="og:image" content="https://wimcasteels.be/images/web/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="icon" type="image/png" href="images/web/favicon-64.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo"><img src="images/logo.png" alt="Logo" class="logo-img">Wim Casteels</a>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#projects">Activiteiten</a></li>
-                <li><a href="lezingen.html">Lezingen</a></li>
-                <li><a href="#over">Over</a></li>
-                <li><a href="nieuws.html">Nieuws</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<body data-ga="G-31NYL0FRHW">
+    <a href="#inhoud" class="skip-link">Spring naar inhoud</a>
+    <nav class="navbar" aria-label="Hoofdmenu">
+    <div class="container navbar-inner">
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt="" class="logo-img" width="34" height="34">Wim Casteels</a>
+        <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="nav-links">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="lezingen.html">Lezingen</a></li>
+            <li><a href="boek.html">Boek</a></li>
+            <li><a href="index.html#nieuwsbrief">Nieuwsbrief</a></li>
+            <li><a href="nieuws.html">Nieuws</a></li>
+            <li><a href="over.html">Over</a></li>
+            <li class="nav-cta-item"><a href="lezingen.html#aanvraag" class="btn btn-primary btn-small nav-cta">Boek een lezing</a></li>
+        </ul>
+    </div>
+</nav>
 
+    <main id="inhoud">
     <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <p class="eyebrow">Wim Casteels · Docent, onderzoeker, auteur en spreker</p>
+                <h1>Ik maak AI begrijpelijk: kritisch, wetenschappelijk en zonder hype.</h1>
+                <p class="hero-intro">Lezingen en workshops over AI voor organisaties, scholen en events. Telkens op maat van je publiek en van wat er vandaag in AI gebeurt.</p>
+                <div class="hero-buttons">
+                    <a href="lezingen.html#aanvraag" class="btn btn-primary btn-arrow">Boek een lezing</a>
+                    <a href="lezingen.html" class="btn btn-secondary">Bekijk het aanbod</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/web/wim-casteels.webp" alt="Wim Casteels" class="profile-photo" width="720" height="900">
+            </div>
+        </div>
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Wim Casteels</h1>
-                    <p class="tagline">Docent | Onderzoeker | Schrijver | Spreker </p>
-                    <p class="intro">Met een kritische en wetenschappelijke blik volg ik AI-ontwikkelingen en maak de impact op werk, onderwijs en samenleving begrijpelijk.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Neem contact op</a>
-                        <a href="#projects" class="btn btn-secondary">Activiteiten</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="images/prof_pic.jpg" alt="Wim Casteels" class="profile-photo">
-                </div>
+            <div class="proof">
+                <p class="proof-label">Schrijft voor</p>
+                <ul class="proof-list">
+                    <li>Knack</li>
+                    <li>De Tijd</li>
+                    <li>EOS Wetenschap</li>
+                    <li>VAIA</li>
+                    <li>Frankwatching</li>
+                </ul>
+                <p class="proof-extra">Auteur van <em>Het masker van AI</em> (Lannoo Campus) · 3700+ lezers van de nieuwsbrief</p>
             </div>
         </div>
     </header>
 
-    <section id="projects" class="section">
+    <section id="aanbod" class="section">
         <div class="container">
-            <div class="tiles-grid">
-                <div class="tile">
-                    <div class="tile-image">
-                        <img src="images/lezing.jpg" alt="Lezingen & Workshops">
+            <h2 class="section-title">Lezing en workshop</h2>
+            <p class="section-intro">Twee formats, telkens afgestemd op je publiek en op de actualiteit.</p>
+            <div class="offer-cards">
+                <a href="lezingen.html#lezing" class="card offer-card">
+                    <div class="offer-card-image offer-card-image-book">
+                        <img src="images/web/boek-cover.webp" alt="Cover van Het masker van AI" width="640" height="904" loading="lazy">
                     </div>
-                    <h3>Lezingen & Workshops</h3>
-                    <p>Inspirerende presentaties op maat voor uw organisatie, van boardroom tot klaslokaal.</p>
-                    <div class="tile-list">
-                        <span>Keynote presentaties</span>
-                        <span>Hands-on workshops</span>
-                        <span>Bedrijfstrainingen</span>
-                        <span>Gastcolleges</span>
+                    <div class="offer-card-body">
+                        <span class="kicker">Lezing</span>
+                        <h3>Het masker van AI</h3>
+                        <p>AI komt naar ons toe verpakt in beloftes, marketing en krantenkoppen. Deze lezing haalt dat masker weg en toont wat er werkelijk speelt, en wat het betekent voor jouw publiek.</p>
+                        <span class="card-link">Bekijk de lezing <span aria-hidden="true">→</span></span>
                     </div>
-                    <a href="lezingen.html" class="btn btn-primary">Bekijk het aanbod</a>
-                </div>
-                <div class="tile">
-                    <div class="tile-image tile-image-book">
-                        <img src="images/book.jpg" alt="Het masker van AI">
+                </a>
+                <a href="lezingen.html#workshop" class="card offer-card">
+                    <div class="offer-card-image">
+                        <img src="images/web/vier-vs.webp" alt="De vier V's van AI-vaardigheid" width="1200" height="750" loading="lazy">
                     </div>
-                    <h3>Het masker van AI</h3>
-                    <p>Een kritische verkenning van artificiële intelligentie in 12 thematische hoofdstukken. Van ecologie tot arbeidsmarkt en van privacy tot rechtvaardigheid, dit boek ontmaskert de beloftes en valkuilen van AI.</p>
-                    <p class="promo-compact">10% korting bij Lannoo webshop: <strong>MaskerAI10</strong> (niet cumuleerbaar)</p>
-                    <a href="https://www.lannoocampus.be/nl/het-masker-van-ai" class="btn btn-primary">Bestel nu</a>
-                </div>
-                <div class="tile">
-                    <div class="tile-image">
-                        <img src="images/nieuwsbrief1.png" alt="Nieuwsbrief">
+                    <div class="offer-card-body">
+                        <span class="kicker">Hands-on workshop</span>
+                        <h3>AI-vaardigheid</h3>
+                        <p>Geen trucjes om te prompten, wel een manier van denken. Rond de vier V's ga je aan de slag met cases uit je eigen praktijk.</p>
+                        <span class="card-link">Bekijk de workshop <span aria-hidden="true">→</span></span>
                     </div>
-                    <h3>Nieuwsbrief</h3>
-                    <p>Wekelijkse kritische analyses over AI-ontwikkelingen, al gevolgd door meer dan 1000 mensen. Volg "Het masker van AI" en blijf op de hoogte van de laatste inzichten.</p>
-                    <a href="https://substack.com/@wimcasteels" target="_blank" rel="noopener" class="btn btn-primary">Volg op Substack</a>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt section-compact">
+        <div class="container">
+            <h2 class="section-title">Eerder te gast bij</h2>
+            <ul class="chips">
+                <li>VNOJ Docentendag</li>
+                <li>ICT Praktijkdag</li>
+                <li>Dag van de Wetenschap</li>
+                <li>KU Leuven Tech Tapas</li>
+                <li>Greentech Forum Brussels</li>
+                <li>TECHNIGHT Antwerp Expo</li>
+                <li>Howest</li>
+                <li>AP Hogeschool</li>
+                <li>Vormings2daagse Bataljon</li>
+                <li>Saamo</li>
+                <li>TINC FEST</li>
+                <li>Indispensable</li>
+            </ul>
+            <p class="chips-more"><a href="nieuws.html#lezing">Alle lezingen, met slides <span aria-hidden="true">→</span></a></p>
+        </div>
+    </section>
+
+    <section id="boek" class="section">
+        <div class="container feature">
+            <div class="feature-image feature-image-book">
+                <img src="images/web/boek-cover.webp" alt="Cover van het boek Het masker van AI" width="640" height="904" loading="lazy">
+            </div>
+            <div class="feature-text">
+                <span class="kicker">Het boek</span>
+                <h2 class="section-title">Het masker van AI</h2>
+                <p>Een kritische verkenning van artificiële intelligentie in 12 thematische hoofdstukken. Van ecologie tot arbeidsmarkt en van privacy tot rechtvaardigheid: dit boek ontmaskert de beloftes en valkuilen van AI.</p>
+                <div class="promo">
+    <span>10% korting in de webshop van Lannoo met de code</span>
+    <button type="button" class="promo-code js-copy" data-copy="MaskerAI10" aria-label="Kopieer kortingscode MaskerAI10">
+        <code>MaskerAI10</code>
+        <span class="promo-feedback" aria-live="polite">Kopieer</span>
+    </button>
+    <span class="promo-note">Niet cumuleerbaar.</span>
+</div>
+
+                <div class="hero-buttons">
+                    <a href="https://www.lannoocampus.be/nl/het-masker-van-ai" target="_blank" rel="noopener" class="btn btn-primary">Bestel bij Lannoo <span aria-hidden="true">↗</span></a>
+                    <a href="boek.html" class="btn btn-secondary">Meer over het boek</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="over" class="section section-alt">
+    <section id="nieuwsbrief" class="section section-alt">
         <div class="container">
-            <h2 class="section-title">Over mij</h2>
-            <div class="about-content">
-                <p>Als fysicus ben ik getraind om de wereld te begrijpen door complexe systemen te ontrafelen. Die analytische blik neem ik mee in mijn werk als data scientist en AI-onderzoeker.</p>
-                <p>Na ervaring bij organisaties als Argenta, de Universiteit Antwerpen, imec en het KMI, ben ik momenteel docent en onderzoeker bij <a href="https://www.ap.be/expert/wim-casteels" target="_blank" rel="noopener noreferrer">AP Hogeschool</a>. Door die mix van bedrijfswereld en academische wereld ken ik de theorie en de praktijk.</p>
-                <p>Mijn passie ligt in het vertalen van deze complexe materie naar een breed publiek. Ik sta voor een realistische kijk op AI: open voor innovatie, maar altijd met een kritische blik op de maatschappelijke impact."</p>
-                <h3 class="about-subtitle">Publicaties & Media</h3>
-                <p> Ik schrijf regelmatig opiniestukken en blogposts over AI, technologie en samenleving voor onder andere <a href="https://www.knack.be/a/wim-casteels/" target="_blank" rel="noopener noreferrer">Knack</a>, <a href="https://www.tijd.be/auteur/wim%20-casteels.1741015.html" target="_blank" rel="noopener noreferrer">De Tijd</a>, <a href="https://www.vaia.be/nl/experts/wim-casteels" target="_blank" rel="noopener noreferrer">Vlaamse AI Academy (VAIA)</a>, <a href="https://www.eoswetenschap.eu/wim-casteels" target="_blank" rel="noopener noreferrer">EOS Wetenschap</a>, <a href="https://www.frankwatching.com/archive/author/wim-casteels/" target="_blank" rel="noopener noreferrer">Frankwatching</a> en op <a href="https://www.linkedin.com/in/wim-casteels-213720b4/" target="_blank" rel="noopener noreferrer">LinkedIn</a>. Mijn wetenschappelijke publicaties zijn te vinden op <a href="https://scholar.google.co.th/citations?user=fyQ8MmcAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>. </p>
+            <div class="newsletter-head">
+                <div>
+                    <span class="kicker">De nieuwsbrief</span>
+                    <h2 class="section-title">Uit de nieuwsbrief</h2>
+                    <p class="section-intro">Elke week een kritische analyse van AI-ontwikkelingen, al gevolgd door meer dan 3700 lezers.</p>
+                </div>
+                <a href="https://wimcasteels.substack.com/subscribe" class="btn btn-primary btn-small subscribe-btn" target="_blank" rel="noopener">Abonneer gratis <span aria-hidden="true">↗</span></a>
+
             </div>
+            <div class="editions" id="editions"></div>
+            <p class="chips-more"><a href="https://wimcasteels.substack.com/archive" target="_blank" rel="noopener">Alle edities op Substack <span aria-hidden="true">↗</span></a></p>
         </div>
     </section>
 
     <section id="nieuws" class="section">
         <div class="container">
-            <a href="nieuws.html" class="section-title-link">
-                <h2 class="section-title">Nieuws & Events</h2>
-            </a>
-            <div class="news-grid">
-                <article class="news-item">
-                    <span class="news-date">Feb 02, 2026</span>
-                    <h3>ICT Praktijkdag Workshop: "Maak je eigen AI-assistent"</h3>
-                    <p>Workshop tijdens de ICT Praktijkdag.</p>
-                    <a href="https://www.ictdag.be/48/aanbod/sessie/102" target="_blank" class="news-link">Meer info</a>
-                </article>
-                <article class="news-item">
-                    <span class="news-date">Feb 02, 2026</span>
-                    <h3>ICT Praktijkdag Lezing: "AI ontmaskerd: macht, data en invloed"</h3>
-                    <p>Presentatie op de ICT Praktijkdag.</p>
-                    <a href="https://www.ictdag.be/48/aanbod/sessie/11" target="_blank" class="news-link">Meer info</a>
-                </article>
-                <article class="news-item">
-                    <span class="news-date">Dec 19, 2025</span>
-                    <h3>Opiniestuk Knack: "Waarom Van Dale's woord van het jaar 'hallucinaties' een kritische blik verdient"</h3>
-                    <p>Over hoe de metafoor 'hallucinaties' ons taalgebruik over AI vermenselijkt en onze kritische reflex kan verzwakken.</p>
-                    <a href="https://www.knack.be/nieuws/technologie/waarom-van-dales-woord-van-het-jaar-hallucinaties-een-kritische-blik-verdient/" target="_blank" class="news-link">Artikel lezen</a>
-                </article>
-            </div>
+            <h2 class="section-title">Nieuws</h2>
+            <div class="news-cards" id="latest-news"></div>
             <div class="news-more">
-                <a href="nieuws.html" class="btn btn-secondary">Bekijk al het nieuws</a>
+                <a href="nieuws.html" class="btn btn-secondary btn-arrow">Bekijk al het nieuws</a>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section section-alt">
+    <section id="over" class="section section-alt">
+        <div class="container narrow">
+            <h2 class="section-title">Over Wim</h2>
+            <p class="lead">Als fysicus en data scientist leerde Wim complexe systemen te ontrafelen. Vandaag is hij docent en onderzoeker IT &amp; AI aan de AP Hogeschool, en vertaalt hij AI naar een breed publiek: open voor innovatie, maar altijd met een kritische blik op de maatschappelijke impact.</p>
+            <a href="over.html" class="btn btn-secondary btn-arrow">Meer over Wim</a>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-content">
-                <p class="contact-intro">Geinteresseerd in een samenwerking, lezing of workshop? Neem gerust contact op.</p>
-                <div class="contact-grid">
-                    <a href="mailto:wim.casteels@ap.be" class="contact-card">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                            <polyline points="22,6 12,13 2,6"></polyline>
-                        </svg>
-                        <span class="contact-label">E-mail</span>
-                        <span class="contact-value">wim.casteels@ap.be</span>
-                    </a>
-                    <a href="tel:+32485634672" class="contact-card">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                        </svg>
-                        <span class="contact-label">Telefoon</span>
-                        <span class="contact-value">+32 485 63 46 72</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/wim-casteels-213720b4/" class="contact-card" target="_blank" rel="noopener">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                            <rect x="2" y="9" width="4" height="12"></rect>
-                            <circle cx="4" cy="4" r="2"></circle>
-                        </svg>
-                        <span class="contact-label">LinkedIn</span>
-                        <span class="contact-value">Profiel bekijken</span>
-                    </a>
-                </div>
+            <div class="cta-block">
+                <h2 class="section-title">Een lezing of workshop voor je organisatie?</h2>
+                <p>Vertel wie je publiek is en wat je wilt bereiken. Dan maken we samen een sessie op maat.</p>
+                <a href="lezingen.html#aanvraag" class="btn btn-primary btn-arrow">Boek een lezing</a>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:wim.casteels@ap.be" class="card contact-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <span class="contact-label">E-mail</span>
+                    <span class="contact-value">wim.casteels@ap.be</span>
+                </a>
+                <a href="tel:+32485634672" class="card contact-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span class="contact-label">Telefoon</span>
+                    <span class="contact-value">+32 485 63 46 72</span>
+                </a>
+                <a href="https://www.linkedin.com/in/wim-casteels-213720b4/" class="card contact-card" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">Profiel bekijken ↗</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <div class="banner banner-bottom">
-        <img src="images/hetmaskervanai.jpg" alt="Het masker van AI banner">
-    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Wim Casteels",
+        "url": "https://wimcasteels.be",
+        "image": "https://wimcasteels.be/images/web/wim-casteels.webp",
+        "jobTitle": "Docent en onderzoeker IT & AI",
+        "worksFor": { "@type": "CollegeOrUniversity", "name": "AP Hogeschool Antwerpen", "url": "https://www.ap.be" },
+        "knowsAbout": ["Artificiële intelligentie", "AI-geletterdheid", "Data science", "AI-ethiek"],
+        "sameAs": [
+            "https://www.linkedin.com/in/wim-casteels-213720b4/",
+            "https://wimcasteels.substack.com",
+            "https://scholar.google.com/citations?user=fyQ8MmcAAAAJ",
+            "https://www.ap.be/expert/wim-casteels"
+        ]
+    }
+    </script>
 
+    </main>
     <footer class="footer">
-        <div class="container">
-            <p>&copy; <span id="year">2026</span> Wim Casteels. Alle rechten voorbehouden.</p>
+    <div class="container footer-grid">
+        <div class="footer-col">
+            <a href="index.html" class="logo logo-footer"><img src="images/logo.svg" alt="" class="logo-img" width="34" height="34">Wim Casteels</a>
+            <p>Lezingen en workshops over AI, kritisch en wetenschappelijk onderbouwd.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/wim-casteels-213720b4/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://wimcasteels.substack.com" target="_blank" rel="noopener" aria-label="Substack">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3h16v2.4H4zM4 7.6h16V10H4zM4 12.2h16V22l-8-4.5L4 22z"></path></svg>
+                </a>
+                <a href="mailto:wim.casteels@ap.be" aria-label="E-mail">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+            </div>
         </div>
-    </footer>
+        <div class="footer-col">
+            <h2 class="footer-title">Snel naar</h2>
+            <ul class="footer-links">
+                <li><a href="lezingen.html">Lezing en workshop</a></li>
+                <li><a href="lezingen.html#aanvraag">Lezing aanvragen</a></li>
+                <li><a href="boek.html">Het masker van AI</a></li>
+                <li><a href="nieuws.html">Nieuws</a></li>
+                <li><a href="over.html">Over en perskit</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h2 class="footer-title">Nieuwsbrief</h2>
+            <p>Elke week een kritische blik op AI, in je mailbox.</p>
+            <a href="https://wimcasteels.substack.com/subscribe" class="btn btn-primary btn-small subscribe-btn" target="_blank" rel="noopener">Abonneer gratis <span aria-hidden="true">↗</span></a>
 
-    <script src="script.js"></script>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <p>&copy; <span class="js-year">2026</span> Wim Casteels</p>
+        <p><a href="privacy.html">Privacy</a> · <button type="button" class="link-button js-consent-open">Cookie-instellingen</button></p>
+    </div>
+</footer>
+
+    <div class="consent" role="dialog" aria-live="polite" aria-label="Cookies" hidden>
+    <p>Mag deze site anonieme bezoekersstatistieken bijhouden via Google Analytics? Dat gebeurt alleen als je akkoord gaat. <a href="privacy.html">Meer info</a></p>
+    <div class="consent-buttons">
+        <button type="button" class="btn btn-secondary btn-small js-consent-deny">Weigeren</button>
+        <button type="button" class="btn btn-primary btn-small js-consent-accept">Akkoord</button>
+    </div>
+</div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>

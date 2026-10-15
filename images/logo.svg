@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Logo Wim Casteels">
+  <g stroke="#3A2459" stroke-width="1.2" stroke-linejoin="round">
+    <path d="M50 2 L56 44 L50 50 L44 44 Z" fill="#3A2459"/>
+    <path d="M50 98 L44 56 L50 50 L56 56 Z" fill="#3A2459"/>
+    <path d="M2 50 L44 44 L50 50 L44 56 Z" fill="#3A2459"/>
+    <path d="M98 50 L56 56 L50 50 L56 44 Z" fill="#3A2459"/>
+    <path d="M50 2 L44 44 L50 50 Z" fill="#F5EFE3"/>
+    <path d="M50 98 L56 56 L50 50 Z" fill="#F5EFE3"/>
+    <path d="M2 50 L44 56 L50 50 Z" fill="#F5EFE3"/>
+    <path d="M98 50 L56 44 L50 50 Z" fill="#F5EFE3"/>
+    <path d="M18 18 L47 44 L50 50 L44 47 Z" fill="#5B3A8C"/>
+    <path d="M82 18 L56 47 L50 50 L53 44 Z" fill="#5B3A8C"/>
+    <path d="M18 82 L44 53 L50 50 L47 56 Z" fill="#5B3A8C"/>
+    <path d="M82 82 L53 56 L50 50 L56 53 Z" fill="#5B3A8C"/>
+  </g>
+  <circle cx="50" cy="50" r="15" fill="#5B3A8C" stroke="#3A2459" stroke-width="1.2"/>
+  <text x="50" y="56" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#F5EFE3">AI</text>
+</svg>
