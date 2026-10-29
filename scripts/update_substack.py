@@ -1,6 +1,6 @@
 """Haalt de laatste edities van de Substack-nieuwsbrief op en schrijft ze naar substack.json.
 
-Draait elke zaterdag via .github/workflows/substack.yml. Lukt het ophalen niet,
+Wordt aangeroepen door scripts/nieuwsbrief.py. Lukt het ophalen niet,
 dan blijft het bestaande bestand ongewijzigd, zodat de site nooit een leeg blok toont.
 """
 import json
@@ -24,7 +24,7 @@ def main():
             root = ET.fromstring(response.read())
     except Exception as error:
         print(f"Feed niet opgehaald, bestaand bestand blijft staan: {error}")
-        return 0
+        return 1
 
     edities = []
     for item in root.iter("item"):
@@ -42,7 +42,7 @@ def main():
 
     if not edities:
         print("Geen edities gevonden, bestaand bestand blijft staan.")
-        return 0
+        return 1
 
     OUTPUT.write_text(json.dumps(edities, ensure_ascii=False, indent=4) + "\n", encoding="utf-8", newline="\n")
     print(f"{len(edities)} edities geschreven naar {OUTPUT}")

@@ -241,19 +241,11 @@ Regels uit de huisstijl:
 ### 9.1 Laatste nieuwsbriefedities automatisch tonen (P1)
 **Doel:** de homepage oogt elke week vers, zonder dat je iets hoeft bij te werken.
 
-**Werking:**
-- Een GitHub Action (`.github/workflows/substack.yml`) draait elke zaterdag om 10:00 UTC, kort na het verschijnen van de nieuwsbrief, en kan ook manueel gestart worden (`workflow_dispatch`).
-- Een klein script (`scripts/update_substack.py`) haalt `https://wimcasteels.substack.com/feed` op en schrijft de laatste 3 edities naar `substack.json`, met titel, datum (ISO), link, korte samenvatting en eventueel een coverafbeelding.
-- De Action commit alleen als er iets veranderd is. GitHub Pages publiceert de site daarna vanzelf opnieuw.
-- `script.js` laadt `substack.json` en toont een blok **"Uit de nieuwsbrief"** op de homepage, met 3 kaarten en de knop "Abonneer gratis".
-
-**Waarom via een Action:** Substack blokkeert ophalen vanuit de browser (CORS), dus een client-side fetch werkt niet.
-
-**Randvoorwaarden:**
-- Lukt het ophalen niet, dan blijft de vorige `substack.json` staan. De site toont nooit een leeg blok.
-- Het exacte feed-adres nakijken. Dat hangt af van je Substack-subdomein of eigen domein.
-- Opmaak volgens de huisstijl (sectie 8): paarse accenten op cream en een lichte datum-badge.
-- Plaats op de homepage: na het nieuwsblok, of samengevoegd met de tegel "Nieuwsbrief".
+**Werking (aangepast op 29 oktober 2026):**
+- Substack blokkeert verzoeken vanaf de servers van GitHub (403), dus een geplande GitHub Action werkt niet. Die is verwijderd.
+- Na een nieuwe editie: `python scripts/nieuwsbrief.py` vanuit de map van de website. Het script haalt de 3 laatste edities op (`scripts/update_substack.py`), schrijft ze naar `substack.json` en commit en pusht dat bestand alleen als er iets veranderd is.
+- `script.js` laadt `substack.json` en toont het blok **"Uit de nieuwsbrief"** op de homepage.
+- Lukt het ophalen niet, dan blijft de vorige `substack.json` staan en wordt er niets gecommit.
 
 ### 9.2 Kleine animaties (P2)
 **Doel:** de site een eigen, levendig gevoel geven zonder de rust van de huisstijl te verstoren. Alles in CSS en een paar regels JS, zonder extra bibliotheek.
