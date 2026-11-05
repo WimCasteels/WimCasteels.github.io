@@ -253,6 +253,39 @@ if (editions) {
         .catch(error => console.warn('Nieuwsbrief niet geladen:', error));
 }
 
+// Homepage: een willekeurige LinkedIn-post. De data komt uit posts-random.js
+// (gemaakt door build_posts_page.py), een gewoon script, zodat het ook lokaal werkt.
+const randomPost = document.getElementById('random-post');
+if (randomPost && window.POSTS_SAMPLE && window.POSTS_SAMPLE.posts.length) {
+    const { posts } = window.POSTS_SAMPLE;
+
+    let lastIndex = -1;
+    const showRandomPost = () => {
+        let index;
+        do {
+            index = Math.floor(Math.random() * posts.length);
+        } while (posts.length > 1 && index === lastIndex);
+        lastIndex = index;
+        const post = posts[index];
+        randomPost.href = `posts.html#post-${encodeURIComponent(post.id)}`;
+        randomPost.innerHTML = `
+            <time datetime="${escapeHtml(post.date)}" class="edition-date">${formatDate(post.date)}</time>
+            <h3>${escapeHtml(post.title)}</h3>
+            ${post.excerpt ? `<p>${escapeHtml(post.excerpt)}</p>` : ''}
+            ${post.themes.length ? `<div class="random-post-themes">${post.themes.map(t => `<span>${escapeHtml(t)}</span>`).join('')}</div>` : ''}
+            <span class="card-link">Lees de post →</span>`;
+        randomPost.classList.remove('is-new');
+        void randomPost.offsetWidth;  // herstart de animatie
+        randomPost.classList.add('is-new');
+    };
+
+    showRandomPost();
+    randomPost.hidden = false;
+    const randomButton = document.querySelector('.js-random-post');
+    randomButton.hidden = false;
+    randomButton.addEventListener('click', showRandomPost);
+}
+
 // Nieuwspagina: alle items, gegroepeerd per jaar
 const newsList = document.getElementById('news-list');
 if (newsList) {

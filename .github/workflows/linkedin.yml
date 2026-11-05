@@ -1,0 +1,55 @@
+name: LinkedIn-posts bijwerken
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # elke dag om 04:00 UTC (05:00 of 06:00 Belgische tijd)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: linkedin-posts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Brussels   # posts_store.py zet tijden om naar lokale tijd
+    steps:
+      - uses: actions/checkout@v5
+
+      # Alleen de changelog (laatste 28 dagen), niet de volledige snapshot.
+      # De ruwe data in data/ blijft op de runner en wordt nooit gecommit.
+      # Python staat al op de runner; de scripts gebruiken alleen de standaardbibliotheek.
+      - name: Nieuwe posts ophalen
+        env:
+          LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_TOKEN }}
+        run: python3 dma_sync.py changelog
+
+      - name: Postspagina bouwen
+        run: python3 build_posts_page.py
+
+      - name: Committen als er iets veranderd is
+        id: commit
+        run: |
+          if git diff --quiet -- posts.json posts.html posts-random.js; then
+            echo "Geen nieuwe posts."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add posts.json posts.html posts-random.js
+            git commit -m "LinkedIn-posts bijwerken"
+            git pull --rebase
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: GitHub Pages opnieuw laten bouwen
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages-build kon niet gestart worden; de volgende push bouwt de site opnieuw."

@@ -789,6 +789,90 @@ h1, h2, h3, h4 {
 }
 
 /* --------------------------------------------------------------------------
+   LinkedIn-posts (homepage): uitleg en een willekeurige post
+   -------------------------------------------------------------------------- */
+
+.posts-teaser {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 2.5rem 4rem;
+    align-items: center;
+}
+
+.posts-teaser .section-intro {
+    margin-bottom: 1.75rem;
+}
+
+.posts-teaser-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.random-post {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-height: 260px;
+    padding: 1.5rem 1.6rem;
+}
+
+.random-post[hidden],
+.js-random-post[hidden] {
+    display: none;
+}
+
+.random-post.is-new {
+    animation: random-post-in 0.45s ease-out;
+}
+
+@keyframes random-post-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: none; }
+}
+
+.random-post .edition-date {
+    align-self: flex-start;
+    margin-bottom: 0;
+}
+
+.random-post h3 {
+    font-size: 1.3rem;
+}
+
+.random-post p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.random-post-themes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+    padding-top: 0.25rem;
+}
+
+.random-post-themes span {
+    padding: 0.1rem 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-light);
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+}
+
+.random-post .card-link {
+    margin-top: 0.25rem;
+}
+
+@media (max-width: 860px) {
+    .posts-teaser {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --------------------------------------------------------------------------
    Formulieren
    -------------------------------------------------------------------------- */
 

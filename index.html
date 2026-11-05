@@ -41,6 +41,7 @@
             <li><a href="boek.html">Boek</a></li>
             <li><a href="index.html#nieuwsbrief">Nieuwsbrief</a></li>
             <li><a href="nieuws.html">Nieuws</a></li>
+            <li><a href="posts.html">Posts</a></li>
             <li><a href="over.html">Over</a></li>
             <li class="nav-cta-item"><a href="lezingen.html#aanvraag" class="btn btn-primary btn-small nav-cta">Boek een lezing</a></li>
         </ul>
@@ -165,7 +166,22 @@
         </div>
     </section>
 
-    <section id="nieuws" class="section">
+    <section id="posts" class="section">
+        <div class="container posts-teaser">
+            <div class="posts-teaser-text">
+                <span class="kicker">Op LinkedIn</span>
+                <h2 class="section-title">Korte posts over AI</h2>
+                <p class="section-intro">Bijna elke dag duidt Wim een AI-nieuwtje in een korte post op LinkedIn. Alle posts staan gebundeld op deze site, doorzoekbaar per thema en periode.</p>
+                <div class="posts-teaser-buttons">
+                    <button type="button" class="btn btn-primary js-random-post" hidden><span aria-hidden="true">🎰</span> Willekeurige post</button>
+                    <a href="posts.html" class="btn btn-secondary btn-arrow">Alle posts</a>
+                </div>
+            </div>
+            <a href="posts.html" class="card random-post" id="random-post" aria-live="polite" hidden></a>
+        </div>
+    </section>
+
+    <section id="nieuws" class="section section-alt">
         <div class="container">
             <h2 class="section-title">Nieuws</h2>
             <div class="news-cards" id="latest-news"></div>
@@ -175,7 +191,7 @@
         </div>
     </section>
 
-    <section id="over" class="section section-alt">
+    <section id="over" class="section">
         <div class="container narrow">
             <h2 class="section-title">Over Wim</h2>
             <p class="lead">Als fysicus en data scientist leerde Wim complexe systemen te ontrafelen. Vandaag is hij docent en onderzoeker IT &amp; AI aan de AP Hogeschool, en vertaalt hij AI naar een breed publiek: open voor innovatie, maar altijd met een kritische blik op de maatschappelijke impact.</p>
@@ -183,7 +199,7 @@
         </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section section-alt">
         <div class="container">
             <div class="cta-block">
                 <h2 class="section-title">Een lezing of workshop voor je organisatie?</h2>
@@ -254,6 +270,7 @@
                 <li><a href="lezingen.html#aanvraag">Lezing aanvragen</a></li>
                 <li><a href="boek.html">Het masker van AI</a></li>
                 <li><a href="nieuws.html">Nieuws</a></li>
+                <li><a href="posts.html">Posts</a></li>
                 <li><a href="over.html">Over en perskit</a></li>
             </ul>
         </div>
@@ -278,6 +295,7 @@
     </div>
 </div>
 
+    <script src="posts-random.js" defer></script>
     <script src="script.js" defer></script>
 </body>
 </html>
