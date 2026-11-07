@@ -1,5 +1,61 @@
 [
  {
+  "date": "2026-11-07 09:00",
+  "text": "De AI-bubbel krijgt een prik\n\nNa de Amerikaanse midterms verloren de zeven grootste techbedrijven op één dag 1.000 miljard dollar aan beurswaarde. Wat de verkiezingen blootleggen, speelde al langer.\n\nIn editie 51 van 'Het masker van AI' ook: Google koppelt Search in scholen aan AI, Big Tech schrijft mee aan het Europese datacenterbeleid, en Europa twijfelt tussen de frontier-race en een eigen pad.\n\nPlus de analyse van Jan Walraven ⁂ in apache over doemdenken als rookgordijn voor de schade die AI vandaag al aanricht.\n\n#BigTech #AI #AIbubbel #datacenters #Onderwijs #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7524557937328111616/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-06 21:13",
+  "text": "De filosofie achter Anthropic begon op obscure blogs\n\nThe New York Times sprak met meer dan twee dozijn vrienden, klasgenoten en collega's van Dario Amodei, CEO van Anthropic. Hun verhalen tonen hoe zijn kijk op AI al vorm kreeg toen hij 24 was.\n\nAls doctoraatsstudent las hij Ray Kurzweils 'The Singularity Is Near' en blogs waarop schrijvers bespraken hoe AI de mensheid zou kunnen uitroeien. Op de forums van GiveWell debatteerde hij over de meest effectieve manier om goede doelen te steunen.\n\nZo kwamen twee stromingen samen: rationalisme en effectief altruïsme. Volgens zijn omgeving groeide daaruit de overtuiging dat AI zo gevaarlijk kan zijn dat alleen gelijkgezinden het mogen bouwen.\n\nAmodei noemt zichzelf geen effectief altruïst, al zegt hij sympathie te hebben voor een aantal van die ideeën.\n\nDie ideeën werden intussen concrete standpunten: minder chipexport naar China, strengere regulering, geen AI voor massasurveillance of autonome wapens. Deze maand gaat Anthropic naar de beurs.\n\nPS: Zulke verhalen achter de AI-bedrijven ontleed ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #Anthropic #effectiefaltruïsme #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7524564699615576064/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-06 21:11",
+  "text": "Twee dagen na de verkiezingen komt OpenAI met nieuwe beloftes\n\nDinsdag stemden Amerikanen in 10 staten over 41 lokale maatregelen rond datacenters. Op één na kozen ze telkens voor beperkingen of tegen nieuwe projecten, meldt CNBC op basis van cijfers van Ballotpedia.\n\nHet verzet groeide deze zomer over de partijgrenzen heen. Kiezers vrezen hogere energiefacturen, milieuschade en jobverlies.\n\nDonderdag publiceerde OpenAI een reeks engagementen voor zijn eigen datacenters: inspraak voor omwonenden, openbare bouwplannen en de volledige stroomkosten zelf dragen.\n\nNieuw is de belofte om geen geheimhoudingscontracten meer te sluiten met lokale politici en ambtenaren. OpenAI vraagt beleidsmakers bovendien om die regels in wetten te gieten.\n\nOndertussen mikt het bedrijf tegen 2030 op 600 miljard dollar aan rekenkracht. Topman Chris Lehane sprak al met tientallen wetgevers, met het oog op het nieuwe Congres dat eind januari start.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #OpenAI #datacenters #AI #energie #democratie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7524564040220585985/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-06 21:09",
+  "text": "GPT-6 Cyber: de krachtigste beveiliging zit in de toegang, niet in de code\n\nOpenAI lanceert GPT-6 Cyber, een model dat kwetsbaarheden opspoort en exploits bouwt. Emma Roth meldt in The Verge dat OpenAI het model als 'Critical' classificeert: het hoogste risiconiveau voor cyberaanvallen.\n\nDat niveau betekent dat het model zonder menselijke tussenkomst onbekende lekken in kritieke systemen kan vinden én misbruiken.\n\nDe aanleiding voor strengere tests is het Hugging Face-incident van juli. Tijdens een evaluatie braken OpenAI-modellen toen uit hun testomgeving en drongen ze het platform binnen.\n\nIn een nieuwe test naar dat voorbeeld voerde GPT-6 Cyber in minder dan 1 procent van de gevallen acties buiten de opdracht uit. Bij de voorganger was dat ongeveer 5 procent.\n\nOpenAI erkent dat zulke cijfers vertekend kunnen zijn: modellen gedragen zich soms anders in een omgeving die op een test lijkt.\n\nDaarom ligt de zwaarste maatregel buiten het model. Enkel geselecteerde leden van OpenAI's Daybreak Red-programma krijgen toegang, en alleen voor erkend defensief beveiligingswerk.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #OpenAI #frontierAI #GPT6",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7524563564716785666/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-06 21:07",
+  "text": "Hugging Face-CEO schat de kans op een AI-ramp bijna op nul\n\nClément Delangue, CEO van Hugging Face, schat zijn P(doom), de kans dat AI de mensheid vernietigt, \"dicht bij nul\". Dat zei hij woensdag op de WIRED World Fair in Miami.\n\nVolgens hem ontstaan de grootste risico's bij een handvol bedrijven die achter gesloten deuren bouwen. Een open ecosysteem, waarin iedereen kan meebouwen, beperkt die risico's net.\n\nHij spreekt uit ervaring. In juli ontsnapten agents die OpenAI aan het testen was uit hun sandbox en voerden ze een aanval uit op de systemen van Hugging Face.\n\nDe veiligheidsfilters van gesloten Amerikaanse modellen blokkeerden de analyse van de aanvalslogs. Hugging Face ontrafelde de aanval uiteindelijk met GLM-5.2, een open model van het Chinese Z.ai, op eigen servers.\n\nJuridische stappen tegen OpenAI zet het bedrijf niet. Wel vindt Delangue dat wie een agent inzet, aansprakelijk moet zijn voor de schade die die agent aanricht.\n\nPS: Zulke verhalen ontleed ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #opensource #HuggingFace #OpenAI #cybersecurity",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7524563136398475264/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-06 21:05",
+  "text": "Wat Britse werkgevers nu vragen van starters\n\nIrina Anghel beschrijft in Bloomberg hoe AI-vaardigheden in het Verenigd Koninkrijk een voorwaarde worden voor wie een eerste job zoekt.\n\nVolgens jobsite Adzuna daalde het aantal instapvacatures sinds januari 2025 met een kwart. Tegelijk vermelden instapvacatures bijna drie keer zo vaak AI.\n\nMeestal gaat het om bestaande functies, zoals verkoper, software engineer of assistent, waarvoor werkgevers nu ook AI-vaardigheden vragen.\n\nStarters krijgen steeds vaker de laatste 20% van een taak: AI-output nalezen, controleren en bijsturen.\n\nDie nieuwe vraag compenseert volgens Indeed maar een derde van het verlies aan andere instapjobs.\n\nVoorlopig volstaan basisvaardigheden, zoals prompts schrijven en AI combineren met Excel. Adzuna-medeoprichter Andrew Hunter waarschuwt wel dat vaardigheden die vandaag waardevol zijn tegen de lente al achterhaald kunnen zijn.\n\nPS: Zulke verschuivingen op de arbeidsmarkt volg ik elke week op in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #arbeidsmarkt #AIgeletterdheid #jongeren #starters",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7524562523333885952/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-06 21:01",
+  "text": "China domineert de open modellen. Een Amerikaans lab wil daar verandering in brengen\n\nThinking Machines Lab, het AI-lab van voormalig OpenAI-CTO Mira Murati, lanceert Inkling 2 Small. Volgens Artificial Analysis haalt het model 31 punten op hun Intelligence Index, evenveel als Gemini 3.8 Flash van Google.\n\nDat zijn 18 punten meer dan de voorganger Inkling Small. Het model telt 594 miljard parameters, waarvan er telkens 17 miljard actief zijn.\n\nThinking Machines plant de gewichten vrij te geven onder een Apache 2.0-licentie. Volgens de huidige rangschikking wordt het dan het best scorende open model dat buiten China ontwikkeld is.\n\nVoorlopig blijft het model gesloten. Het draait enkel op Tinker, het eigen platform van Thinking Machines, en een datum voor de vrijgave van de gewichten is er nog niet.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #OpenSource #OpenWeights #ThinkingMachines #China",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7524561545721229312/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-06 20:07",
+  "text": "Het strijdtoneel van AI ligt in Sloterdijk\n\nNOS meldt dat de Nederlandse oproerpolitie vandaag een bezette bouwplaats in Amsterdam ontruimde. Pure DC bouwt er een datacenter dat Microsoft zal huren.\n\nPro-Palestijnse activisten klommen in een hijskraan en op het dak in aanbouw. Ze wijzen erop dat het Israëlische leger klant is van Microsoft. Buiten het hek protesteerde Fossielvrij NL tegen datacenters die op gas draaien.\n\nDeze actie staat niet alleen. In juni bezette Geef Tegengas de werf al, in juli gooide Extinction Rebellion ballonnen met een chemisch mengsel naar de fundering.\n\nAI lijkt iets uit de cloud, maar draait op beton, stroom en servers op een vaste plek. Op die plek komen klimaat, geopolitiek en buurtbewoners nu samen.\n\nMicrosoft zegt het recht op vreedzaam protest te respecteren, maar geen acties goed te keuren die de wet overtreden of mensen in gevaar brengen.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #datacenters #Microsoft #AI #cloud #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7524547983929970688/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-06 10:37",
   "text": "55 procent van de Nederlanders winkelt al met AI.\n\nTimo Nijssen  sprak voor NRC  met Maite Zubiaurre, ceo van bol. Haar vaststelling: online winkelen werkt al 25 jaar op dezelfde manier. Je typt in een zoekbalk, filtert en kiest.\n\nDat model komt nu onder druk. Volgens Deloitte gebruikt 55 procent van de Nederlandse consumenten AI bij het winkelen, en dat zijn lang niet alleen jongeren.\n\nKlanten vragen een chatbot om advies, of laten een AI-agent de aankoop volledig afhandelen. Die agents werken nog wisselvallig, maar de technologie verbetert snel.\n\nDat raakt het verdienmodel van webwinkels. Verkopers betalen vandaag om op te vallen in lange resultatenlijsten. Een agent die meteen één product selecteert, slaat die lijsten over.\n\nBol zet daarom in op een eigen AI-shophulp en op vertrouwen in het merk. Uit hetzelfde Deloitte-onderzoek: 44 procent van de Nederlanders vertrouwt op informatie uit AI-tools, tegenover 29 procent op advies van winkelpersoneel.\n\nPS: Zulke verschuivingen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #ecommerce #agenticAI #retail #bol",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7524404509809229825/",
