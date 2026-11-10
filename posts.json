@@ -1,5 +1,117 @@
 [
  {
+  "date": "2026-11-10 12:58",
+  "text": "Een team van agents beheren is geen rustige job\n\nPilita Clark stelt in de Financial Times een vraag die HR-afdelingen bezighoudt: verdient een manager evenveel als zijn team uit AI-agents bestaat in plaats van mensen?\n\nWie denkt dat agents aansturen makkelijker is dan mensen leiden, komt bedrogen uit. Onderzoekers spreken van \"AI brain fry\": de mentale overbelasting van systemen opvolgen die razendsnel en zonder pauze taken uitvoeren.\n\nBrian Elliott, voormalig executive bij Google en Slack, beperkt zich bewust tot twee of drie agents tegelijk. Meer wordt onwerkbaar.\n\nDaarbovenop crashen agents niet en tonen ze geen foutmelding. Ze produceren foute output zonder waarschuwing, en alleen een mens die alles nakijkt, merkt het op.\n\nDat toezicht groeit uit tot een vak op zich. Volgens hiring databedrijf Draup steeg het aantal bankvacatures rond \"responsible AI\" op een jaar tijd met bijna 660 procent.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #agenticAI #management #leiderschap #HR",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525889620736266240/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 12:52",
+  "text": "Een bedrijf van 4,5 biljoen dollar, zonder plan B\n\nNvidia-CEO Jensen Huang gaf zondag toe dat hij een affaire had met een vrouw die verdacht wordt van spionage voor China. De raad van bestuur start een onafhankelijk onderzoek, maar zegt nog vertrouwen te hebben in Huang.\n\nSemafor zet op een rij hoe dun de governance is bij het bedrijf dat de chips levert voor de AI-boom. Bestuurders zitten er gemiddeld bijna 15 jaar, zowat dubbel zo lang als bij een doorsnee S&P 500-bedrijf.\n\nGeen enkele bestuurder is huidig of voormalig CEO van een groot beursbedrijf. Niemand heeft ervaring met nationale veiligheid.\n\nEen duidelijke nummer twee is er evenmin: geen president, geen COO. Huang stuurt rechtstreeks meer dan 50 mensen aan.\n\nHet aandeel verloor maandag 5%, goed voor meer dan 200 miljard dollar beurswaarde.\nHet woord \"succession\" komt in Nvidia's recentste jaarverslag geen enkele keer voor. Bij Microsoft staat het er 25 keer in.\n\nPS: Wekelijks ontleed ik zulke AI-verhalen in de nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #Nvidia #AI #CorporateGovernance #AIchips #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525887995128791040/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 12:50",
+  "text": "Negen op de tien codewijzigingen bij Anthropic komen van Claude\n\nAnthropic lanceerde gisteren Claude Fable 5.2 en Mythos 5.2. In de aankondiging staat een opvallend cijfer: meer dan 90% van de wijzigingen in de eigen codebasis schrijft Claude, met menselijke begeleiding.\n\nDe voorbeelden tonen hoe dat werk eruitziet. Een team van agents zette een productiedienst om van Python naar Rust. Die dienst start nu ongeveer 26 keer sneller op.\n\nIn een experiment kreeg het model een lege map en de opdracht om een besturingssysteem te bouwen. Meer dan 1.000 subagents schreven, testten en reviewden acht dagen lang code. Het resultaat start op een laptop, met drivers, bestandsopslag, vensters en een installer.\n\nHet werk van een ontwikkelaar verschuift zo naar opdrachten formuleren, uitvoer controleren en verantwoordelijkheid dragen voor wat in productie gaat.\n\nAlle cijfers komen van Anthropic zelf, zonder onafhankelijke controle. Fable 5.2 is sinds gisteren voor iedereen beschikbaar, aan 8 dollar per miljoen inputtokens en 40 dollar per miljoen outputtokens.\n\nPS: Wekelijks ontleed ik dit soort AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #Claude #Anthropic #softwareontwikkeling #programmeren",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525887590097395712/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 12:48",
+  "text": "Meta lanceert zijn goedkoopste AI-model tot nu toe\n\nMeta Superintelligence Labs bracht maandag Muse Ember uit, het lichtste model uit de Muse-reeks. Russell Brandom zet de details op een rij in TechCrunch.\n\nEmber is gebouwd voor het repetitieve werk van AI-agents: tools aanroepen, kleine programmeertaken uitvoeren, gegevens uit lange documenten halen.\n\nDe prijs: 10 cent per miljoen inputtokens. Tokens zijn de stukjes tekst die een model verwerkt, en een miljoen ervan staat grofweg gelijk aan enkele romans.\n\nVolgens Meta scoort Ember beter en kost het minder dan Anthropic's Haiku en OpenAI's Luna. Die vergelijking komt van Meta zelf, op basis van de samengestelde score van Artificial Analysis.\n\nHet idee erachter: een groter model zoals Muse Wonder stelt de regels op, Ember past ze toe op tienduizenden gevallen. Naast tekst verwerkt Ember ook screenshots, scans en spraakmemo's.\n\nEmber is het vierde Muse-model in zeven maanden, na Spark in april, Glimmer in augustus en Wonder in oktober.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #Meta #AIagents #generatieveAI #LLM",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525887141218902016/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 12:44",
+  "text": "China heeft geen guardrails, dus wij ook niet?\n\nIn een interview met Ross Douthat voor 60 Minutes zegt Donald Trump dat hij geen bezwaar heeft tegen guardrails voor AI. Maar hij wil de VS niet \"in een diepe tweede positie\" brengen.\n\nZijn redenering: als de VS het niet ontwikkelt, doet China het. En China heeft volgens hem geen guardrails. Wie die race wint, wint.\n\nIn die logica wordt veiligheid een kostenpost in een wedstrijd, en geen voorwaarde om te mogen bouwen.\n\nOpvallend: de bedrijven die de modellen bouwen, vragen zelf om voorzichtigheid. Anthropic, OpenAI en xAI pleitten in september voor een vertraging. Trump noemt het risico nu \"lang niet zo reëel\" als zij beweren, en \"beheersbaar\".\n\nHoe dat beheer eruit moet zien, zegt hij niet. In september schreef hij nog dat de enige guardrail die AI nodig heeft een sterke president is.\n\nPS: Elke week leg ik zulke redeneringen onder de loep in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #AIregulering #China #Trump #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525886150884982784/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 12:42",
+  "text": "Tencent waarschuwt voor de biologische capaciteiten van zijn eigen sector\n\nVinces Yao Shunyu, chief AI scientist bij Tencent en voormalig onderzoeker bij OpenAI, zei zaterdag dat AI-modellen binnenkort bruikbaar worden om in de biologie echte schade aan te richten. Vincent Chow bracht het verhaal in de South China Morning Post.\n\nNa cybersecurity wordt biologie het volgende dual-use-domein: dezelfde capaciteiten versnellen de ontwikkeling van geneesmiddelen, maar kunnen ook helpen bij het maken van biowapens.\n\nVolgens Yao zijn die twee kanten in de biologie moeilijker te scheiden dan bij cyber. Bij zijn nieuwe model Hy4 filterde Tencent de data voor hacking tijdens de training weg, terwijl de defensieve capaciteiten bleven.\n\nVoor biologie blijft Hy4 volgens Tencent \"ruim onder\" de risicodrempel, omdat het model biologische basiskennis niet omzet in uitvoerbare protocollen.\n\nYao roept bedrijven die open modellen uitbrengen op om voorzichtig te zijn. Tencent publiceert de weights van Hy4 binnenkort, samen met een system card over de cyber- en bioveiligheidstests.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #Tencent #biotechnologie #openweights #China",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525885607013724176/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 12:21",
+  "text": "Dit studentenproject leeft verder bij Kanzo\n\nBers Goudantov, Mauro De Mey en Jarno De Smedt, AI-studenten Toegepaste Informatica aan AP Hogeschool Antwerpen, staan in de Next Gen-editie van SAI Update van SAI Belgium. Hun Applied AI Project van vorig jaar is een van de twaalf geselecteerde studentenprojecten uit heel Vlaanderen.\n\nVoor Kanzo, een organisatie die generatiearmoede wil doorbreken, bouwden ze samen met Tropos.io het dataplatform Kanzo Insight. Gegevens uit Salesforce stromen automatisch naar Snowflake, met controles op de datakwaliteit, en Power BI-dashboards tonen waar en hoe gezinnen begeleid worden.\n\nDaarnaast testten ze of taalmodellen gespreksnotities per levensdomein kunnen indelen, met een tweede model als controle op foute output. Dat bleef bewust een experiment, gezien de gevoelige persoonsgegevens.\n\nZie comments voor link naar volledige artikel.\n\nBedankt aan Rik Rijnders, Bob Claerhout, Niels Palmans, Dieter Van Rooy en Christophe Cop om dit mee mogelijk te maken!\n\nPS: Wekelijks ontleed ik AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Onderwijs #AI #data #studentenproject #APHogeschool #socialeimpact",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525880307971981313/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 08:22",
+  "text": "Anthropic koopt geen chips, maar generatoren\n\nVolgens de Financial Times kocht Anthropic eind september voor $3,4 miljard aan gasgeneratoren, samen goed voor 1,7 gigawatt. Geen enkel AI-lab deed voor zover bekend ooit een grotere aankoop van stroomapparatuur.\n\nAnthropic nam de bestellingen bij Caterpillar over van OnePWR, een leverancier uit Texas die ze twee jaar geleden plaatste maar de financiering niet rondkreeg. Zo krijgt Anthropic motoren die snel leverbaar zijn, tegen prijzen van vóór de recente stijging.\n\nTurbines en generatoren zijn schaars en op nieuwe exemplaren wacht je jaren. Wie wacht op een energiebedrijf, wacht ook op rekenkracht.\n\nAnthropic is niet de enige. xAI kocht dit jaar voor $2 miljard aan mobiele gasturbines en Alphabet nam eind 2025 energieontwikkelaar Intersect over.\n\nAnthropic heeft intussen bijna $900 miljard aan verplichtingen voor rekenkracht tot 2045. Een deel van die rekenkracht zal draaien op gas uit eigen generatoren.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #Anthropic #datacenters #energie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525820115427196928/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 08:19",
+  "text": "Na de koelkasten van Delhaize: Polen wil afschrikking zoals tijdens de Koude Oorlog\n\nOp 2 november liep de temperatuur in koelkasten en diepvriezers van tientallen Belgische supermarkten op. Delhaize, Colruyt en Carrefour moesten voedsel weggooien na een cyberaanval op hun koelsystemen.\n\nVoor de Poolse vicepremier Krzysztof Gawkowski is dat slechts een voorproefje. In Euronews pleit hij voor een Europese afschrikking naar het model van 'mutually assured destruction' uit de Koude Oorlog.\n\nZijn redenering: krachtige taalmodellen maken aanvallen op kritieke infrastructuur goedkoper en toegankelijker. Polen verwacht daardoor in 2027 tien keer meer cyberaanvallen. Wie aanvalt, moet weten dat er een tegenaanval volgt.\n\nGawkowski verwerpt ook de term 'hybride oorlogsvoering'. Volgens hem gebruiken NAVO-landen die term om artikel 5 niet te hoeven activeren.\n\nDe NAVO herzag haar AI-strategie voor het laatst in 2024.\n\nPS: Zulke verhalen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #NAVO #Europa #defensie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525819506305310722/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 08:18",
+  "text": "Waarom bouwt Google zoveel TPU's?\n\nGoogle kondigde gisteren twee nieuwe AI-chipsystemen aan: TPU 8tx en TPU 8i Max. Samen met de TPU 8t en 8i uit april zijn dat er vier in één jaar, voor het eerst in de geschiedenis van het bedrijf.\n\nTPU 8tx houdt gevoelige data versleuteld, ook tijdens de verwerking. Dat richt zich op overheden, banken en de zorg. TPU 8i Max zet twee chips op één pakket, voor modellen die volledige codebases of uren video tegelijk verwerken.\n\nDat tempo is mogelijk omdat Google nieuwe systemen bouwt rond bestaande chips. Een nieuwe chip ontwerpen duurt jaren, een nieuw systeem enkele maanden.\n\nTegelijk verlaagt Google de drempel: PyTorch-code draait nu zonder herschrijven op TPU's. Net die software hield veel ontwikkelaars bij Nvidia.\n\nTPU's zijn intussen een eigen business met bijna 100 klanten, van AI-labs tot handelsfirma's en universiteiten. Sommige klanten plaatsen de chips zelfs in hun eigen datacenter.\n\nPS: Wil je zulke ontwikkelingen elke week helder geduid krijgen? Lees mee in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #Google #Nvidia #chips #AIagents",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525819220761362433/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 08:17",
+  "text": "Wat doet een vliegtuigmotor in een datacenter?\n\nSteeds meer AI-datacenters wekken hun eigen stroom op met omgebouwde straalmotoren uit afgedankte vliegtuigen, meldt TechCrunch op basis van The New York Times. De motoren draaien op aardgas.\n\nDe reden is tijd. Een aansluiting van 100 megawatt op het stroomnet in Noord-Virginia duurt volgens het Internationaal Energieagentschap zo'n zeven jaar. Met straalmotoren kan een datacenter binnen twee jaar draaien.\n\nxAI plaatste er acht om zijn Colossus 2-datacenter in Memphis van stroom te voorzien. Crusoe, dat de eerste Stargate-site van OpenAI in Texas bouwt, bestelde er dertien.\n\nDie snelheid heeft een prijs. De omgebouwde motoren zijn minder efficiënt en stoten meer uit dan turbines van een klassieke gascentrale. Voor dezelfde hoeveelheid stroom heb je er ook meer nodig.\n\nWie niet wil wachten, kan klanten verliezen. Microsoft trok zich vorige maand terug als hoofdklant van een datacenter in Engeland, omdat het lokale net pas begin jaren 2030 genoeg stroom kan leveren.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #datacenters #energie #klimaat #duurzaamheid",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525818968197185536/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 08:15",
+  "text": "Macron wil AI verbieden waar het kinderen schaadt\n\nDe Franse president Emmanuel Macron wil AI verbieden overal waar het een risico vormt voor de mentale gezondheid van kinderen. Dat zei hij in een interview met Les Echos, meldt Le Monde.\n\nVandaag ondertekenen AI-labs, waaronder OpenAI en Anthropic, een charter op het Paris Peace Forum. Ze verbinden zich tot onafhankelijke evaluaties van generatieve AI-systemen en geven toegang tot de data van hun modellen.\n\nDe kern is een pre-audit en pre-certificatie: modellen worden doorgelicht voor ze bij kinderen terechtkomen.\n\nMacron trekt dat breder. Hij spreekt van het begin van regulering van frontier-AI, met drie risicodomeinen: kinderen, democratische veiligheid en nationale veiligheid.\n\nKinderbescherming wordt zo de eerste stap naar toezicht op de krachtigste modellen.\n\nHet charter moet de nationale en Europese wetgeving voeden. Macron wil dat ook de VS en Canada het Franse voorbeeld volgen.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #kinderen #AIregulering #frontierAI #Europa",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525818525513564161/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-09 20:10",
+  "text": "Eén AI-model, twee datacenters, 9.000 mijl ertussen\n\nDe startup Core Automation trainde een AI-model van 32 miljard parameters, verdeeld over twee clusters: 160 B300-GPU's in de VS en 160 GB300-GPU's in Azië, zo'n 14.500 kilometer van elkaar.\n\nNormaal staat alle hardware voor zo'n training in één datacenter, verbonden met supersnelle interne netwerken. Hier verbond één link van 25 Gbps de twee sites.\n\nDe aanpak: elke site traint lokaal op een eigen deel van de data. Om de 50 stappen wisselen de sites updates uit, niet het hele model tegelijk maar stukje per stukje, gecomprimeerd en gespreid in de tijd.\n\nHet resultaat scoorde iets beter dan standaardtraining met evenveel rekenkracht.\n\nVolgens de auteurs zijn stroom, netinfrastructuur en grond de echte flessenhals, niet de chips. Kleinere, verspreide clusters raken wel sneller online.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #LLM #rekenkracht #datacenters #GedistribueerdeTraining",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525635919815786496/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-09 19:33",
+  "text": "Het curriculum veroudert sneller dan de studenten afstuderen\n\nRajesh Nambiar, voorzitter van de Indiase IT-federatie Nasscom, waarschuwt in een interview met Nikkei Asia dat pas afgestudeerden moeilijk aan een techjob zullen raken. Bedrijven automatiseren instapwerk zoals coderen en softwaretesten met AI.\n\nVolgens Nambiar ligt een groot deel van de oplossing bij het onderwijs. Past dat zich niet snel genoeg aan, dan studeren jongeren af met vaardigheden die al verouderd zijn.\n\nHet gaat om veel mensen. India telt bijna 5.900 ingenieurs- en technologieopleidingen, met samen bijna 2,6 miljoen ingeschreven studenten.\n\nOok het verdienmodel van de sector verandert. Klanten betalen steeds vaker voor resultaten en minder voor het aantal mensen op een project. Daardoor verwacht de sector iets anders van starters.\n\nDe Indiase overheid geeft intussen al AI-les aan kinderen vanaf acht jaar. Via een online cursusplatform behaalden 1,3 miljoen mensen een certificaat in AI, data-analyse of cybersecurity.\n\nPS: Elke week ontleed ik zulke verschuivingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Onderwijs #AI #India #arbeidsmarkt #ITopleiding #AIgeletterdheid",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525626568602435585/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-09 15:43",
+  "text": "Een Chinees model, bijgetraind met Westerse waarden\n\nDe sterkste open AI-modellen komen vandaag vaak uit China. Bij politiek gevoelige onderwerpen weigeren ze geregeld te antwoorden, ontwijken ze de vraag of herhalen ze het officiële standpunt van de Communistische Partij.\n\nHet Amerikaanse Nous Research trainde daarom Alibaba's Qwen3.8-27B bij met zo'n 53 miljoen tokens aan geselecteerde voorbeelden. Het resultaat, Arete-27B, moet volgens Nous \"Westerse waarden\" versterken.\n\nNous testte het model op 803 vragen over onder meer vrije meningsuiting, democratie en privacy. Het aandeel antwoorden met propaganda daalde van 22% naar 1%, en de algemene prestaties bleven volgens Nous gelijk.\n\nVolgens Nous blijkt de politieke laag in het model dun. Wie de gewichten van een open model heeft, kan er dus elk waardenkader in trainen, in welke richting ook.\n\nGrok, het model van Elon Musks xAI, beoordeelde de antwoorden. Een onafhankelijke replicatie is er nog niet.\n\nPS: Elke week duid ik zulke verschuivingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #China #OpenSource #LLM #Qwen",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525568642885918721/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-09 15:40",
+  "text": "China bouwt een AI-datacenter voor een vijfde van de prijs\n\nAnalisten van SemiAnalysis bezochten in september Galaxy, een datacentercampus in Ulanqab, Binnen-Mongolië. Galaxy krijgt tot 800 megawatt aan IT-capaciteit, ongeveer evenveel als de kern van de Stargate-campus van OpenAI in Abilene, Texas.\n\nDe eerste fase van 120 megawatt was binnen het jaar klaar, voor ongeveer een vijfde van wat zo'n bouw in de VS kost.\n\nBouwer Envision maakt windturbines. Het bedrijf bouwt zelf de windparken, de stroomlijn, de batterijopslag en de elektrische installatie. De fabriek voor turbinebladen staat aan de overkant van de straat.\n\nHet helpt dat er veel arbeidskrachten zijn en dat de stroom er zo'n 5,5 dollarcent per kilowattuur kost. In de zone rond Galaxy werken bijna 30.000 bouwvakkers aan 22 datacenterprojecten.\n\nIn Binnen-Mongolië zijn intussen projecten voor zo'n 25 gigawatt aangekondigd. Galaxy moet eind 2027 helemaal klaar zijn.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #datacenters #China #energie #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7525568087702798337/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-09 12:35",
   "text": "'Thuis' toont wat er achter een begripvolle chatbot zit\n\nIn Thuis zoekt Andreas steeds vaker steun bij chatbot Tara, die hij de stem van Britt gaf. VRT gebruikt de verhaallijn om een breed publiek over AI te laten nadenken.\n\nDat zo'n chatbot menselijk aanvoelt, is geen toeval. Het systeem formuleert in de ik-vorm, reageert persoonlijk en sluit af met de vraag of je nog iets wilt weten.\n\nVolgens An Jacobs van de VUB zit daar bewust ontwerp achter, afgestemd op menselijke psychologie.\n\nKlaas Baert, die bij VRT aan AI-toepassingen werkt, maakt een helder onderscheid: een model dat empathische taal genereert, is daarom nog niet empathisch.\n\nDaarnaast speelt een verdienmodel. Hoe vaker je terugkeert naar het platform, hoe meer het oplevert.\n\nJacobs koppelt veel negatieve kanten van digitale technologie aan precies dat verdienmodel. \n\nPS: Wekelijks haal ik het masker van zulke AI-verhalen af in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #chatbots #AIgeletterdheid #Thuis #VRT",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7525521356319272961/",
