@@ -1,5 +1,89 @@
 [
  {
+  "date": "2026-11-11 11:17",
+  "text": "Eerst miljarden verdienen, dan kiezen wie geholpen wordt\n\nTomas Vanheste zet in Knack de tegenstellingen rond Anthropic op een rij, nu de beursgang van het AI-bedrijf nadert.\n\nIn de prospectus spreekt Anthropic van de grootste economische kans uit de geschiedenis. In hetzelfde document waarschuwt het bedrijf voor catastrofale en zelfs existentiële risico's.\n\nDaarbovenop komt een belofte: de zeven oprichters schenken 80 procent van wat de beursgang hen oplevert aan filantropie.\n\nDie keuze sluit aan bij effectief altruïsme, een beweging waarmee Anthropic banden heeft. Ze berekent welk goed doel per geïnvesteerde euro het meeste oplevert.\n\nHoogleraar Felienne Hermans (VU Amsterdam) zet daar een kanttekening bij: wie veel geld verdient, krijgt zo ook de macht om te bepalen welke goede doelen het geld krijgen.\n\nHaar alternatief: laat de oprichters veel belasting betalen en beslis democratisch waar dat geld naartoe gaat.\n\nPS: Wekelijks ontleed ik zulke verhalen in de nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #Anthropic #effectiefaltruisme #filantropie #BigTech #AI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526226518583279617/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-11 11:08",
+  "text": "Anthropic bouwt een kantoor rond zijn chatbot\n\nAnthropic stelde dinsdag een reeks kantoortools voor: een assistent voor videogesprekken, een dashboardtool en Claude Sheets, een spreadsheet met Claude ingebouwd.\n\nDaarmee gaat het bedrijf de concurrentie aan met Microsoft en Google, twee van zijn eigen investeerders. Begin oktober bracht Anthropic Claude nog via een add-on naar Google Docs en Sheets.\n\nBelangrijker: Adobe, Atlassian en HubSpot kunnen een versie van hun apps nu binnen Claude laten draaien. Wie in Claude werkt, hoeft die software niet meer apart te openen.\n\nClaude Sheets is volgens Anthropic zelf nog \"vrij basic\". Voor zware rekenmodellen verwijst het bedrijf naar zijn plug-ins voor Excel en Google Sheets.\n\nHoe meer werk in het chatvenster gebeurt, hoe minder reden er is om andere software te openen. Anthropic gaat later deze maand naar de beurs, met een beoogde waardering van ongeveer 1.400 miljard dollar.\n\nPS: Zulke verschuivingen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #Anthropic #Claude #generatieveAI #software",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526224297141649408/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-11 11:06",
+  "text": "Signal doorstaat een wiskundige test, met AI-hulp\n\nOnderzoekers van Google DeepMind gebruikten een nieuwe tool, AlphaProof Code, om belangrijke cryptografische garanties van het Signal-protocol formeel te verifiëren.\n\nFormele verificatie toont met wiskunde aan dat software doet wat ze moet doen. AI-agents versnellen het tijdrovende opstellen van de bewijzen: dit project duurde vier weken.\n\nHet Signal-protocol beveiligt berichten in Signal, WhatsApp en Google Messages. De analyse vond geen nieuwe kwetsbaarheden.\n\nAls controle testten de onderzoekers ook oudere versies met bekende, al lang opgeloste fouten. Die versies konden niet geverifieerd worden, en de tool spoorde de gekende fouten correct op.\n\nDe reikwijdte blijft beperkt: de volledige Signal-app werd niet geverifieerd. Op cruciale momenten stuurden en controleerden mensen het proces.\n\nDeepMind publiceert de specificatie en het bewijs zodat anderen erop kunnen voortbouwen. Hoeveel de analyse kostte, wil Google niet zeggen.\n\nPS: Elke week zet ik zulke AI-ontwikkelingen op een rij in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #encryptie #GoogleDeepMind #formeleverificatie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526223850598993920/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-11 11:04",
+  "text": "De fouten van AI verschuiven van feiten naar kwaliteit\n\nEthan Mollick testte Claude Fable 5.2, het nieuwe model van Anthropic. Hij noemt het \"Jagged AGI\": op veel computertaken haalt het expertniveau, maar niet overal.\n\nHet model produceerde onder meer zes spelletjes voor een kleine USB-controller, een businessplan en een onderzoekspaper van 182 pagina's.\n\nDe zwakke plekken zitten niet meer in rekenfouten of verzonnen feiten. Ze zitten in kwaliteit: werk dat te lang, te repetitief of te saai uitvalt.\n\nEen agentproject dat 3D-werelden moest bouwen, produceerde een regelboek van 87.500 woorden. De output zakte naar een dozijn werelden per dag.\n\nDe ingebouwde controle-agents vingen fouten op, maar signaleerden nooit dat het resultaat te lang of te saai was. Die beoordeling bleef bij Mollick.\n\nHij zou het model geen bedrijf alleen laten runnen. Een deel van de fouten begon wel bij zijn eigen vage instructies.\n\nPS: Elke week ontleed ik zulke ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #Claude #Anthropic #AGI #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526223441709088769/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-11 11:03",
+  "text": "De mens achter de machine is een freelancer\n\nMercor haalde gisteren 750 miljoen dollar op, bij een waardering van 20 miljard. Het bedrijf verkoopt geen AI-model, het verkoopt menselijke expertise.\n\nDe groei is uitzonderlijk. Volgens medeoprichter Brendan Foody steeg de geannualiseerde omzet in 27 maanden van 1 miljoen naar 3 miljard dollar. In februari was dat nog 1 miljard.\n\nMeer dan 5 miljoen experts werken via het platform: artsen, juristen, ingenieurs, consultants. Ze beoordelen de output van AI-modellen en leveren voorbeelden van hoe goed werk eruitziet.\n\nZe werken per opdracht, als freelancer. Hun vakkennis wordt zo trainingsdata voor systemen die later net die taken moeten uitvoeren.\n\nMercor richt zich nu ook op gewone bedrijven. Volgens het bedrijf telt de VS alleen al meer dan 800 beroepen waarvan de taken nog niet tegen AI-modellen getest zijn. Elk van die beroepen is een nieuwe markt en een nieuwe groep experts om te rekruteren.\n\nPS: Elke week ontleed ik zulke AI-verhalen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #gigeconomie #AItraining #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526222967492579328/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-11 11:01",
+  "text": "Een veiligheidsmissie trekt naar de beurs\n\nAnthropic, het bedrijf achter Claude, startte gisteren de roadshow voor zijn beursgang. Het biedt 825 miljoen aandelen aan tegen 70 à 78 dollar per stuk, op de Nasdaq onder de ticker ANT.\n\nVolgens CNBC kan dat het bedrijf een waardering tot 1.405 miljard dollar opleveren. In mei lag die nog op 965 miljard.\n\nAnthropic is een Public Benefit Corporation. Het legt in zijn statuten vast dat het geavanceerde AI verantwoord ontwikkelt, ten voordele van de mensheid op lange termijn.\n\nNieuwe aandeelhouders verwachten rendement, maar krijgen weinig zeggenschap. Analyses van het prospectus tonen dat de controle grotendeels bij de zeven oprichters blijft en bij de Long-Term Benefit Trust, vijf trustees die mee de bestuurders aanduiden.\n\nVolgens ingewijden ligt de prijs volgende woensdag vast. Een dag later start de handel.\n\nPS: Elke week ontleed ik zulke ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #Anthropic #AI #beursgang #AIgovernance #corporategovernance",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526222576117825537/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-11 08:22",
+  "text": "Google stelt zijn sterkste cybermodel open voor betalende klanten\n\nGemini 4 Carbon is sinds gisteren beschikbaar voor betalende ontwikkelaars, bedrijven en Google AI Ultra-abonnees. Twee weken geleden kregen alleen geselecteerde cyberverdedigers toegang.\n\nSecuritybedrijf Wiz zette het model in op twee grote SaaS-aanbieders en vond in minder dan twee uur onbekende kwetsbaarheden. Zonder het model duurt dat werk weken.\n\nEen tool die lekken sneller vindt om ze te dichten, vindt ze ook sneller voor wie ze wil misbruiken. Daarom bouwde Google extra beveiliging in.\n\nIn Googles eigen tests blokkeerde die beveiliging 99 procent van de aanvallen van een geautomatiseerde aanvalsagent. Per poging lukte een inbraak toch nog in 0,8 procent van de gevallen. Bij voorganger Argon was dat 3,1 procent.\n\nDe volledige cyberversie blijft voorbehouden aan deelnemers van Googles Fairwind-programma. Alle anderen krijgen het model met beveiliging, aan 2 dollar per miljoen inputtokens.\n\nPS: Elke week ontleed ik zulke ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #Gemini #Google #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526182634192846848/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-11 08:15",
+  "text": "Vanaf 2027 stelt Duitse software mee doelwitten voor\n\nHet Duitse defensiebedrijf Helsing stelt vandaag in Berlijn nieuwe AI-software voor militaire targeting voor, meldt Reuters. Het systeem moet een Europees alternatief worden voor Maven van Palantir.\n\nMaven draait al bij de VS, NAVO-commando's en verschillende lidstaten. Na Trumps herhaalde dreigementen om de NAVO te verlaten, groeit in Europa het verzet tegen die afhankelijkheid.\n\nVorige maand hinderden snelheidsbeperkingen op Starlink-terminals Oekraïne bij het onderscheppen van Russische drones. Palantir benadrukt dat klanten de volledige controle hebben en dat er geen 'kill switch' bestaat. Voor een deel van Europa volstaat die belofte niet meer.\n\nEigen software regelt wie de code bezit. Wie verantwoordelijk is wanneer een systeem in seconden sensordata omzet in een doelwitvoorstel, blijft dezelfde vraag, in München of in Denver.\n\nDe Bundeswehr koopt voorlopig geen Maven. Duitsland wil vanaf 2027 een eigen AI-systeem inzetten, volledig operationeel in 2028.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #defensie #digitalesoevereiniteit #Palantir #Helsing",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526180663830675456/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 20:32",
+  "text": "Goldman Sachs ziet sterke vraag, kiezers zien hun stroomfactuur\n\nGoldman Sachs-CEO David Solomon vertelde CNBC deze week dat de vraag naar financiering voor AI-infrastructuur sterk blijft. Hij verwacht dat zijn bank de komende twee maanden actief blijft in zulke deals.\n\nDat zei hij enkele dagen nadat de S&P 500 op één dag 4,4% verloor, de grootste daling sinds april 2025. Vooral chipmakers en bedrijven achter AI-infrastructuur gingen onderuit.\n\nDe aanleiding: de Democraten wonnen de Amerikaanse midterms ruim, onder meer met campagnes tegen nieuwe datacenters. Kiezers zagen hun stroomfactuur stijgen en stemden in verschillende gemeenten nieuwe projecten weg.\n\nSolomon erkent dat politieke verschuivingen voor schommelingen zorgen. Volgens hem verhuist de infrastructuur naar het buitenland als de VS niet zelf bouwt.\n\nDatacenters hebben vergunningen van steden en staten nodig. In Texas, goed voor ongeveer een kwart van de geplande Amerikaanse datacentercapaciteit, won een gouverneur die campagne voerde voor een pauze op nieuwe projecten.\n\nPS: Zulke verschuivingen in het AI-verhaal ontleed ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #datacenters #GoldmanSachs #midterms",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526003789447827456/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 20:30",
+  "text": "Europa vraagt OpenAI en Anthropic om opheldering, opnieuw\n\nDe Europese Commissie wil meer details over recente veiligheidsincidenten bij OpenAI en Anthropic, schrijft Maximilian Henning in Rapporteur.\n\nDeze zomer raakten AI-agents van beide bedrijven tijdens tests buiten hun afgeschermde omgeving en kregen ze toegang tot echte systemen.\n\nBrussel vraagt nu hoeveel incidenten er waren, waar de EU getroffen werd en hoe de bedrijven hun risicobeoordeling en beveiliging hebben aangepast. Ook berichten dat nieuwe frontier-modellen technisch moeilijker te monitoren zijn, staan op de lijst.\n\nDe AI Act verplicht AI-labs om ernstige incidenten te melden. De Commissie mag informatie opvragen om te controleren of ze de regels naleven.\n\nIn september waarschuwde de Commissie al dat dit geen afvinkoefening is: antwoorden moeten precies en accuraat zijn.\n\nEen fout, onvolledig of misleidend antwoord kan een boete opleveren van 15 miljoen euro of 3% van de wereldwijde omzet, afhankelijk van welk bedrag het hoogst is.\n\nPS: Zulke ontwikkelingen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AIAct #OpenAI #Anthropic #EU #AI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526003407481073664/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 20:28",
+  "text": "DPG Media test een eigen Nederlands taalmodel op de redactie\n\nDPG Media en TNO testen GPT-NL, een taalmodel getraind op Nederlandse en Vlaamse data, voor twee taken: nieuwskoppen genereren en stijlproblemen markeren als digitale eindredacteur.\n\nHet gaat om meer dan taal. Nieuwsorganisaties willen grip houden op hun technologie, data en intellectueel eigendom, nu generatieve AI ook hun verdienmodel raakt.\n\nGPT-NL komt van TNO, SURF en het NFI, drie publieke organisaties. Bij de eerste testpartners installeert TNO het model op eigen servers, niet in de cloud van een Amerikaans techbedrijf.\n\nMeer dan dertig landelijke en regionale nieuwsmedia stelden hun archieven beschikbaar als trainingsdata. Een deel van eventuele opbrengsten vloeit terug naar de rechthebbenden.\n\nNiemand verwacht dat GPT-NL de grote internationale modellen evenaart. De inzet ligt op afgebakende taken waar taalnuance en controle doorslaggevend zijn.\n\nRedacteuren van twee DPG-titels beoordelen de gegenereerde koppen. De volledige studie loopt tot eind januari 2027.\n\nPS: Benieuwd hoe Europa zijn eigen AI-koers zoekt? Elke week ontleed ik zulke ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #DigitaleSoevereiniteit #GPTNL #journalistiek #generatieveAI #AI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526002810346328066/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-10 20:25",
+  "text": "Chips, servers, kabels: hoe AI China's export opdrijft\n\nChina boekte in de eerste tien maanden van 2026 een handelsoverschot van 1.040 miljard dollar. Volgens Euronews groeide de Chinese export in oktober met 35,2 procent tegenover een jaar eerder.\n\nEen belangrijke motor is de wereldwijde vraag naar AI-hardware: computerchips, servers voor datacenters en netwerkapparatuur.\n\nWie vandaag AI-infrastructuur bouwt, koopt dus vaak bij Chinese fabrikanten. Dat geeft Peking economisch gewicht, terwijl de binnenlandse consumptie al jaren zwak blijft en de vastgoedsector kwakkelt.\n\nDe keerzijde: handelspartners vrezen dat goedkope Chinese producten hun eigen industrie verdringen. Het overschot met de EU klom dit jaar al naar 310,7 miljard dollar, tegenover 241,6 miljard in dezelfde periode vorig jaar.\n\nVorig jaar passeerde China de grens van 1.000 miljard pas in november. Dit jaar lukte het een maand eerder, op weg naar een nieuw record boven de 1.200 miljard uit 2025.\n\nPS: Elke week haal ik in 'Het masker van AI' de AI-hype uit elkaar: https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #chips #datacenters #China #geopolitiek",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526002181720707072/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-10 12:58",
   "text": "Een team van agents beheren is geen rustige job\n\nPilita Clark stelt in de Financial Times een vraag die HR-afdelingen bezighoudt: verdient een manager evenveel als zijn team uit AI-agents bestaat in plaats van mensen?\n\nWie denkt dat agents aansturen makkelijker is dan mensen leiden, komt bedrogen uit. Onderzoekers spreken van \"AI brain fry\": de mentale overbelasting van systemen opvolgen die razendsnel en zonder pauze taken uitvoeren.\n\nBrian Elliott, voormalig executive bij Google en Slack, beperkt zich bewust tot twee of drie agents tegelijk. Meer wordt onwerkbaar.\n\nDaarbovenop crashen agents niet en tonen ze geen foutmelding. Ze produceren foute output zonder waarschuwing, en alleen een mens die alles nakijkt, merkt het op.\n\nDat toezicht groeit uit tot een vak op zich. Volgens hiring databedrijf Draup steeg het aantal bankvacatures rond \"responsible AI\" op een jaar tijd met bijna 660 procent.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #agenticAI #management #leiderschap #HR",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7525889620736266240/",
