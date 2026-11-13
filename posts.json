@@ -1,5 +1,82 @@
 [
  {
+  "date": "2026-11-13 12:17",
+  "text": "Ze bouwen AI en hebben de controle al opgegeven\n\nRuxandra Teslo verhuisde drie weken geleden naar San Francisco. In haar essay \"Handing over humanity\" vertelt ze hoe een medewerker van een groot AI-lab haar zei dat de mensheid na superintelligentie de controle definitief zal afstaan. Volgens hem niet ideaal, maar beter dan uitsterven.\n\nDat idee heet \"handoverism\": de mensheid overleeft, maar laat de koers van haar toekomst over aan AI.\n\nTeslo schat voorzichtig dat 30 tot 40 procent van de AI-veiligheidsgemeenschap buiten de labs een variant van dit idee aanhangt. Binnen de labs ligt dat aandeel volgens haar hoger.\n\nOok lableiders spreken erover. Anthropic-medeoprichter Tom Brown noemde in 2025 letterlijk een \"handoff\" naar transformatieve AI. Elon Musk zegt dat we in die toekomst \"een labrador zijn, als we geluk hebben\".\n\nOp wat democratie, werk en inspraak dan nog betekenen, vond Teslo bij de lableiders geen concreet antwoord.\n\nPS: Elke week ontleed ik zulke ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #superintelligentie #AGI #toekomst #samenleving",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526966498372816896/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-13 12:15",
+  "text": "Zes kopers per aandeel: vertrouwen of bubbel?\n\nDe beursgang van Anthropic, het bedrijf achter Claude, is ongeveer zes keer overtekend. \n\nAnthropic en enkele bestaande aandeelhouders willen tot $64,4 miljard ophalen. Ze verkopen 825 miljoen aandelen tegen $70 tot $78 per stuk, wat het bedrijf op maximaal $1,4 biljoen waardeert.\n\nDe vraag is groot, maar de prijs ligt lager dan verwacht. Verschillende investeerders rekenden eerder dit jaar nog op $2 biljoen of meer.\n\nTer vergelijking: SpaceX haalde in juni $85,7 miljard op, bij een waardering van $1,77 biljoen.\n\nBestaande investeerders krijgen voorrang. Nieuwe kopers krijgen daardoor vaak minder aandelen dan ze hoopten.\n\nOp 19 november start de handel op de Nasdaq onder het symbool ANT. Op die dag blijkt hoeveel van de zesvoudige vraag overeind blijft zodra iedereen kan kopen en verkopen.\n\nPS: Wil je zulke ontwikkelingen elke week helder geduid krijgen? Lees mee in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #Anthropic #IPO #AIbubbel #beurs",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526965934024986624/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-13 12:13",
+  "text": "Het kleine model haalt het grote in\n\nGoogle lanceerde deze week Gemini 4 Hydrogen, een snel en goedkoop model. Op de Artificial Analysis Intelligence Index scoort het 51, net boven Argon, een van Google's eigen topmodellen (50).\n\nToch is Hydrogen geen vervanger voor de topmodellen. Google zet het in als uitvoerder: een groot model ontwerpt de aanpak, Hydrogen schrijft de code, draait de tests en controleert het resultaat.\n\nDe nieuwe Orchestrator in Google Antigravity wisselt binnen één sessie automatisch tussen beide modellen. Volgens Google haalt die combinatie bijna dezelfde slaagkans als topmodel Carbon alleen, met 24% minder verbruik en 19% sneller.\n\nKanttekening: al deze cijfers komen uit Google's eigen aankondiging. Onafhankelijke tests moeten nog volgen.\n\nHydrogen kost $1,50 per miljoen inputtokens en draait vanaf nu ook in Google Search, voor alle gebruikers wereldwijd.\n\nPS: Zulke verschuivingen in het AI-landschap bespreek ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #Gemini #Google #AIagents #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526965449905848320/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-13 12:11",
+  "text": "Hoe een bestuur in vier dagen van koers verandert\n\nZondag zei het bestuur van NVIDIA nog dat het vertrouwen had in Jensen Huang. Donderdag was hij geen CEO meer. Zijn vertrek volgde op berichten over buitenechtelijke relaties, waaronder een met een vrouw die verdacht wordt van spionage voor China.\n\nHet vertrek toont ook hoe NVIDIA bestuurd werd. In 33 jaar had het bedrijf nooit een bestuursvoorzitter. Pas nu krijgt het er een: Harvey Jones, voormalig topman van Synopsys.\n\nEen opvolgingsplan was er evenmin. CFO Colette Kress wordt tijdelijk ook CEO, terwijl het bestuur intern en extern naar een opvolger zoekt.\n\nDat is weinig voorbereiding voor het bedrijf waarvan de chips de AI-boom aandrijven. Sinds het beursrecord van 6 oktober is NVIDIA zo'n 1.700 miljard dollar aan beurswaarde kwijt.\n\nOp dinsdag 17 november publiceert NVIDIA zijn kwartaalcijfers. Kress licht ze toe in twee functies tegelijk.\n\nPS: Elke week leg ik zulke AI-verhalen uit in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #NVIDIA #CorporateGovernance #AI #halfgeleiders #leiderschap",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526964986615611393/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-13 12:09",
+  "text": "1,7 miljoen downloads per dag voor gratis Adobe-alternatieven\n\nBrandon Thomas kreeg een onverwachte factuur toen hij zijn Adobe-abonnement opzegde. Zijn antwoord: ArtCraft, een bedrijf dat populaire software met AI herbouwt als open source.\n\nHet eerste resultaat, PhotoCraft, is een Photoshop-alternatief geschreven in Rust. Na één uitgebreide prompt genereerde een AI-model volgens Thomas binnen 24 uur een bruikbare eerste versie.\n\nIntussen telt ArtCraft 17 apps, van een Acrobat- tot een Figma-alternatief. Thomas spreekt van 1,7 miljoen downloads per dag, een cijfer dat niet onafhankelijk geverifieerd is.\n\nOp de AI Engineer Code Summit bracht Thomas één boodschap: stop met software huren. De code staat op GitHub, iedereen mag ze aanpassen.\n\nAf zijn de apps nog niet. GitHub meldt voor PhotoCraft 46 procent professionele inzetbaarheid. Er werken wel al zo'n 4.000 ontwikkelaars aan mee.\n\nPS: Zulke verhalen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #OpenSource #Adobe #vibecoding #Rust",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526964485656346625/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-13 12:07",
+  "text": "Verboden chips laten sporen na in Chinese AI-modellen\n\nOnderzoeker Will DePue van Unemployment Labs analyseerde de gepubliceerde gewichten van Chinese AI-modellen. In zes modellen van DeepSeek, Moonshot AI, MiniMax en Ant Group vond hij een numeriek patroon dat past bij Nvidia's Blackwell-chips. Voor de export van die chips naar China is een Amerikaanse vergunning nodig.\n\nDe methode: voor de training krijgen de gewichten willekeurige beginwaarden. Hoe die verdeeld worden, hangt af van het aantal rekenkernen op de chip. Een deel van dat patroon is nog zichtbaar in het afgewerkte model.\n\nOudere modellen van dezelfde labs dragen het patroon van de vorige generatie, Hopper. De overstap naar Blackwell gebeurde vanaf april 2026.\n\nDeepSeek ontkende in april nog dat het Blackwell gebruikte.\n\nHet rapport toont niet aan waar de chips stonden. Blackwell-systemen zijn ook te huur in datacenters buiten China.\n\nDePue schat dat vijf van die trainingsruns samen zo'n 12.000 Blackwell-GPU's vergden, goed voor meer dan een half miljard dollar aan hardware.\n\nPS: Wekelijks ontleed ik AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #exportcontroles #Nvidia #DeepSeek #China #AIinfrastructuur",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526963960558858240/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-13 08:24",
+  "text": "900 deepfakes, 400 miljoen dollar aan crypto\n\nNoord-Koreaanse hackers maakten in anderhalf jaar zo'n 400 miljoen dollar aan crypto buit, meldt de NOS op basis van de FBI. Hun middel: videobelletjes met deepfakes van mensen die het slachtoffer kende.\n\nDe gesprekken liepen via nagemaakte versies van Zoom, Teams of Meet. Halverwege verscheen een melding over een verbindingsprobleem, samen met een link om het op te lossen.\n\nWie klikte, gaf de hackers toegang tot cryptoaccounts, mails en chats. Via de webcam namen ze ook beelden van het slachtoffer op.\n\nMet die beelden maakten ze nieuwe deepfakes om de kennissen van dat slachtoffer te benaderen. De FBI vond er meer dan 900.\n\nElk slachtoffer leverde zo het gezicht voor de volgende aanval. De FBI doopte de methode daarom FaceStealer.\n\nPS: Zulke verhalen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #deepfakes #cybersecurity #crypto #AI #NoordKorea",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526907932266119168/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-12 19:44",
+  "text": "99 procent op de test, 26 procent in de praktijk\n\nOp bekende codeertests halen AI-coding agents scores boven 99 procent. Verschillen tussen modellen zijn daar nauwelijks nog te meten.\n\nOnderzoekers van Alibaba en enkele Aziatische universiteiten bouwden daarom Co-Design Bench, met opdrachten uit echte programmeersessies. Ze kozen vooral verzoeken waarbij gebruikers hun vraag moesten herformuleren of wijzigingen moesten terugdraaien.\n\nHet resultaat: het beste van tien geteste modellen, GPT-6 Astra, voldoet gemiddeld aan 70 procent van de vereisten per taak. Volledig correct is het eindresultaat bij slechts 26,4 procent van de taken.\n\nOok de werkomgeving rond het model verschuift de score. Hetzelfde model haalde 75 of 56 procent, afhankelijk van de software waarin het draaide.\n\nOnderzoeksorganisatie METR zag eerder een gelijkaardige kloof: projectleiders aanvaardden AI-code zo'n 24 procentpunten minder vaak dan de scores op SWE-bench Verified deden verwachten.\n\nPS: Benchmarks, modellen en wat erachter zit: elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #benchmarks #codingagents #softwareontwikkeling #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526716625572540416/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-12 19:39",
+  "text": "",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526715360905990146/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-12 19:27",
+  "text": "Chinese AI-labs openen kantoren naast OpenAI\n\nMiniMax heeft een vijftiental vacatures in San Francisco. Seed, de AI-divisie van ByteDance, zoekt 71 mensen in San Jose, San Diego en Seattle. Dat meldt Rest of World.\n\nWashington beperkt al jaren de toegang van Chinese bedrijven tot geavanceerde Nvidia-chips. Voor het aanwerven van ingenieurs op Amerikaanse bodem bestaat geen vergelijkbare regel.\n\nToch schermen beide landen hun AI steeds meer af. Peking stelde exportcontroles voor op zijn meest geavanceerde modellen. De VS beschuldigen Chinese labs ervan Amerikaanse modellen zonder toestemming te distilleren.\n\nVolgens Damien Ma van Carnegie China kunnen Amerikaanse bedrijven nationale veiligheid inroepen om Chinese labs het rekruteren moeilijker te maken. In de chipsector hebben sommige Amerikaanse ingenieurs nu al een licentie nodig om in Chinese faciliteiten te werken.\n\nEr is een precedent. Nadat Washington Huawei in 2019 op een zwarte lijst zette, schrapte het bedrijf meer dan 600 jobs bij Futurewei, zijn Amerikaanse onderzoekstak.\n\nPS: Elke week leg ik zulke verschuivingen in de AI-wereld uit in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #China #geopolitiek #AItalent #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526712264050085889/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-12 19:05",
+  "text": "Eerst de AI-regels afzwakken, dan erover adviseren\n\nDe Europese Ombudsman onderzoekt hoe de Europese Commissie Jim Hagemann Snabe benoemde tot speciale gezant voor industriële AI, meldt POLITICO. Snabe is voorzitter van de raad van toezicht van Siemens.\n\nSiemens lobbyde enkele maanden eerder mee om de Europese AI-regels af te zwakken. Volgens The Good Lobby besteedt het bedrijf minstens 3,5 miljoen euro per jaar aan lobbywerk in Brussel.\n\nEen groep ngo's, waaronder Transparency International EU, diende klacht in. Volgens hen bracht de Commissie mogelijke belangenconflicten onvoldoende in kaart.\n\nDe Commissie spreekt van een grondige toets en strikte waarborgen. De documenten daarover geeft ze niet vrij, ook niet aan Europarlementsleden of journalisten.\n\nSnabe werkt onbetaald en schrijft tot maart 2027 een rapport over onder meer AI-infrastructuur en AI in de industrie. In 2015 oordeelde de Ombudsman al eens dat de Commissie belangenconflicten onvoldoende aanpakte, toen bij de benoeming van Edmund Stoiber als adviseur.\n\nPS: Zulke verhalen achter de AI-schermen ontleed ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #AIAct #EuropeseCommissie #lobbying #transparantie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7526706688469663744/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-12 10:56",
   "text": "Het bewijs voor AI in onderwijs staat op drijfzand\n\nEr bestaan 39 meta-analyses over AI in onderwijs. Ze melden allemaal een duidelijk positief effect op leren.\n\nJill Barshay beschrijft in The Hechinger Report hoe onderzoeker Patrick O'Neill er 14 van doorlichtte. Hij vond onmogelijke statistieken, verzonnen referenties en vergelijkingen die niets over AI zeggen.\n\nEen voorbeeld: verpleegstudenten die drie uur per week studeerden met een docent die AI inzette, scoorden beter dan studenten die helemaal niet studeerden.\n\nToch verzamelden die 14 studies samen meer dan 3.000 citaties. Twee derde van de oproepen voor papers vroeg bovendien specifiek naar de voordelen van AI.\n\nO'Neill bekeek daarna 44 degelijk opgezette experimenten. De resultaten gaan van sterk positief tot schadelijk, en gemiddeld komen ze rond nul uit.\n\nZijn advies aan docenten: start met een kleine groep studenten en meet zelf het effect, voor je AI breed uitrolt.\n\nPS: Elke week ontleed ik zulke verhalen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Onderwijs #AI #AIinonderwijs #edtech #onderzoek #AIgeletterdheid",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7526583587278716928/",
