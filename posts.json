@@ -1,5 +1,47 @@
 [
  {
+  "date": "2026-11-16 08:14",
+  "text": "Na de wiskunde is AI-onderzoek zelf aan de beurt\n\nPodcaster Dwarkesh Patel situeerde superintelligentie begin dit jaar nog bijna tien jaar ver. In een nieuw essay verwacht hij ze tegen 2030.\n\nZijn argument is de wiskunde. In 2023 maakten taalmodellen nog fouten bij het optellen van getallen van vier cijfers. In september meldde OpenAI dat een intern systeem in 88 uur een bewijs genereerde voor Navier-Stokes, een van de zeven Millennium Prize Problems.\n\nVolgens Patel draait AI-onderzoek op hetzelfde: veel kleine experimenten met meetbare resultaten. Daarom verwacht hij rond 2028 AI-systemen die even goed onderzoek doen als de beste menselijke AI-onderzoekers.\n\nEr zijn wel kanttekeningen. Vakgenoten moeten het bewijs nog beoordelen, en Patel zelf geeft 25 procent kans dat zijn mijlpaal pas na 2032 komt.\n\nBij Anthropic voert Claude volgens het bedrijf al een kwart van het R&D-werk grotendeels zelf uit. Het aandeel volledig autonoom werk staat er nog op 0 procent.\n\nPS: Wil je wekelijks zulke ontwikkelingen kritisch ontleed zien? Lees mee in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #superintelligentie #AGI #wiskunde #AIonderzoek",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7527992447667314688/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-16 08:12",
+  "text": "Geen studio, geen band, wel een award\n\nVorige vrijdag vonden in Los Angeles de eerste AI Music Awards plaats. Corbin Bolies beschreef voor Variety een avond vol technische haperingen.\n\nOp de rode loper stonden geen avatars, maar de makers zelf. Velen gebruiken AI omdat ze geen studio of muzikanten kunnen betalen.\n\nOrganisator Sonic Intelligence Academy gaf bijna alle optredens daarom gratis een live band en dansers mee. Traditionele artiesten betalen daar flink voor.\n\nDe bredere muziekindustrie houdt AI-muziek grotendeels buiten de deur. Artiesten en platenlabels procederen tegen generatoren als Suno en Udio wegens auteursrechtschending.\n\nRamona Höffel (56) begeleidt mensen met een beperking en vloog vanuit Zwitserland over voor haar eerste rode loper. Ze schildert en schrijft al jaren, maar dat volstond niet: muziek geeft haar ruimte voor alles wat in haar hoofd zit.\n\nPS: Zulke verhalen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #AImuziek #generatieveAI #muziekindustrie #creativiteit",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7527991994875412480/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-16 08:10",
+  "text": "Silicon Valley wil zijn CEO terug\n\nVorige week stapte Jensen Huang op als CEO van Nvidia. Aanleiding waren berichten over affaires met een vermoedelijke Chinese spionne en met een ondergeschikte. Volgens de Financial Times overweegt hij nu een terugkeer.\n\nBondgenoten richten een \"war room\" op met topmensen uit Silicon Valley om het bestuur onder druk te zetten. Ze zoeken daarvoor ook steun bij het Witte Huis.\n\nElon Musk en Tim Sweeney steunen een open brief met de oproep \"Bring Jensen Back\". Grote aandeelhouders vragen het bestuur om alle opties open te houden.\n\nHuang heeft geen controlerend aandelenbelang. Het bestuur beslist, niet hij. Toch probeert de sector die beslissing van buitenaf te sturen.\n\nWashington duwt in de andere richting. Minister van Financiën Scott Bessent wil een \"drastische shake-up\" aan de top.\n\nDinsdag maakt Nvidia zijn kwartaalcijfers bekend, met interim-CEO Colette Kress aan het roer.\n\nPS: Elke week zet ik zulke AI-verhalen op een rij in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #Nvidia #JensenHuang #governance #AI #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7527991389003919360/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-15 19:50",
+  "text": "Meta's Muse belt nu je kabelmaatschappij\n\nMeta's AI-agent Muse kan vanaf nu Amerikaanse bedrijven opbellen namens de gebruiker, meldt TechCrunch. De functie is voorlopig enkel beschikbaar voor betalende abonnees in de VS.\n\nHet gaat om oproepen die mensen liever niet zelf doen: naar de verzekeraar, de kabelmaatschappij of een restaurant zonder online reservatie. Een abonnement kost 20 of 100 dollar per maand.\n\nMuse is niet de enige. Google Gemini en de startup Instinct bieden een gelijkaardige optie aan.\n\nAan de andere kant van de lijn loopt het nog niet altijd vlot. Heel wat bedrijven hangen op zodra ze merken dat er geen mens aan de lijn is.\n\nIn september meldden 404 Media en Reuters bovendien dat Meta tijdens tests een deel van die oproepen liet afhandelen door menselijke contractors.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #Meta #Muse #generatieveAI #klantenservice",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7527805243267411968/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-15 19:47",
+  "text": "Robotica is voor OpenAI geen apart vak meer\n\nOpenAI ontbindt zijn aparte robotica-team, schrijft Wen Shao in Fortune. De onderzoekers verhuizen naar de teams die de algemene modellen bouwen.\n\nDe reden: algemene modellen zoals GPT-6 Astra blijken robots rechtstreeks te kunnen aansturen, zonder dat ze eerst apart op robotdata getraind worden.\n\nIn een studie van Nvidia haalde een agent op basis van Astra 74,8% succes bij gesimuleerde manipulatietaken. De beste gespecialiseerde robotmodellen kwamen op 51%.\n\nRobotica wordt zo een toepassing bovenop één algemeen model, net zoals programmeren of juridisch werk dat al zijn.\n\nEr zijn wel kanttekeningen. Die cijfers komen uit een simulatie, niet uit een echte fabriekshal. En grote modellen draaien in de cloud, waardoor een robot altijd een netwerkverbinding nodig heeft.\n\nOpenAI wil in 2027 een eerste publieke demonstratie geven van een eigen humanoïde robot.\n\nPS: In 'Het masker van AI' ontleed ik elke week zulke verschuivingen in de AI-wereld: https://lnkd.in/eWX-BPpu\n\n#Wetenschap #AI #robotica #OpenAI #embodiedAI #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7527804580416364544/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-15 19:36",
+  "text": "Trump kocht Nvidia-aandelen, dagen voor een gunstige chipbeslissing\n\nVolgens zijn financiële openbaarmakingen kocht Donald Trump in mei 2025 voor 1 tot 5 miljoen dollar aan Nvidia-aandelen. Enkele dagen later schrapte zijn regering een regel die de export van geavanceerde AI-chips naar China beperkte.\n\nAisha Down beschrijft in The Guardian dat het patroon zich herhaalde. Nadat Trump de verkoop van H200-chips aan China goedkeurde, volgden minstens drie nieuwe aankopen.\n\nBewijs dat Trump die timing zelf koos, is er niet. Het Witte Huis stelt dat onafhankelijke beheerders zijn portefeuille beheren.\n\nNet daar wringt het. Anders dan zijn voorgangers plaatste Trump zijn vermogen niet in een blind trust. De aankopen zijn zichtbaar, maar niet wie erover besliste.\n\nTussen 2010 en 2022 haalde Nvidia ongeveer een kwart van zijn omzet uit China. Elke exportbeslissing van de president raakt dus rechtstreeks de waarde van zijn eigen aandelen.\n\nPS: Wekelijks ontleed ik zulke verhalen over AI, macht en beleid in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #Nvidia #exportcontroles #China #belangenconflict #AIchips",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7527801830727344128/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-14 09:12",
   "text": "Niet elke chatbot in de klas is ChatGPT\n\nHans-Maarten Dagelet beschrijft in de Volkskrant hoe vwo-leerlingen in Hilversum Frans oefenen met Maica, een chatbot uit Nolai, het Nederlandse onderwijslab voor AI.\n\nHet verschil met ChatGPT: Maica draait enkel op relevante lesstof en een set didactische regels. De docent zet elke week een spreekopdracht klaar, met lesdoelen die een vinkje krijgen zodra de leerling ze haalt.\n\nHet ontwerp speelt in op een concrete nood. Veel leerlingen durven in de klas geen vreemde taal te spreken, en de lestijd is te kort om iedereen aan het woord te laten.\n\nEerste onderzoeken tonen dat intensief gebruik van algemene generatieve AI het leerrendement verlaagt. Educatieve AI kan wel nut hebben, op voorwaarde dat er een stevige schil rond het taalmodel zit en leerlingen goed begeleid worden.\n\nFoute output valt nooit helemaal uit te sluiten, geeft projectleider Paul Halma toe. Volgens de leerlingen stuurt het systeem een gesprek wel snel terug naar de opdracht. Eén van hen noemt het het leukste deel van haar huiswerk.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Onderwijs #AI #educatieveAI #generatieveAI #taalonderwijs #edtech",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7527282408895815680/",
