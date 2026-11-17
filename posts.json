@@ -1,5 +1,75 @@
 [
  {
+  "date": "2026-11-17 09:39",
+  "text": "De wereld was al kwetsbaar voor AI er was\n\nIn The Economist weegt Anne Neuberger de risico's van AI af tegen de huidige situatie. Ze was cyberveiligheidsadviseur in het Witte Huis.\n\nDie situatie is al onveilig. NotPetya legde in 2017 binnen enkele uren onder meer rederij Maersk plat. In 2023 moesten Amerikaanse waterbedrijven na een hack overschakelen op handmatige bediening.\n\nVolgens Neuberger draaiden zulke aanvallen zelden om briljante code. Verdedigers vonden en dichtten bekende lekken in verouderde systemen gewoon niet snel genoeg.\n\nDaar kan AI helpen. Tijdens de AI Cyber Challenge van DARPA vonden AI-systemen 18 onbekende kwetsbaarheden in opensourcesoftware en leverden ze voor 11 ervan een patch.\n\nHaar voorstel: overheden verplichten beheerders van kritieke infrastructuur om lekken binnen vaste termijnen te dichten. De systemen met de hoogste prioriteit zouden zo binnen een jaar aangepakt kunnen worden.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #kritiekeinfrastructuur #DARPA",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528376257722523648/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 09:36",
+  "text": "Het grootste open model kreeg een gesloten opvolger\n\nIn augustus gaf Alibaba de weights van Qwen3.8-Max vrij. Met 2,4 biljoen parameters was het het grootste open-weight taalmodel tot dan toe, en iedereen kon het downloaden, aanpassen en op eigen servers draaien.\n\nSinds 16 november is er Qwen4-Max. Dat model is gesloten en enkel bereikbaar via de API en de apps van Alibaba.\n\nDat verschil weegt zwaar. Open weights laten onderzoekers en bedrijven zelf nagaan wat een model doet, en houden data in eigen huis. Wie een gesloten model gebruikt, hangt af van de prijzen, regels en servers van de aanbieder.\n\nOok de open versie had al grenzen: de download verwerkte enkel tekst, en bedrijven met meer dan 50 miljoen dollar jaaromzet hebben een aparte licentie nodig.\n\nAlibaba belooft dat kleinere Qwen4-modellen wel open komen. \n\nPS: Elke week ontleed ik zulke verschuivingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #Qwen #Alibaba #opensource #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528375430064521217/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 09:33",
+  "text": "Gevoelige data belandt in AI-modellen, zonder toestemming\n\nHet securitybedrijf Palo Alto Networks bevroeg voor zijn State of Cloud Security Report 2026 zo'n 2.800 IT- en securityverantwoordelijken in tien landen. Vooral de cijfers over data vallen op.\n\n39% van de organisaties zag gevoelige of gereguleerde data gebruikt worden om modellen te trainen of bij te stellen, zonder dat iemand daar toestemming voor gaf.\n\n40% trof beheerde data aan in AI-omgevingen die buiten elk toezicht vallen. En 70% kan niet in kaart brengen langs welke AI-systemen en workflows gevoelige data stroomt.\n\nHet probleem begint bij zichtbaarheid. 99% stootte het voorbije jaar op AI-gebruik dat het securityteam nooit goedkeurde. Slechts 9% kan zulke toepassingen automatisch opsporen en classificeren.\n\nEen op de drie organisaties rekent erop dat teams hun AI-gebruik zelf melden. Een op de vijf hoort er pas van na een incident of een audit.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #schaduwAI #privacy #dataprotectie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528374807520944130/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 09:30",
+  "text": "De ECB ziet AI nu als systeemrisico\n\nECB-vicepresident Boris Vujcic noemde AI en staatsschuld gisteren in Frankfurt de grootste risico's voor de financiële stabiliteit in de eurozone, meldt Reuters.\n\nTot voor kort zag de ECB AI vooral als een probleem van te hoge beurswaarderingen. Nu reikt het risico verder: schuldmarkten, geconcentreerde posities en cybersecurity.\n\nGrote Amerikaanse techbedrijven hebben tot 2030 zo'n 5.500 miljard dollar nodig. Een groeiend deel komt uit leningen, soms via ondoorzichtige constructies buiten de balans en circulaire deals.\n\nOok het operationele risico stijgt. Aanvallers zetten steeds autonomere AI-systemen in voor snellere en grootschaligere cyberaanvallen, terwijl banken op hogere kosten en meer beperkingen botsen om AI zelf voor verdediging te gebruiken.\n\nDaarbovenop concurreren overheden en techbedrijven om hetzelfde kapitaal, net nu landen met hoge schulden al meer betalen voor langetermijnleningen.\n\nPS: Elke week leg ik zulke AI-ontwikkelingen uit in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #ECB #financiëlestabiliteit #cybersecurity #AIbubbel",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528374088290074624/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 09:28",
+  "text": "Gezichtsherkenning wordt in Hongkong gewone infrastructuur\n\nDe Hongkongse politie zet vanaf deze maandag AI-gezichtsherkenning aan op haar SmartView-cameranetwerk.\n\nAgenten kunnen een gezicht ingeven en nagaan op welke camera's iemand verscheen. Het systeem geeft ook in real time een melding zodra een gezocht gezicht opduikt, volgens de politiechef zelfs als iemand een mondmasker draagt.\n\nEen inspecteur keurt elke zoekopdracht goed. Videobeelden blijven 31 dagen bewaard, de gegevens over wie wanneer waar was 180 dagen.\n\nHet netwerk groeit verder: 60.000 camera's tegen 2028, en ook beelden van winkelcentra worden gekoppeld.\n\nBuiten de politie wint de technologie eveneens terrein. Laguna City, een woonwijk in Lam Tin, wil gezichtsherkenning gebruiken als toegangscontrole. Na bezorgde reacties van bewoners controleert de Hongkongse privacywaakhond nu of dat systeem in orde is.\n\nPS: Zulke ontwikkelingen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #gezichtsherkenning #privacy #surveillance #Hongkong",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528373588844769280/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-16 19:03",
+  "text": "Deze week beslist de VN in Genève over een gat in het oorlogsrecht\n\nTot en met vrijdag bepalen de verdragsstaten of ze onderhandelingen starten over een bindend verdrag rond autonome wapens. León Castellanos-Jankiewicz legt in Tech Policy Press uit waarom dat dringend is.\n\nAfgelopen juli doodde een Russische drone drie Oekraïense burgers in Zaporizja. Het toestel had geen verbinding met een operator en stuurde zichzelf met een commerciële Nvidia-chip.\n\nDe operators hadden een doelcategorie ingesteld: propaantanks bij een tankstation. Een specifiek slachtoffer selecteerde niemand.\n\nDaar wringt het. Het oorlogsrecht en het internationaal strafrecht vragen menselijke intentie bij een concrete aanval. Zodra een drone gejamd is, tellen enkel de instellingen van vóór de lancering.\n\nDe ontwerptekst legt geen verantwoordelijkheid bij de bedrijven die deze systemen bouwen. In september schrapten de VS en Rusland bovendien de vereiste dat een mens doelwitten nakijkt die AI geselecteerd heeft.\n\n76 staten steunen formele onderhandelingen. Vrijdag valt de beslissing.\n\nPS: Zulke verhalen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #autonomewapens #oorlogsrecht #drones #AIregulering",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528155903536181248/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-16 16:32",
+  "text": "Freelancers zien de verschuiving als eersten\n\nOpenAI en Upwork legden de opdrachtadvertenties op Upwork naast het gebruik van ChatGPT. Hun uitgangspunt: freelancewerk maakt veranderingen eerder zichtbaar dan algemene banenstatistieken.\n\nDe logica is eenvoudig. Freelancecontracten lopen kort, en bij elke nieuwe advertentie passen opdrachtgevers hun eisen aan. Binnen een bedrijf verandert een job vaak zonder dat er een nieuwe vacature verschijnt.\n\nIn 43 van de 63 onderzochte werkcategorieën verloren taken die mensen vaak met ChatGPT uitvoeren marktaandeel op Upwork. In de andere 20 categorieën gebeurde het omgekeerde.\n\nAI-gerelateerde opdrachten combineren bovendien taken die vroeger zelden samen voorkwamen, zoals AI-video, montage en bewegende graphics in één advertentie. De taken in die advertenties werden 45% diverser.\n\nDe uurtarieven bleven vergelijkbaar. De budgetten bij vaste prijs lagen 52% hoger, en de projecten omvatten meer werkuren.\n\nPS: Zulke verschuivingen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #freelance #arbeidsmarkt #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528117875090292739/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-16 16:00",
+  "text": "Een taalmodel start elk gesprek van nul\n\nNa de training ligt een taalmodel vast. Het verwerkt alleen de tekst die bij elke vraag wordt meegestuurd: het contextvenster.\n\nConor Bronsdon legt in de nieuwsbrief Technically uit hoe \"AI-geheugen\" dan werkt. Een apart systeem slaat notities op, zoals \"gebruiker is vegetariër\", en voegt die ongemerkt toe aan je volgende prompt.\n\nDat systeem doorloopt vier stappen: opslaan, terugvinden, meesturen en bijwerken. Die laatste stap loopt vaak mis. Je krijgt dan een herinnering voor een vlucht die je al geboekt hebt.\n\nBronsdon onderscheidt ook vier soorten geheugen: het huidige gesprek, een logboek van eerdere gesprekken, feiten over jou en vaste instructies. Elke soort veroudert anders. Een werkafspraak blijft maanden geldig, \"de lancering is vrijdag\" vervalt na vrijdag.\n\nIn een benchmark uit 2026 haalde het best scorende model 55,2 procent op vragen waarbij nieuwe informatie oudere feiten ongeldig maakte.\n\nPS: Wil je elke week zo'n blik achter de schermen van AI? Lees mee in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #LLM #generatieveAI #AIgeletterdheid #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528109797838196739/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-16 15:57",
+  "text": "Eén team krijgt alles werkend. Een organisatie niet.\n\nChris Ford Chief Architect bij Thoughtworks, beschrijft een patroon dat veel bedrijven nu tegenkomen bij AI-agents. Een klein team dat experimenteert, deelt dezelfde kennis, hetzelfde budget en hetzelfde beeld van wat goed werk is.\n\nZodra tweehonderd mensen met agents werken, vallen die vanzelfsprekendheden weg. Dan komen er nieuwe vragen.\n\nHoe deel je context tussen teams? Wie bewaakt de kosten van al dat rekenwerk? Wie leest de gegenereerde code na? Waar mag een agent bij? En wie beheert de omkadering waar iedereen op steunt?\n\nFord noemt dat de groeipijnen van AI-adoptie. Zolang je experimenteert, zie je ze niet. Ze duiken pas op als je opschaalt.\n\nZijn scherpste waarschuwing gaat over controle: code die niemand gelezen heeft, terwijl iedereen denkt dat ze nagekeken is.\n\nPS: In 'Het masker van AI' ontleed ik elke week zulke ontwikkelingen: https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #AIagents #agenticAI #softwareontwikkeling #digitaletransformatie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528108915444658176/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-16 14:31",
+  "text": "Meer dan 1 op 5 slimme toestellen heeft een gekend lek\n\nSinds oktober zetten hackers supermarktvriezers in heel Europa van op afstand op meer dan 50 graden. Ook in België bleven de koelrekken leeg.\n\nDaniel Michaels beschrijft in The Wall Street Journal hoe dat kon: sommige koelsystemen waren open via het internet bereikbaar, met zwakke of standaardwachtwoorden.\n\nVolgens Palo Alto Networks heeft meer dan 20% van alle IoT-toestellen minstens één gekende kwetsbaarheid. Printers, camera's, betaalterminals en toegangscontroles zijn favoriete doelwitten.\n\nAI vergroot dat risico. Hackers zetten geautomatiseerde tools in die het internet razendsnel afzoeken naar blootgestelde toestellen.\n\nEen aanval op fysieke apparatuur vroeg vroeger specialistische kennis, tijd en geld. Met AI valt die drempel grotendeels weg.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #cybersecurity #IoT #AI #kritiekeinfrastructuur #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528087436158062593/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-16 08:14",
   "text": "Na de wiskunde is AI-onderzoek zelf aan de beurt\n\nPodcaster Dwarkesh Patel situeerde superintelligentie begin dit jaar nog bijna tien jaar ver. In een nieuw essay verwacht hij ze tegen 2030.\n\nZijn argument is de wiskunde. In 2023 maakten taalmodellen nog fouten bij het optellen van getallen van vier cijfers. In september meldde OpenAI dat een intern systeem in 88 uur een bewijs genereerde voor Navier-Stokes, een van de zeven Millennium Prize Problems.\n\nVolgens Patel draait AI-onderzoek op hetzelfde: veel kleine experimenten met meetbare resultaten. Daarom verwacht hij rond 2028 AI-systemen die even goed onderzoek doen als de beste menselijke AI-onderzoekers.\n\nEr zijn wel kanttekeningen. Vakgenoten moeten het bewijs nog beoordelen, en Patel zelf geeft 25 procent kans dat zijn mijlpaal pas na 2032 komt.\n\nBij Anthropic voert Claude volgens het bedrijf al een kwart van het R&D-werk grotendeels zelf uit. Het aandeel volledig autonoom werk staat er nog op 0 procent.\n\nPS: Wil je wekelijks zulke ontwikkelingen kritisch ontleed zien? Lees mee in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #superintelligentie #AGI #wiskunde #AIonderzoek",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7527992447667314688/",
