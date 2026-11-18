@@ -1,5 +1,15 @@
 [
     {
+        "date": "2026-11-17",
+        "category": "lezing",
+        "title": "Tech&Meet Sessions Howest Lezing: \"Het masker van AI\"",
+        "titleUrl": "https://howesttech.odoo.com/",
+        "description": "Presentatie tijdens de Tech&Meet Sessions van Howest.",
+        "linkText": "Slides bekijken",
+        "linkUrl": "pdf/261117-Howest.pdf",
+        "fileInfo": "PDF, 17 MB"
+    },
+    {
         "date": "2026-09-25",
         "category": "opinie",
         "title": "Opiniestuk Knack: \"AI-agent die plots 'ontsnapt' is? Zo'n model doet exact wat gevraagd wordt\"",
