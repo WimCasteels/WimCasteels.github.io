@@ -1,5 +1,117 @@
 [
  {
+  "date": "2026-11-18 12:53",
+  "text": "Wat levert $200 op in de handen van een AI-agent?\n\nInduction Labs lanceerde FrontierML, een benchmark die meet hoe goed AI-agents geld omzetten in betere modellen. Elke agent krijgt 12 uur, een taakomschrijving en een budget van $10, $50 of $200.\n\nMet dat geld huren de agents GPU's, genereren ze synthetische data en trainen ze een model. Het gaat om 21 taken, van spraakassistenten tot een bot voor Pokémon-gevechten.\n\nDe sterkste agents leveren betere modellen af naarmate het budget stijgt. Claude Opus 5.5 gaat van 45,4 punten met $10 naar 58,8 met $200. Een menselijke onderzoeker scoort 56,0 en 66,1.\n\nBij zwakkere modellen levert extra geld niets op. Gemini 3.8 Flash zakt zelfs van 8,1 naar 5,7.\n\nOpvallend: gemiddeld geven de agents maar 45% van hun budget uit, ook al vermeldt de taakomschrijving dat het volledige bedrag opgebruiken geen nadeel oplevert.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #machinelearning #benchmarks #AIonderzoek",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528787437653905409/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 12:51",
+  "text": "Hoge score, lage tevredenheid\n\nOpenAI lanceerde gisteren GPT-6.2 Astra en Sol. Op papier is het een sterke release: Astra staat met 62 punten tweede in de Intelligence Index van Artificial Analysis, net achter Claude Fable 5.2 met 65.\n\nOok de prijs valt op. Astra kost ongeveer 4 dollar per benchmarktaak, Fable zo'n 26 dollar.\n\nToch reageren vroege testers opvallend negatief. Ethan Mollick vindt het model moeilijk te sturen, al levert het bij een ambitieus project wel resultaat. Matt Shumer noemt het onbruikbaar.\n\nEen benchmark meet of een taak lukt. Hij meet niet hoe vlot je met een systeem werkt, of hoe vaak je de output moet nalezen.\n\nDat nalezen blijft nodig. Als Astra het juiste antwoord niet geeft, produceert het in 59% van de gevallen toch een fout antwoord in plaats van te passen. Bij de vorige versie was dat 50%.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #OpenAI #generatieveAI #benchmarks #LLM",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528786924015214593/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 11:27",
+  "text": "Wie beslist eigenlijk over AI?\n\nElke vijf jaar brengt het AI100-panel van Stanford in kaart hoe het staat met AI. De editie van deze maand stelt vast: AI verandert het leven van miljarden mensen, maar het publiek heeft nauwelijks inspraak.\n\nHet verhaal dat over AI verteld wordt, speelt daarin mee. Volgens een PNAS-studie zijn mensen die AI zien als vervanger van hun job minder bereid om politiek in actie te komen. Techleiders versterken dat door AI voor te stellen als onbegrijpelijk en onbestuurbaar.\n\nHet rapport pleit ervoor om AI te benaderen als een collectieve keuze, met onderwijzers, journalisten, ethici en de gemeenschappen die de gevolgen dragen mee aan tafel.\n\nEr is één plek waar burgers vandaag al wegen op AI: de fysieke infrastructuur. De vooruitgang van de voorbije vijf jaar steunt op steeds meer rekenkracht en data, en dus op steeds grotere datacenters. Gecorrigeerd voor inflatie wordt daar nu drie keer meer in geïnvesteerd dan tijdens de internetgolf eind jaren negentig. \n\nZulke gebouwen staan in iemands buurt, en dat zorgt voor verzet. In de VS werd tussen januari en maart 2026 door lokaal protest voor meer dan 130 miljard dollar aan projecten geblokkeerd of uitgesteld.\n\nPS: Wil je zulke verhalen elke week in je inbox? Abonneer je op 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #democratie #datacenters #AIgeletterdheid #Stanford",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528765911005138945/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 11:03",
+  "text": "Wat zegt een labotest over AI op het slagveld?\n\nHet Amerikaanse evaluatiebureau Vals testte modellen van acht AI-bedrijven op satelliet- en dronebeelden. Bloomberg bracht de resultaten gisteren naar buiten.\n\nOp echte satellietbeelden van Minab, Iran, duidde Claude Opus 5.5 van Anthropic in 22 van de 32 pogingen een school aan als militair doelwit. Bij een Amerikaanse aanval op die school kwamen eerder dit jaar meer dan 100 kinderen om.\n\nDe modellen van OpenAI deden dat geen enkele keer. Toen de onderzoekers de opdracht als een spel voorstelden, duidden drie OpenAI-modellen de school 9, 11 en 13 keer aan.\n\nDie nuance telt: het ging om een vereenvoudigd experiment, zonder juridische controle, militaire procedures of menselijk toezicht. Het Pentagon werkt bovendien met aangepaste modelversies.\n\nToch verbieden de labs die reageerden dit gebruik in hun eigen voorwaarden. Een zin als \"het is maar een spel\" volstond vaak om een weigering te omzeilen.\n\nAnthropic zegt dat er binnenkort extra beveiligingen komen. Sommige labs testen intussen verder met Vals.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #Anthropic #OpenAI #autonomewapens #LLM",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528759726332043265/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 11:00",
+  "text": "Bijna even goed, twintig keer goedkoper\n\nMicrosoft stelde gisteren op Ignite zes eigen AI-modellen voor. Het belangrijkste verkoopargument is de prijs.\n\nCodeermodel MAI Code 2 haalt volgens Microsoft 96% van de prestaties van Claude Opus 5.5, aan 5% van de kostprijs. Tegenover GPT-6.1 Sol is dat 98% aan 40% van de prijs.\n\nMicrosoft wint die marge door te specialiseren. Een model dat geoptimaliseerd is voor alledaagse programmeertaken, scoort minder goed op wiskunde of wetenschappelijk onderzoek, maar is veel goedkoper om te draaien.\n\nEen kanttekening: Microsoft kiest zelf welke benchmarks het toont, en een deel van het prijsvoordeel komt van tijdelijke promotiekortingen.\n\nDe concurrentie zit niet stil. OpenAI kondigde dezelfde dag GPT-6.2 Astra aan, 20% goedkoper dan de vorige versie.\n\nMAI Code 2 komt ook in GitHub Copilot, waar het programmeerwerk kan overnemen dat nu nog naar modellen van OpenAI en Anthropic gaat.\n\nPS: Zulke verschuivingen in het AI-landschap ontleed ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #AImodellen #GitHubCopilot #Microsoft #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528759036440162306/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 10:57",
+  "text": "Waarom Apple een waarschuwingslampje inbouwt voor AI-agents\n\nEen AI-agent op je Mac klikt, typt en opent bestanden namens jou. Daarvoor vragen veel apps volledige schijftoegang: toegang tot je mail, berichten, documenten en browsergeschiedenis.\n\nTot nu toe volstond één schakelaar in de instellingen. Apple meldde vorige maand al dat sommige ontwikkelaars die toegang gebruiken op een manier die gebruikers in gevaar brengt.\n\nMet macOS 27.3, nu in bèta, wordt dat strenger, meldt MacRumors. Apps die andere apps besturen, krijgen een aparte toestemming. Je kunt de toegang beperken tot specifieke mappen of apps, of de app bij elk gebruik opnieuw laten vragen.\n\nBestuurt een app een andere app, dan verschijnt er een indicator in de menubalk.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in de nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AIagents #privacy #Apple #macOS #cybersecurity",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528758339506208768/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 10:55",
+  "text": "Nvidia verandert één regel in de boekhouding, en Singapore verdwijnt\n\nNvidia boekte in 2025 104 miljard dollar omzet via zijn dochterbedrijf in Singapore. Dat is bijna de helft van de wereldwijde omzet, meldt de Financial Times.\n\nIn de eigen kwartaalcijfers van Nvidia staat dat nergens. Sinds vorig jaar groepeert het bedrijf zijn omzet per regio volgens het hoofdkantoor van de klant, niet meer volgens het factuuradres. Daardoor staat Singapore er niet meer apart in.\n\nDe timing valt op. De wijziging kwam kort nadat Nvidia afstand nam van Megaspeed, een klant uit Singapore die de VS onderzoeken voor chipsmokkel naar China. Diezelfde zaak kostte Jensen Huang vorige week zijn job als CEO.\n\nVolgens Nvidia gebruiken klanten Singapore vooral om te factureren en gaan de chips naar elders. Robert Walker van het Lowy Institute wijst er wel op dat het afschermen van informatie net argwaan wekt.\n\nSinds maandag hebben datacenters in Singapore, Maleisië, Thailand en Indonesië een Amerikaanse licentie nodig om geavanceerde AI-chips te kopen.\n\nPS: Wil je zulke verhalen elke week ontleed zien? Volg 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #Nvidia #AI #transparantie #exportcontrole #chips",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528757661643997185/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 10:52",
+  "text": "De centaur-hacker is er\n\nSecuritybedrijf Calif ontdekte met OpenAI's GPT-6 Cyber een kritiek lek in Java. Volgens The New York Times gebruikt zo'n 90 procent van de Fortune 500-bedrijven die programmeertaal. Oracle bracht dinsdag een patch uit.\n\nDe trigger is verrassend eenvoudig: 64 keer de letter A, gevolgd door een gelijkheidsteken. Op bepaalde systemen loopt de base64-decoder van Java daarop vast.\n\nDoor het geheugen daarna zorgvuldig te ordenen, kregen de onderzoekers volledige toegang tot het onderliggende systeem.\n\nNa zijn nederlaag tegen Deep Blue voorspelde Garry Kasparov dat mens en computer samen de beste schaakpartijen zouden spelen. Die combinatie noemde hij een centaur.\n\nIn cybersecurity is die centaur nu realiteit. Kleine teams bouwen met AI-modellen in dagen of uren aanvallen waar elitehackers van inlichtingendiensten vroeger maanden over deden.\n\nThe New York Times testte de aanval zelf na. Dat lukte in minder dan een uur.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #Java #OpenAI #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528757052345614337/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 10:16",
+  "text": "Van superintelligentie tot wat je zelf kan doen\n\nGisteren mocht ik een sessie over het masker van AI geven voor het enthousiaste publiek van de Tech&Meet-sessies van HOWEST Hogeschool West-Vlaanderen in Brugge.\n\nWe bespraken de recente technische ontwikkelingen, superintelligentie, de impact van AI op de aarde en wat je zelf kan doen.\n\nVoor Europa was er jammer genoeg geen tijd meer. Dat houden we tegoed.\n\nLeuk ook dat ik drie boeken mocht weggeven aan het publiek.\n\nBedankt Gene Vangampelaere en Patrick Van Renterghem voor de uitnodiging!\n\nDe slides vind je op wimcasteels.be, bij Nieuws.\n\nPS: Wil je wekelijks meer van zulke inzichten? Lees mee in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #TechAndMeet #Howest #superintelligentie #duurzaamheid",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528748076455542784/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 08:31",
+  "text": "Rutger Bregman maakt een ongemakkelijke ommekeer\n\nJarenlang knikte Rutger Bregman mee met de AI-sceptici. In een opiniestuk in NRC legt hij uit waarom hij nu toch waarschuwt.\n\nZijn argument: wie de voorbije tien jaar voorspelde dat de AI-vooruitgang zou blijven stijgen, kreeg telkens gelijk. De sceptici zaten er vaak naast.\n\nOp één punt hebben de sceptici wel gelijk: de samenleving voert AI veel trager in dan de technologie vooruitgaat. Geoffrey Hinton zei in 2016 dat we moesten stoppen met radiologen opleiden. Vandaag is er een tekort.\n\nBinnen de labs gaat het sneller. Volgens METR verbetert Anthropic zijn modellen nu ongeveer twee keer zo snel als voorheen, en komt zo'n 80 procent van die versnelling uit AI-systemen die het onderzoek mee uitvoeren. METR geeft zelf een ruime marge: tussen 1,3 en 3 keer zo snel.\n\nDie kloof verklaart waarom het dagelijks leven nog normaal aanvoelt, terwijl de ontwikkeling in een handvol bedrijven versnelt.\n\nBregman pleit voor een geverifieerde, wereldwijde pauze. Volgens hem is de eerste stap dat alle AI-chips geteld en gevolgd worden.\n\nPS: In 'Het masker van AI' ontleed ik zulke ontwikkelingen elke week: https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #Anthropic #AI2027 #METR #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528721641594384384/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 00:03",
+  "text": "Google ziet de eerste volledig geautomatiseerde aanvalsketen\n\nIn september meldde Google Threat Intelligence nog dat het geen volledig autonome aanvalspipelines in het wild had gezien. In het rapport van deze week staat dat het nu wel zo is.\n\nOnderzoekers vonden een onbeveiligde server met een framework genaamd exploit_agent. Het vergelijkt de code van populaire websoftware voor en na een patch, identificeert zo het gedichte lek, genereert een exploit en voert die automatisch uit. Er komt geen mens aan te pas.\n\nDe doelwitten: Franse websites uit media, entertainment en onderwijs.\n\nDit past in een breder patroon. Bij een lek in PaperCut-printservers bouwden onderzoekers met taalmodellen binnen één dag een werkende exploit. Vier dagen na de bekendmaking liep er al een aanvalscampagne tegen honderden organisaties.\n\nElke patch toont dus ook waar het lek zat. Wie een week wacht met updaten, geeft een geautomatiseerd systeem een week voorsprong.\n\nPS: Elke week duik ik dieper in zulke ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #agenticAI #LLM #patchmanagement",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528593782876061696/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 23:32",
+  "text": "Vijf dagen na zijn ontslag staat Huang klaar om terug te keren\n\nJensen Huang stapte vorige donderdag op als CEO van Nvidia, na onthullingen over buitenechtelijke relaties, onder meer met een vermoedelijke Chinese spion. Vandaag liet hij weten dat hij terugkeert als het bestuur hem dat vraagt.\n\nRobbie Whelan beschrijft in The Wall Street Journal hoe duizenden werknemers, investeerders, Elon Musk en zelfs president Trump een terugkeer steunen.\n\nEen hooggeplaatste Nvidia-medewerker schreef de bestuursvoorzitter dat het bedrijf de komende jaren niet goed doorkomt zonder Huang.\n\nEen hele AI-sector leunt op één chipbedrijf, en dat bedrijf leunt op één persoon. Na 33 jaar met dezelfde CEO lag er geen opvolger klaar. CFO Colette Kress neemt de leiding tijdelijk over.\n\nVolgens de WSJ overweegt het bestuur geen terugkeer en kiest het nu een headhuntingbureau. Vandaag maakte Nvidia ook zijn kwartaalcijfers bekend, de eerste zonder Huang aan het roer.\n\nPS: Elke week ontleed ik zulke AI-verhalen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #Nvidia #AI #leiderschap #governance #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528585926651068416/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 23:30",
+  "text": "Een Belgische toezichthouder trekt een lijn voor AI-training\n\nDe Gegevensbeschermingsautoriteit (GBA) publiceerde op 17 november een beslissing over een app waarmee gebruikers gepersonaliseerde chatbots maken. Het bedrijf achter de app gebruikte gespreksgegevens om zijn AI-model te trainen.\n\nDe GBA maakt een duidelijk onderscheid. Gewone gesprekken mag het bedrijf gebruiken op basis van gerechtvaardigd belang: gebruikers mogen dat redelijkerwijs verwachten, en er zijn waarborgen voorzien.\n\nVoor gevoelige gegevens ligt dat anders. Gaat een gesprek over gezondheid, seksuele geaardheid of geloof, dan is uitdrukkelijke toestemming nodig om het voor training te gebruiken. Die toestemming ontbrak.\n\nDaarmee ligt er in België een concreet kader voor elk bedrijf dat modellen traint op chats van gebruikers.\n\nHet bedrijf krijgt een berisping en vier maanden om in orde te komen. Lukt dat niet, dan volgt een dwangsom van 2.000 euro per dag. De partijen kunnen nog 30 dagen in beroep gaan.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AVG #GDPR #privacy #chatbots #AI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528585416384393218/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 23:28",
+  "text": "25 of 188 dollar: de prijs van een AI-belofte\n\nAnthropic gaat donderdag naar de beurs tegen 70 à 78 dollar per aandeel, goed voor een waarde tot 1,4 biljoen dollar. Maarten Schinkel legt in NRC uit waarom beleggers eigenlijk niet weten wat ze kopen.\n\nHet bedrijf is vijf jaar oud en maakt nog geen winst. Een track record ontbreekt, dus de waardering steunt volledig op verwachte groei.\n\nMorningstar, een van de weinige analisten die niet bij de beursgang betrokken is, rekent drie scenario's door. Bij 47 procent omzetgroei per jaar tot 2031 hoort een koers van 92 dollar.\n\nGroeit de omzet 60 procent per jaar, dan komt Morningstar uit op 188 dollar. Bij 22 procent zakt dat naar 25 dollar.\n\nHetzelfde bedrijf en drie aannames geven dus een prijsverschil van ruim een factor zeven.\n\nDaar komt bij dat na de beursgang maar 4,8 procent van de aandelen vrij verhandelbaar is. Analisten waarschuwen dat de koers daardoor de eerste tijd sterk kan schommelen.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #Anthropic #beursgang #AIbubbel #beleggen",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528584793186484224/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 22:39",
+  "text": "200 miljoen leerlingen, één AI-plan\n\nChina wil dat tegen 2030 elk schoolkind AI-geletterd is. Reuters bracht dat in kaart met schoolbezoeken, interviews en meer dan 100 overheidsdocumenten.\n\nHet gaat om bijna 200 miljoen leerlingen in het lager en secundair onderwijs. Bijna de helft van de Chinese provincies en grootsteden heeft al bindende plannen.\n\nShanghai legt minstens 30 uur AI-les per jaar op, in elk leerjaar. Ningxia en Gansu nemen AI-geletterdheid tegen 2027 op in hun toelatingsexamens.\n\nPeking ziet dit als een investering in de technologische wedloop met de VS. Daar bestaan volgens de Stanford AI Index 2026 alleen vrijblijvende richtlijnen, zonder eigen budget.\n\nWat AI-geletterdheid precies inhoudt, ligt in China nog niet vast. Een gemeenschappelijk kader om ze te meten is er nog niet.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Onderwijs #AI #AIgeletterdheid #China #edtech",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528572508057321473/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-17 15:13",
+  "text": "40 miljoen euro voor stilte over AI-scraping\n\nTom Cochez onthult in apache dat Mediahuis via een geheime deal 40 miljoen euro van Google ontvangt, gespreid over drie jaar. Dat blijkt uit een intern beleidsdocument.\n\nOfficieel gaat het om Google Showcase, waarmee je gratis artikels van De Standaard of Het Nieuwsblad leest. Volgens het document compenseert het geld vooral het massaal scrapen van krantenartikels door AI-bots.\n\nMediahuis stemde in met verplichte geheimhouding. Intussen verklaarde ceo Gert Ysebaert een ontslagronde met 35 bedreigde jobs grotendeels door de strijd met AI, en vroeg hij extra overheidssteun.\n\nDPG Media sloot een gelijkaardige deal, in dezelfde grootteorde.\n\nThe New York Times kiest een andere weg en gaf al meer dan 20 miljoen dollar uit aan een rechtszaak tegen AI-bedrijven. Wint de krant, dan opent dat de deur voor schadeclaims. Een geheime schikking levert geen precedent op.\n\nPS: Wil je zulke verhalen wekelijks ontleed zien? Abonneer op 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #auteursrecht #journalistiek #Google #Mediahuis",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528460428583108608/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-17 09:39",
   "text": "De wereld was al kwetsbaar voor AI er was\n\nIn The Economist weegt Anne Neuberger de risico's van AI af tegen de huidige situatie. Ze was cyberveiligheidsadviseur in het Witte Huis.\n\nDie situatie is al onveilig. NotPetya legde in 2017 binnen enkele uren onder meer rederij Maersk plat. In 2023 moesten Amerikaanse waterbedrijven na een hack overschakelen op handmatige bediening.\n\nVolgens Neuberger draaiden zulke aanvallen zelden om briljante code. Verdedigers vonden en dichtten bekende lekken in verouderde systemen gewoon niet snel genoeg.\n\nDaar kan AI helpen. Tijdens de AI Cyber Challenge van DARPA vonden AI-systemen 18 onbekende kwetsbaarheden in opensourcesoftware en leverden ze voor 11 ervan een patch.\n\nHaar voorstel: overheden verplichten beheerders van kritieke infrastructuur om lekken binnen vaste termijnen te dichten. De systemen met de hoogste prioriteit zouden zo binnen een jaar aangepakt kunnen worden.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #kritiekeinfrastructuur #DARPA",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7528376257722523648/",
