@@ -1,5 +1,19 @@
 [
  {
+  "date": "2026-11-18 20:07",
+  "text": "De grootste Maps-update in tien jaar bereikt Europa\n\nGoogle rolt Ask Maps uit in meer dan 30 Europese landen. Ask Maps is een Gemini-functie in Google Maps. Je typt een vraag in gewone taal, zoals \"waar kan ik nu mijn telefoon opladen?\", en het systeem zoekt een antwoord in gegevens over 300 miljoen plaatsen en reviews van meer dan 500 miljoen gebruikers.\n\nIn Europa kan Ask Maps een reisschema per dag opstellen, met genummerde stops op de kaart. Je kan ook vragen stellen over je bewaarde plaatsen, in plaats van door honderden pins te scrollen.\n\nNiet alles komt meteen naar Europa. Online afspraken boeken bij een kapper of garage, en route-info over vertragingen en tol, starten eerst in de VS.\n\nPS: Zulke AI-ontwikkelingen ontleed ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #GoogleMaps #Gemini #generatieveAI #reizen",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528896587083816960/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-18 15:52",
+  "text": "75 tegenover 55 procent: de AI-kloof tussen developers\n\nHet nieuwe State of Cloud Native Development-rapport van @SlashData en de Cloud Native Computing Foundation telt 21,2 miljoen cloud-native developers wereldwijd. Dat is 41% van alle developers.\n\nCloud native betekent: software bouwen op moderne cloudtechnologie, zoals containers en Kubernetes, die vlot mee opschaalt.\n\nDie groep gebruikt veel vaker AI bij het programmeren: 75%, tegenover 55% bij andere developers.\n\nOpvallend: wie AI gebruikt, werkt er grotendeels op dezelfde manier mee. Het team stelt vast dat cloud native vooral bepaalt óf iemand met AI aan de slag gaat, veel minder hoe.\n\nCloud-native developers zijn zelfs iets terughoudender met autonome agents: 15% laat een agent zelfstandig taken plannen en uitvoeren, tegenover 18% bij de rest.\n\nBij AI-functies in eigen software is de kloof nog groter: 67% van de cloud-native developers bouwt die in, tegenover 38% van de anderen.\n\nPS: Elke week ontleed ik zulke cijfers in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #CloudNative #softwareontwikkeling #developers #KubeCon",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7528832483455307776/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-18 12:53",
   "text": "Wat levert $200 op in de handen van een AI-agent?\n\nInduction Labs lanceerde FrontierML, een benchmark die meet hoe goed AI-agents geld omzetten in betere modellen. Elke agent krijgt 12 uur, een taakomschrijving en een budget van $10, $50 of $200.\n\nMet dat geld huren de agents GPU's, genereren ze synthetische data en trainen ze een model. Het gaat om 21 taken, van spraakassistenten tot een bot voor Pokémon-gevechten.\n\nDe sterkste agents leveren betere modellen af naarmate het budget stijgt. Claude Opus 5.5 gaat van 45,4 punten met $10 naar 58,8 met $200. Een menselijke onderzoeker scoort 56,0 en 66,1.\n\nBij zwakkere modellen levert extra geld niets op. Gemini 3.8 Flash zakt zelfs van 8,1 naar 5,7.\n\nOpvallend: gemiddeld geven de agents maar 45% van hun budget uit, ook al vermeldt de taakomschrijving dat het volledige bedrag opgebruiken geen nadeel oplevert.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #machinelearning #benchmarks #AIonderzoek",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7528787437653905409/",
