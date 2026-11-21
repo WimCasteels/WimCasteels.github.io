@@ -1,5 +1,33 @@
 [
  {
+  "date": "2026-11-21 09:00",
+  "text": "Exact een jaar geleden startte ik met de nieuwsbrief Het masker van AI. Vandaag verschijnt editie 53, en ik had nooit gedacht dat ik het zo lang zou volhouden. 5.000 lezers en zoveel fijne reacties later: dank je wel, daarvoor doe ik het!\n\nDeze week:\n 🔹 Anthropic gaat naar de beurs. Kan een veiligheidsbedrijf kwartaaldruk overleven?\n 🔹 Mediahuis klaagt over Google en ontvangt 40 miljoen euro van Google\n 🔹 Een Zweeds datacenter dat de buurt verwarmt\n 🔹 Hackers zonder mens achter het toetsenbord\n 🔹 Elk verhaal over AI dient een belang\n\n#AI #HetMaskerVanAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529577407826276352/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-20 16:15",
+  "text": "Vaag AI-beleid voedt campusverzet\n\nOp Amerikaanse campussen groeit het verzet tegen generatieve AI. Dana Goldstein beschrijft in The New York Times hoe studenten petities starten en chatbots weigeren te gebruiken.\n\nAan Transylvania University tekende een derde van de studenten een petitie tegen de 120.000 dollar die de universiteit uitgaf aan licenties voor ChatGPT en Gemini.\n\nOpvallend: veel ondertekenaars gebruiken AI zelf. Ze vragen vooral heldere regels.\n\nProfessor Hollis Robbins van de University of Utah ziet vaag en inconsistent beleid als motor van de beweging. Elke docent stelt eigen regels op, en studenten blijven met vragen zitten.\n\nGeorgetown hoorde hetzelfde in focusgroepen: 40 procent van de studenten stond voorzichtig of negatief tegenover AI, 25 procent positief. De universiteit richt nu een commissie van docenten op die duidelijke principes voor AI-gebruik moet uitwerken.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Onderwijs #AI #generatieveAI #hogeronderwijs #ChatGPT",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7529562993148190720/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-20 16:13",
+  "text": "Hoe soeverein is AI op eigen chips met andermans model?\n\nSarvam, het uithangbord van India's streven naar eigen AI, lanceerde deze week Token Factory. Het platform biedt acht AI-modellen aan via één API, gehost op servers in India.\n\nZes van die acht modellen komen van Chinese labs: DeepSeek, Moonshot AI en Z.ai. Dat leverde online stevige kritiek op.\n\nDe kritiek komt niet uit het niets. Sarvam bouwde zijn eigen model met steun van de Indiase overheid en kreeg als een van de eerste startups gesubsidieerde rekenkracht.\n\nDe oprichters hanteren een andere definitie van soevereiniteit. De data van Indiase gebruikers blijft binnen de landsgrenzen, en de chips achter Token Factory zijn met privégeld betaald.\n\nDaarmee komen drie lagen bloot te liggen die in het debat vaak door elkaar lopen: wie het model bouwt, wie de rekenkracht bezit en waar de data staat.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #DigitaleSoevereiniteit #India #DeepSeek #OpenWeights",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7529562604273541122/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-20 16:10",
+  "text": "Google bouwde een tweede internet om AI-agents te testen\n\nHet Chrome-team van Google bouwde een volledig afgesloten nepinternet: de 'Mirror Dimension'. \n\nEr staan sociale media, webshops en bankdashboards op, gebouwd zoals echte websites. Browseragents op basis van Gemini voeren er taken uit in de gewone Chrome-browser.\n\nWaarom die omweg? Ongeteste agents loslaten op het echte web is riskant. Een kleine testomgeving volstaat niet: modellen kunnen ander gedrag vertonen zodra een omgeving herkenbaar is als test. Dat fenomeen heet 'eval awareness'.\n\nOnderweg krijgen de agents verborgen prompt-injecties te verwerken: instructies in een webpagina die bedoeld zijn om de agent een andere opdracht te laten uitvoeren dan wat de gebruiker vroeg.\n\nHet nepweb zelf werd grotendeels gebouwd door andere AI-agents, tot en met werkende promocodes in de webshops. Google wil de omgeving nu openstellen voor andere teams binnen het bedrijf.\n\nPS: Elke week leg ik zulke AI-ontwikkelingen uit in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #Google #Chrome #promptinjectie #AIveiligheid",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7529561908929159169/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-20 09:44",
   "text": "Hoe soeverein is een Europa dat aansluit bij Pax Silica?\n\nDe VS en negen bondgenoten ondertekenden afgelopen weekend de verklaring van San Francisco. Ze willen samen de chips, grondstoffen en infrastructuur beschermen waar AI op draait.\n\nVolgende week tekenen ook Duitsland, Zweden, Nederland en de Europese Commissie. De EU sloot zich in juni al aan bij Pax Silica, het Amerikaanse initiatief rond AI-toeleveringsketens.\n\nPax Silica moet de afhankelijkheid van China afbouwen, met gezamenlijke projecten en exportcontroles. Wie meedoet, stemt zijn techbeleid dus mee af op Washington.\n\nDat schuurt met de Europese plannen. In juni lanceerde de Commissie nog een pakket voor technologische soevereiniteit, met eigen cloud- en AI-datacentercapaciteit.\n\nFrankrijk stond terughoudend. De Commissie liet vooraf bevestigen dat Pax Silica juridisch niet bindend is. Daardoor hoeft het Europees Parlement er ook niet mee in te stemmen.\n\nPS: Elke week leg ik in 'Het masker van AI' uit welke machtsverhoudingen achter AI schuilgaan: https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #PaxSilica #digitalesoevereiniteit #halfgeleiders #geopolitiek",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7529464695444000769/",
