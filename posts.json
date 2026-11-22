@@ -1,5 +1,103 @@
 [
  {
+  "date": "2026-11-22 09:54",
+  "text": "Hetzelfde model, drie keer doorlopen\n\nThinking Machines Lab bracht deze week Inkling 2 Mini uit, een open-weights model met een ongewone opbouw: een looped transformer.\n\nEen klassiek taalmodel stuurt elk token één keer door een vaste stapel lagen. Inkling 2 Mini heeft 24 lagen, maar laat de middelste 12 lagen drie keer na elkaar draaien. Dat geeft 48 rekenstappen per token, met maar 24 opgeslagen lagen.\n\nDe gedachte erachter: de middelste lagen doen het meest abstracte rekenwerk. De eerste en laatste lagen zetten vooral tekst om naar interne representaties en terug.\n\nHet resultaat is een model van ongeveer 20 GB dat op een laptop draait. Op codeertaken scoort het beter dan elk ander open model onder 100 miljard parameters.\n\nFeitenkennis groeit niet mee. Hoeveel feiten een model kan opslaan, hangt vooral af van het aantal parameters. Op feitentests scoort Inkling 2 Mini daarom gewoon op het niveau van modellen van dezelfde grootte.\n\nPS: Elke week ontleed ik zulke ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #LLM #OpenSource #generatieveAI #ThinkingMachines",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530192066211942401/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-22 09:52",
+  "text": "Hoe meet je AI als de test al ingeoefend is?\n\nHet onafhankelijke testlab METR publiceerde een rapport met een ongemakkelijke vaststelling: hun eigen tests worden minder betrouwbaar.\n\nDe reden: goedkope, automatisch gescoorde tests lijken sterk op de omgevingen waarin AI-bedrijven hun modellen trainen. Een hoge score betekent dan vaak dat het model al getraind is op gelijkaardige opdrachten.\n\nMETR schatte daarom per taak hoe duur die is om om te zetten in trainingsmateriaal. Bij taken van gelijke lengte geldt: hoe duurder, hoe lager de scores. Een verdubbeling van die kost weegt ongeveer even zwaar als het halveren van de taakduur die een model aankan.\n\nOp codeer- en optimalisatietaken verslaan de modellen de experts die METR kon vinden. Op taken zonder snelle, duidelijke feedback scoren ze zwakker dan menselijke experts.\n\nOok als beoordelaar wringt het: modellen geven systematisch te hoge scores aan werk van even sterke of sterkere modellen.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #benchmarks #AIevaluatie #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530191450865827840/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-22 09:20",
+  "text": "Etsy weert AI-beelden en wil zelf AI trainen\n\nIn oktober scherpte Etsy de regels aan: verkopers mogen geen AI-gegenereerde productfoto's of -beschrijvingen meer gebruiken.\n\nTegelijk staat in de nieuwe gebruiksvoorwaarden dat Etsy en zijn externe partners het werk van verkopers mogen gebruiken om AI-systemen te ontwikkelen en te trainen. Een knop om dat te weigeren is er niet, enkel een e-mail naar de privacyverantwoordelijke.\n\nVolgens The New York Times sluiten daarom heel wat verkopers hun shop. Illustrator Aaron Millard stopt na bijna tien jaar, het merk Cognitive Surplus na dertien jaar.\n\nHet protest werkt. Etsy laat weten dat het de voorwaarden herziet en de nieuwe versie binnenkort rechtstreeks met verkopers deelt.\n\nEtsy-verkopers kennen dat scenario: in 2022 staakten er meer dan 20.000 tegen een verhoging van de verkoopkost van 5 naar 6,5 procent.\n\nPS: Zulke verhalen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #Etsy #AI #auteursrecht #generatieveAI #creatieven",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530183326268182528/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-22 09:12",
+  "text": "Washington en Peking maken een afspraak over militaire AI, maar alleen mondeling\n\nTrump en Xi spraken in Shenzhen af dat bij militaire beslissingen met AI altijd een mens betrokken moet zijn. Dat zei de Amerikaanse minister van Financiën Scott Bessent op CNBC.\n\nHet is de zoveelste stap in een reeks. In 2024 spraken Biden en Xi al af dat mensen beslissen over de inzet van kernwapens. Dit jaar volgden een AI-dialoog in mei en een kanaal voor AI-incidenten in september.\n\nToch blijft het akkoord dun. Voorlopig kennen we het alleen uit een tv-interview.\n\nVolgens Bessent mogen AI-systemen niet autonoom ingezet worden voor \"major\" militaire acties. Wat onder die term valt, staat nergens omschreven.\n\nOver toezicht, controle of gevolgen bij een inbreuk is niets bekend.\n\nMidden december zien Trump en Xi elkaar opnieuw, op de G20 in Miami.\n\nPS: Wil je zulke ontwikkelingen elke week mee volgen? Abonneer je op 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #autonomewapens #China #geopolitiek #militaireAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530181300201107456/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 22:02",
+  "text": "Meta zet zijn klimaatdoel voor 2030 op losse schroeven\n\nIn zijn nieuwe duurzaamheidsrapport schrijft Meta dat het de timing van zijn net-zerodoel voor 2030 herbekijkt. De reden: de vraag naar AI-infrastructuur groeit sneller dan verwacht. Ars Technica zette de cijfers op een rij.\n\nDe totale uitstoot van Meta steeg in 2025 van 15,6 naar 21,7 miljoen ton CO2-equivalent, bijna 40 procent meer. Dat is ongeveer evenveel als de Amerikaanse staat Idaho.\n\nOok na hernieuwbare energie en koolstofverwijdering blijft er een stijging van 45 procent over. Het grootste deel komt van kapitaalgoederen, zoals servers voor nieuwe datacenters.\n\nMicrosoft (+25%), Google (+18%) en Amazon (+16%) zien hun uitstoot ook stijgen, maar houden voorlopig vast aan hun oorspronkelijke doelen. Meta is de eerste van de vier die zijn doel openlijk ter discussie stelt.\n\nMeta zegt dat het zal laten weten waar die herziening uitkomt. Een nieuwe datum noemt het rapport nog niet.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #Meta #datacenters #klimaat #duurzaamheid",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530012689536929793/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 21:33",
+  "text": "Een Gentse start-up schrapt het copy-pastewerk\n\nDe Standaard zet deze week Tekst in de kijker, een van de zes laureaten van de AI-Openers 2026. Het bedrijf uit Gentbrugge automatiseert routinematig kantoorwerk met AI-agenten.\n\nDe software koppelt aan systemen als SAP en Outlook en brengt in kaart hoe informatie door een bedrijf stroomt. Pas daarna automatiseren AI-agenten de processen waar dat kan.\n\nSecurex ontvangt jaarlijks 1,3 miljoen mails. Vandaag komt 90 procent daarvan meteen bij de juiste medewerker terecht, tegenover 30 procent vroeger.\n\nVolgens Securex levert dat 6.500 uur per jaar op, het werk van vier voltijdse medewerkers. Zij doen nu ander werk.\n\nDe oprichters, Wouter Janssen en Tiebe Parmentier, zijn 27. Hun bedrijf telt 60 medewerkers en meer dan 50 klanten, en haalde in mei 11,5 miljoen euro op bij het Amerikaanse durfkapitaalfonds Elephant.\n\nPS: Zulke verhalen ontleed ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #automatisering #startups #Belgie #ToekomstVanWerkplek",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530005458653319168/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 21:30",
+  "text": "Drie op de vier offertes zijn verloren werk. Een Gentse start-up schrapt dat werk.\n\nEen dakwerker is tot zes uur kwijt aan één offerte: ter plaatse opmeten, gegevens invoeren, materiaalprijzen opzoeken. Slechts één op de vier offertes wordt aanvaard.\n\nDe Standaard portretteert in de reeks AI-Openers het Gentse Spotable, dat die tijd terugbrengt tot een tiental minuten.\n\nOp basis van alleen een adres berekent de software een 3D-model van het dak, tot op 5 centimeter nauwkeurig. Daarna koppelt het systeem materialen en werkzaamheden aan groothandelsprijzen en aan de marges van de dakwerker.\n\nGeen chatbot, geen spectaculaire demo. Wel een toepassing die papierwerk wegneemt in een sector met overvolle orderboekjes en een renovatieplicht voor woningen met EPC-label E of F.\n\nVierhonderd dakwerkers gebruiken de tool al. In theorie hoeven ze niet meer ter plaatse te gaan, maar de meesten doen het toch, om de klant uitleg te geven.\n\nPS: Wekelijks ontleed ik zulke AI-toepassingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #bouwsector #renovatie #startups #Gent",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530004706321027072/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 21:27",
+  "text": "Een Gentse start-up maakt bestaande veldspuiten slimmer\n\nCroptic is een van de zes laureaten van de AI-Openers 2026 van De Standaard. Het idee is eenvoudig: boeren spuiten enkel nog waar er onkruid staat.\n\nEerst brengt een drone het veld in kaart. Een beeldherkenningsmodel spoort onkruidplantjes op vanaf 3 centimeter en zet ze om in een taakkaart voor het gps-systeem van de veldspuit.\n\nDe sproeidoppen gaan alleen open boven de aangeduide plekken. Vorig jaar gebruikten de klanten gemiddeld 88 procent minder sproeimiddel. Op een op de vier velden was dat 95 procent of meer.\n\nOpvallend: de boer hoeft geen nieuwe machine te kopen. Veldspuiten van soms meer dan een half miljoen euro hebben de nodige technologie al aan boord, maar die blijft vandaag grotendeels onbenut.\n\nDaarna wil Croptic plantenziekten opsporen. Tegen de aardappelplaag alleen gaat al 15 procent van alle pesticiden in België.\n\nPS: Elke week ontleed ik zulke AI-verhalen in de nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #landbouw #precisielandbouw #drones #duurzaamheid",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530004101435248640/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 21:24",
+  "text": "Gentse software haalt de ruis uit een korrelige PET-scan\n\nEen PET-scan vraagt een injectie met radioactieve suiker. Kankertumoren verbruiken meer suiker en lichten zo op op het beeld.\n\nBij kinderen en zwangere vrouwen vormt die stralingsdosis een reëel risico. Daarom worden zulke scans bij hen vaak vermeden.\n\nHet Gentse nuclivision, een van de zes laureaten van de AI-Openers van De Standaard, zet AI in om met een lagere dosis en in de helft van de scantijd een even goed of beter beeld te maken.\n\nHet model is getraind op paren van scans van hoge en lage kwaliteit. Zo berekent het welk deel van een korrelig beeld ruis is en welk deel echt signaal.\n\nDe software, Nuclarity, werkt op elke scanner. Ziekenhuizen betalen een licentie die ze volgens het bedrijf in twee tot drie maanden terugverdienen, omdat ze met dezelfde machine meer patiënten scannen.\n\nVandaag draait Nuclarity in tien ziekenhuizen. De goedkeuringsaanvraag bij de Amerikaanse FDA is ingediend.\n\nPS: Meer van zulke verhalen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Wetenschap #AI #gezondheidszorg #medischebeeldvorming #startup #Gent",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530003183541112832/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 21:20",
+  "text": "Een Gentse start-up stuurt AI-computers de ruimte in\n\nDe Standaard zoekt de AI-Opener van 2026: de Belgische AI-start-up met de grootste positieve impact. Uit 107 inzendingen koos een jury zes laureaten. Een van hen is EDGX uit Gent.\n\nSatellieten sturen hun data vandaag naar grondstations op aarde, waar die verwerkt worden. Dat kost tijd, want gewone computers gaan in de ruimte snel stuk door straling, kou en de schokken bij de lancering.\n\nEDGX bouwt daarom Sterna, een AI-computer met een Nvidia-chip. Het bedrijf vervangt de kwetsbare componenten door onderdelen die beter tegen straling kunnen, en test ze in een eigen lab en zelfs bij de deeltjesversneller van CERN.\n\nZo verwerkt de satelliet de data meteen aan boord. Daardoor kun je bosbranden, illegale lozingen door schepen of de Russische schaduwvloot veel sneller opsporen.\n\nTwee systemen draaien al in de ruimte, volgend jaar komen er minstens twee bij. \n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #ruimtevaart #startups #België #EDGX",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530002232545546240/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 21:01",
+  "text": "Wat doet een wiskundige als de Riemann-hypothese opgelost is?\n\nLevent Alpöge, wiskundige bij Anthropic, claimt dat hij samen met het taalmodel Claude de Riemann-hypothese bewezen heeft. Het probleem ligt al sinds 1859 open en is het bekendste vraagstuk in de wiskunde.\n\nHet bewijs bestaat uit 17 miljoen regels code in Lean, software die elke stap van een bewijs controleert. MIT-wiskundige Andrew Sutherland liet de code los daarvan door Lean lopen, zonder fouten.\n\nBegrijpen is een tweede stap. De uitleg die het model genereerde, telt meer dan 250.000 pagina's en is nog niet vrijgegeven. Wiskundigen moeten het bewijs zelf nog lezen en beoordelen.\n\nHet resultaat sluit een jaar af waarin AI-systemen het ene grote wiskundige resultaat na het andere opleverden. Wiskundigen bewijzen daardoor minder zelf en controleren en duiden meer wat een machine produceert.\n\nSutherland zegt dat het verwerken van die nieuwe realiteit \"wat tijd zal vragen\". Ondertussen begint hij aan de details van het bewijs.\n\nPS: Wil je zulke ontwikkelingen elke week op een rij? Lees mee in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Wetenschap #AI #wiskunde #RiemannHypothese #Claude #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7529997428910018560/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 20:49",
+  "text": "Een Duitse telecomreus kiest een Franse AI-partner\n\nDeutsche Telekom investeert via het fonds T.Capital 100 miljoen euro in Mistral AI. Het bedrag maakt deel uit van Mistrals Series D van 3 miljard euro, opgehaald in september tegen een waardering van meer dan 21 miljard euro.\n\nTelekom noemt de investering een eerste stap naar een strategisch partnerschap. De telecomgroep levert infrastructuur, klantrelaties en integratie. Mistral levert de taalmodellen.\n\nDe doelgroep: Duitse industriebedrijven, overheden en gereguleerde sectoren die AI willen inzetten en zelf de controle over hun data willen houden.\n\nZo ontstaat een Europese AI-keten, van datacenter tot model, met een Duits verkoopkanaal erbij.\n\nDe infrastructuur staat er al: Telekom opende onlangs een AI-fabriek in München.\n\nPS: Wil je zulke ontwikkelingen elke week op een rij? Abonneer je op 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #Mistral #soevereineAI #DeutscheTelekom #Europa",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7529994392326197248/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 20:46",
+  "text": "Je Signal-berichten zijn versleuteld, je scherm niet.\n\nSignal blokkeert voortaan screenshots in de app op iOS 27 en op Android, wanneer een AI-assistent het scherm probeert uit te lezen. Signal-voorzitter Meredith Whittaker legt in een blogpost uit waarom.\n\nApple en Google bouwen AI-agents diep in hun besturingssysteem. Om vragen te beantwoorden, scannen die systemen wat er op je scherm staat. Zo komen je berichten terecht in databases of op servers waar Signal geen controle over heeft.\n\nDat gaat verder dan jouw eigen privacy. Ook de berichten van iedereen met wie je chat, worden mee vastgelegd.\n\nSignal noemt de eigen oplossing onvolledig. Agents kunnen ook via meldingen of het bestandssysteem bij gegevens. Uit tests bleek dat Meta's Muse Signal-berichten uitlas via meldingstoegang op Android.\n\nPS: Wil je elke week zulke AI-verhalen ontleed zien? Volg 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #privacy #Signal #agenticAI #encryptie #cybersecurity",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7529993712576147456/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-21 16:21",
+  "text": "Geen hack nodig: copy, paste, datalek\n\nJe persoonsgegevens staan misschien al op servers van Amerikaanse of Chinese AI-bedrijven. Zonder phishing, zonder inbraak.\n\nJeroen Lemaire beschrijft in De Tijd hoe dat gebeurt. Medewerkers van ziekenhuizen, banken en overheidsdiensten krijgen op het werk geen degelijke AI-tools. Dus plakken ze spreadsheets en pdf's in ChatGPT of DeepSeek, via een privéaccount.\n\nDat gebeurt niet af en toe. Volgens het Data Breach Investigations Report 2026 van Verizon gebruikt 67 procent van de AI-gebruikers een privéaccount op een werktoestel.\n\nIn die bestanden zitten patiëntgegevens, adressen van klanten en details van beveiligde systemen. Bij een privéaccount kan het AI-bedrijf die data gebruiken om zijn modellen te trainen.\n\nBlokkeren helpt weinig: wie thuis een ander toestel neemt, omzeilt elke maatregel. Op een jaar tijd is het aandeel werknemers dat shadow AI gebruikt op een werktoestel verdrievoudigd, tot 45 procent.\n\nPS: Wil je elke week zulke verhalen ontleed zien? Abonneer je op 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #shadowAI #privacy #datalek #GDPR #AI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7529926893899403266/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-21 09:00",
   "text": "Exact een jaar geleden startte ik met de nieuwsbrief Het masker van AI. Vandaag verschijnt editie 53, en ik had nooit gedacht dat ik het zo lang zou volhouden. 5.000 lezers en zoveel fijne reacties later: dank je wel, daarvoor doe ik het!\n\nDeze week:\n 🔹 Anthropic gaat naar de beurs. Kan een veiligheidsbedrijf kwartaaldruk overleven?\n 🔹 Mediahuis klaagt over Google en ontvangt 40 miljoen euro van Google\n 🔹 Een Zweeds datacenter dat de buurt verwarmt\n 🔹 Hackers zonder mens achter het toetsenbord\n 🔹 Elk verhaal over AI dient een belang\n\n#AI #HetMaskerVanAI",
   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529577407826276352/",
