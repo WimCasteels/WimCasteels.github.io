@@ -1,5 +1,33 @@
 [
  {
+  "date": "2026-11-23 09:05",
+  "text": "Kunst wordt een product, AI versnelt het\n\nCabaretier André Manuel vertelt in een interview met Jelle Brumsen voor NRC dat AI volgens hem het einde betekent van kunst zoals we die kennen.\n\nOpvallend: zijn kritiek begint niet bij AI. Hij zag eerst de experimentele jongerencentra verdwijnen. In hun plaats kwamen luxueuze poptempels, die vaak draaien op tributebands.\n\nOp een vergadering hoorde hij zijn eigen werk omschreven als \"een product\". Zijn antwoord: \"Ik wil geen product zijn.\"\n\nAI past perfect in die logica. Iemand schrijft een programma, dat genereert voorstellingen, aantrekkelijke mensen spelen ze, en alleen de vorm telt nog.\n\nVoor Manuel is de inhoud honderd keer belangrijker. Zijn twintigste voorstelling, De eenzame ziel, gaat op 25 november in première. Hij speelt het liefst in kleine zalen, waar het publiek bijna bij hem op schoot zit.\n\nPS: Elke week haal ik in 'Het masker van AI' zulke verhalen onder het vergrootglas: https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #kunst #cultuur #generatieveAI #creativiteit",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530542088501985280/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 09:02",
+  "text": "Nederland wil koploper worden in AI, maar trekt de portemonnee niet\n\nHet Nederlandse kabinet stuurde deze maand een AI-visie van 28 pagina's naar de Tweede Kamer. De ambitie: tot de koplopers van Europa behoren.\n\nEen analyse in NRC toont wat er ontbreekt: geld, een tijdspad en meetbare doelen.\n\nBrussel wil met achttien lidstaten zo'n 10 miljard euro investeren in AI-gigafabrieken. Nederland steunt dat plan, maar legt er zelf voorlopig niets bij.\n\nMarktpartijen kunnen de nodige infrastructuur misschien financieren, oppert staatssecretaris Willemijn Aerdts. Volt-leider Laurens Dassen reageert dat je prioriteit in Den Haag afmeet aan het budget dat ervoor vrijkomt.\n\nHet enige harde cijfer in de visie: tegen 2030 moet meer dan 75 procent van het mkb AI gebruiken. Hoe dat gemeten wordt, staat er niet in.\n\nHet Verenigd Koninkrijk publiceerde vorig jaar al een routekaart met doelen, budget en stroomverbruik voor publieke rekenkracht. Nederland belooft een vergelijkbaar plan tegen het eerste kwartaal van 2027.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #AI #digitalesoevereiniteit #rekenkracht #Nederland #kunstmatigeintelligentie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530541341211004932/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 08:58",
+  "text": "Een camera, een smartphone en AI: genoeg om een minister te laten vallen\n\nDe Zuid-Koreaanse minister van Onderwijs, Choi Kyo-jin, is afgetreden, meldt VRT NWS. De aanleiding: de beste kandidaat op het nationale examen voor belastingadviseurs bekende dat hij fraudeerde met een minicamera en generatieve AI.\n\nDat zette de Suneung onder druk. Dat toelatingsexamen voor de universiteit legden vorige week een half miljoen jongeren af.\n\nDe overheid nam ongeziene maatregelen en beloofde 68.000 euro aan wie fraude meldt. Toch stelden de autoriteiten 111 fraudegevallen vast. In bijna de helft daarvan hadden kandidaten hun smartphone niet ingeleverd.\n\nEnkele dagen voor het examen gaf Choi in het parlement al toe dat hij niet kon garanderen dat elk geval van AI-fraude ontdekt zou worden.\n\nKlassiek toezicht zoekt naar spiekbriefjes en rondkijkende ogen. Een lensje in een kledingstuk dat foto's doorstuurt naar een taalmodel, valt daar buiten.\n\nDe Suneung bestaat 33 jaar. Zuid-Korea wil het examen tegen 2040 afschaffen, en dit schandaal kan dat plan versnellen.\n\nPS: Elke week ontleed ik zulke AI-verhalen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#Onderwijs #AI #generatieveAI #examenfraude #ZuidKorea #AIgeletterdheid",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530540319247896576/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-22 22:23",
+  "text": "Van uitdager naar koploper in anderhalf jaar\n\nBegin 2025 was Anthropic nog maar een fractie van OpenAI waard. Bij de beursgang van deze week kwam de waardering uit op ongeveer 1,5 biljoen dollar. Dat is meer dan de geschatte 1,25 biljoen van OpenAI.\n\nOok in omzet is de volgorde omgedraaid. Anthropic haalde in het derde kwartaal bijna 17 miljard dollar binnen, OpenAI volgens schattingen zo'n 10 miljard.\n\nHet grootste verschil zit in de kosten. OpenAI leed dit jaar elk kwartaal een operationeel verlies van 9 tot 14 miljard dollar. Anthropic blijft rond nul: 974 miljoen winst in het tweede kwartaal, 567 miljoen verlies in het derde.\n\nPS: Wekelijks ontleed ik zulke verschuivingen in de AI-wereld in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #Anthropic #OpenAI #beursgang #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530380453267017728/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-22 09:54",
   "text": "Hetzelfde model, drie keer doorlopen\n\nThinking Machines Lab bracht deze week Inkling 2 Mini uit, een open-weights model met een ongewone opbouw: een looped transformer.\n\nEen klassiek taalmodel stuurt elk token één keer door een vaste stapel lagen. Inkling 2 Mini heeft 24 lagen, maar laat de middelste 12 lagen drie keer na elkaar draaien. Dat geeft 48 rekenstappen per token, met maar 24 opgeslagen lagen.\n\nDe gedachte erachter: de middelste lagen doen het meest abstracte rekenwerk. De eerste en laatste lagen zetten vooral tekst om naar interne representaties en terug.\n\nHet resultaat is een model van ongeveer 20 GB dat op een laptop draait. Op codeertaken scoort het beter dan elk ander open model onder 100 miljard parameters.\n\nFeitenkennis groeit niet mee. Hoeveel feiten een model kan opslaan, hangt vooral af van het aantal parameters. Op feitentests scoort Inkling 2 Mini daarom gewoon op het niveau van modellen van dezelfde grootte.\n\nPS: Elke week ontleed ik zulke ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #LLM #OpenSource #generatieveAI #ThinkingMachines",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7530192066211942401/",
