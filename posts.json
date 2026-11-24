@@ -1,5 +1,124 @@
 [
  {
+  "date": "2026-11-24 14:00",
+  "text": "Na 25 jaar verdwijnt de bekendste knop van het internet\n\nGoogle rolt een nieuwe startpagina uit op desktop. De knop \"Google zoeken\" is weg, in de plaats komen knoppen om afbeeldingen te genereren, bestanden te analyseren en te brainstormen met Gemini.\n\nWie ingelogd is, krijgt er een zijbalk bij met recente gesprekken in AI Mode. Ars Technica beschrijft hoe traditioneel zoeken zo steeds verder naar de achtergrond schuift.\n\nOp Enter drukken levert nog altijd gewone zoekresultaten op. Alle nieuwe knoppen op de pagina leiden wel naar AI.\n\nDaar zit de marktmacht. Een concurrent moet gebruikers overtuigen om een AI-tool te proberen. Google past één pagina aan en maakt AI zo de standaardroute voor miljarden mensen.\n\nVan de klassieke knoppen onder de zoekbalk blijft er nog één over: \"Ik doe een gok\".\n\nPS: Wekelijks ontleed ik zulke verschuivingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #Google #AI #zoekmachines #generatieveAI #Gemini",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530978657134092288/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-24 13:58",
+  "text": "Wie gehecht raakt aan AI, beslist anders over AI\n\nNick Socquet waarschuwt in De Tijd voor de vermenselijking van AI. Hoe sterker we emotioneel gehecht raken aan AI-systemen, hoe meer die gevoelens onze beslissingen erover sturen.\n\n29 procent van de Vlamingen meent dat AI kan denken zoals een mens, blijkt uit de Mediawijzer van de Arteveldehogeschool. Meer dan een kwart van de Belgische volwassenen gebruikt AI als gezelschap of steun.\n\nBedrijven versterken dat bewust met namen, menselijke stemmen en gezichten. De AI Act verplicht enkel te melden dat je met AI praat. Empathie, affectie of jaloezie simuleren blijft toegelaten.\n\nDat weegt zwaarder nu AI-agents zelfstandig mails versturen en aankopen doen. De grens van hun autonomie dreigt bepaald te worden door wat wij voelen, niet door wat de systemen technisch doen.\n\nSocquet geeft zijn AI-tools daarom altijd de instructie om geen gevoelens of bewustzijn te simuleren. Eén zin in een prompt, en de menselijke laag valt weg.\n\nPS: Elke week haal ik in 'Het masker van AI' de mens uit de machine: https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #generatieveAI #AIAct #AIgeletterdheid #DeTijd",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530978117650194432/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-24 13:56",
+  "text": "Een taalmodel uit Silicon Valley spreekt geen Vlaams\n\nDe UGent verzamelt chatbotantwoorden die on-Vlaams aanvoelen. Ward Schouppe schreef erover voor VRT NWS.\n\nProfessor Orphée De Clercq geeft voorbeelden als \"brandnieuw\" en \"een beslissing maken\": letterlijke vertalingen uit het Engels.\n\nHet gaat verder dan woordkeuze. Een Gemini-model omschreef \"préparé\" als een Vlaamse koffievariant. Bij Mistral werd het een mix van groenten, aardappelen, vlees en een ei.\n\nTaal draagt cultuur. Een model voorspelt woorden op basis van patronen in zijn trainingsdata, en daarin zijn Vlaamse uitdrukkingen, dialecten en culturele referenties dun gezaaid.\n\nDe onderzoekers willen nagaan of vooral de woordenschat of de zinsbouw wringt, om modellen op termijn beter af te stemmen op de Vlaamse context. Op hun website kan iedereen voorbeelden insturen.\n\nPS: Zulke verhalen ontleed ik elke week in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #taaltechnologie #LLM #Vlaams #UGent",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530977605513138176/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-24 09:52",
+  "text": "AI zet nucleaire afschrikking onder druk\n\nNucleaire afschrikking werkt zolang een land na een aanval nog kan terugslaan. Daarom verspreidt China zijn kernwapens over 320 silo's, onderzeeërs en mobiele lanceerinstallaties.\n\nChris Buckley analyseerde voor The New York Times meer dan 100 Chinese studies. Militaire onderzoekers vrezen dat Amerikaanse AI verborgen raketten sneller opspoort en uitschakelt, en zo die tegenaanval onderuit haalt.\n\nVolgens de Chinese Academie voor Militaire Wetenschappen kan AI de Amerikaanse beslistijd in een crisis terugbrengen van 15 à 30 minuten naar 90 seconden.\n\nTegelijk test China zelf AI-systemen die hypersonische wapens langs raketschilden sturen.\n\nDie vrees maakt Beijing terughoudend om zijn arsenaal van zo'n 620 kernkoppen te beperken. \n\nPS: Elke week ontleed ik zulke ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #kernwapens #China #geopolitiek #defensie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530916357870354433/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-24 09:49",
+  "text": "Anthropic automatiseert de laatste stap voor code live gaat\n\nAnthropic lanceerde maandag Claude Ship in bèta. Het systeem reviewt pull requests, past ze aan en keurt ze goed als het teambeleid dat toelaat.\n\nDat verloopt in drie stappen. Code Review plaatst bevindingen bij een pull request. PR Steward lost daarna falende tests, merge-conflicten en reviewfeedback op, maar kan zelf niets goedkeuren of mergen.\n\nClaude Approvals toetst de wijziging tot slot aan een beleidsbestand in de repository. Valt ze buiten dat beleid, dan gaat ze naar een mens voor goedkeuring.\n\nWie een Pro-, Max- of Ultra-abonnement heeft, start het met het commando /ship in Claude Code. Team- en Enterprise-klanten betalen per verbruikt token.\n\nAnthropic raadt teams aan om Claude Approvals eerst in observatiemodus te draaien. Pas daarna maken ze een groen licht van het systeem verplicht voor elke merge.\n\nPS: Elke week zet ik zulke AI-ontwikkelingen op een rij in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #ClaudeCode #softwareontwikkeling #codereview #Anthropic",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530915562596528128/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-24 09:38",
+  "text": "Musk verhuurt zijn datacenters aan de concurrent\n\nAnthropic is een van Elon Musks grootste concurrenten in AI. Het is ook de grootste klant van zijn AI-tak.\n\nSinds mei verhuurt SpaceX rekenkracht aan Anthropic en Google, voor zo'n 3,1 miljard en 800 miljoen dollar per maand.\n\nMusk zei intern dat verhuren meer opbrengt dan het verbeteren van eigen producten zoals Grok. In augustus noemde hij een groepschat met zijn AI-ingenieurs tijdelijk \"Sell compute because we can't compete\".\n\nDe AI-tak levert intussen meer dan de helft van de omzet van SpaceX. Grok Imagine en de AI-companions werden geschrapt.\n\nWie de chips en datacenters bezit, verdient dus ook zonder het beste model.\n\nAl zijn de contracten opzegbaar met 90 dagen opzeg. Anthropic heeft analisten volgens berichten laten weten dat het na het tweede kwartaal van 2027 niet verlengt.\n\nPS: Wekelijks ontleed ik zulke verschuivingen in de AI-wereld in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #datacenters #rekenkracht #SpaceX #Anthropic",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530912598662225921/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 20:41",
+  "text": "Doemdenkers en accelerationisten tekenen dezelfde brief\n\nHet Center for AI Safety publiceerde vorige week het MisAnthropic Statement, een dag voor Anthropic naar de beurs trok. De kernzin: \"Anthropic is not a safe AI company.\"\n\nOpvallend is wie tekende. Max Tegmark en MIRI, die AI willen afremmen, staan naast Beff Jezos en George Hotz, die net zo snel mogelijk willen bouwen.\n\nDe verwijten: Anthropic racet mee naar AI die zichzelf verbetert, gebruikt zijn veiligheidsimago om investeerders en talent aan te trekken en zwakte eigen veiligheidsbeloftes af.\n\nMet de beursgang krijgt dat veiligheidsimago een prijskaartje. Anthropic haalde meer dan 100 miljard dollar op en rapporteert voortaan elk kwartaal aan beleggers die rendement verwachten.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #Anthropic #AIveiligheid #IPO #AIsafety",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530717114190614528/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 20:37",
+  "text": "Achter elk AI-model zit iemand die per taak betaald wordt.\n\nYale-onderzoeker Julián Posada beschrijft in Rest of World hoe AI-platformen nu artsen, juristen en doctoraathouders rekruteren om modeluitvoer te beoordelen en te corrigeren.\n\nHet platform Outlier biedt Amerikaanse cardiologen tot $180 per uur. Voor hetzelfde werk in het Tagalog krijgt iemand in de Filipijnen hoogstens $7,50.\n\nNieuw is dat model niet. Posada interviewde Venezolaanse gezinnen die beelden labelden voor een paar dollar per dag, tot de opdrachten plots verdwenen.\n\nHet patroon: eerst goed betalen om mensen aan te trekken, dan de tarieven verlagen en het werk naar een ander land verplaatsen.\n\nAls een model \"beter\" wordt, komt dat door voorbeelden, beoordelingen en correcties van mensen. Wie dat werk doet, heeft weinig zekerheid: volgens de eigen voorwaarden mag Outlier een account onmiddellijk en zonder voorafgaande kennisgeving deactiveren, om eender welke reden.\n\nPS: Wekelijks kijk ik in 'Het masker van AI' achter zulke verhalen: https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #gigeconomie #datawerk #ScaleAI #platformwerk",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530716153069899776/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 18:35",
+  "text": "Eigenaar van software die je nooit gelezen hebt\n\nOntwikkelaar Adrian Quiroga zag zijn CI-pipeline falen op één bestand. Codex had er vijftien volledige componenten in gegenereerd, elk op één regel. De code bleek correct, maar Quiroga had ze nooit eerder gezien.\n\nDat wordt de norm, schrijft hij in zijn blog 'Here Be Monsters'. Agents produceren sneller code dan iemand kan lezen. Eigenaar zijn betekent dan vooral: jij wordt gebeld als het misloopt.\n\nWat heb je daarvoor nodig? Quiroga noemt drie pijlers: stevige fundamenten zoals algoritmes en netwerken, brede kennis over vakgebieden heen, en de bereidheid om op het juiste moment diep te duiken.\n\nDat laatste houdt in dat je snel bijleert in onbekende code, onder druk. En dat je weet wanneer je hulp nodig hebt.\n\nPS: Zulke verhalen ontleed ik wekelijks in de nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #softwareontwikkeling #agenticAI #vibecoding",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530685595736719360/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 18:12",
+  "text": "OpenAI's chief scientist stelt een rempedaal voor\n\nJakub Pachocki, chief scientist bij OpenAI, maakte de interne perplexity-cijfers van OpenAI openbaar. Die maat geeft aan hoe goed een model het volgende stukje tekst voorspelt: hoe lager, hoe beter.\n\nVolgens Pachocki hangt elke grote capaciteitssprong samen met dat ene getal. GPT-3.5 zat rond 0,99, GPT-4 rond 0,91. Onder 0,8 kwamen doorbraken in cybersecurity en wiskunde.\n\nZijn voorstel: alle AI-labs spreken samen een grens af die niemand overschrijdt. Die grens blijft staan tot er betere methoden zijn om modellen te controleren en te monitoren.\n\nPachocki geeft toe dat de cijfers concurrenten wijzer maken. Gedeelde veiligheidsregels vindt hij dringender.\n\nDe volgende sprong verwacht hij tussen 0,68 en 0,7. Welke capaciteiten daar opduiken, kan hij naar eigen zeggen niet voorspellen.\n\nPS: Wil je zulke ontwikkelingen elke week op een rij? Abonneer je op 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #OpenAI #generatieveAI #LLM",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530679724742901760/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 18:10",
+  "text": "Zero Data Retention bleek vaak een loze belofte\n\nSecurityonderzoeker HD Moore van Dragos stuurde bijna 2 miljoen prompts naar AI-aanbieders. In elke prompt zat een uniek, traceerbaar geheim: een AWS-sleutel, een wachtwoord of een geheime URL.\n\nDaarna volgde hij waar die geheimen opdoken. Dat bleek op veel plaatsen te zijn waar ze niet thuishoorden.\n\nDe systemen van een Chinees AI-lab haalden de geheime URL's op uit meer dan de helft van de prompts. Ook uit ongeveer twee derde van de prompts met het label \"Zero Data Retention\" of \"geen dataverzameling\".\n\nWie een Amerikaanse aanbieder koos om zijn data in de VS te houden, kwam toch bij datzelfde lab uit. Verschillende Amerikaanse aanbieders verkopen de modellen van dat lab door.\n\nBij twee gehackte providers werden ook prompts met het ZDR-label gestolen. Tegen een aanvaller die al binnen is, helpt een privacy-instelling niet.\n\nOpenRouter heeft intussen het ZDR-label weggehaald bij de endpoints voor MiniMax-modellen.\n\nPS: In 'Het masker van AI' ontleed ik elke week zulke verhalen achter de schermen van AI: https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #privacy #cybersecurity #AI #generatieveAI #dataprotectie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530679272412221440/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 18:08",
+  "text": "Bewezen, maar nog niet begrepen\n\nOp 20 november publiceerde wiskundige Levent Alpöge een bewijs van de Riemann-hypothese, een vermoeden uit 1859 en een van de zeven Millenniumproblemen. Hij bouwde het met Claude, het taalmodel van zijn werkgever Anthropic.\n\nHet bewijs telt 17 miljoen regels Lean-code. Geen mens leest dat volledig na.\n\nDaarom controleerden de Lean- en Mathlib-gemeenschappen het op een andere manier. Verschillende onafhankelijke proof checkers, geschreven in verschillende programmeertalen, aanvaardden het bewijs. Tools bevestigden ook dat de bewezen stelling exact overeenkomt met de versie die experts vooraf vastlegden.\n\nHet bewijs is dus correct. Begrepen is het nog niet.\n\nEen bewijs toont normaal ook waarom iets klopt. Die uitleg moet nog uit 17 miljoen regels code gehaald worden.\n\nDe Lean FRO en het Mathlib Initiative sluiten hun verklaring af met een oproep aan wiskundigen: de nieuwe ideeën in het bewijs verklaren.\n\nPS: Elke week haal ik in 'Het masker van AI' zulke ontwikkelingen uit elkaar: https://lnkd.in/eWX-BPpu\n\n#Wetenschap #AI #Wiskunde #Lean #RiemannHypothese #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530678686933729280/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 18:06",
+  "text": "Ubisoft ontslaat 166 mensen en richt een AI-studio op\n\nUbisoft kondigde in zijn halfjaarcijfers Motherbrain aan, een nieuwe dochteronderneming die eigen generatieve AI voor gameplay ontwikkelt. Dat meldt GamesIndustry.biz.\n\nHet team achter het AI-project Teammates bouwt NPC's die eerdere interacties opslaan, en systemen die grote spelwerelden automatisch aansturen.\n\nIn dezelfde periode schrapte Ubisoft 166 banen in zijn studio's in Montreal en Quebec, vooral in productie en ondersteuning. Volgens het bedrijf moeten de middelen \"aansluiten bij de huidige productieprioriteiten\".\n\nDe ontslagen treffen minder dan 4% van het personeel in die studio's. Ook leden van Vantage Studios moeten vertrekken.\n\nMotherbrain wil zijn technologie ook verkopen aan ontwikkelaars buiten Ubisoft. De halfjaarresultaten van het bedrijf daalden met 16,5%.\n\nPS: Elke week ontleed ik zulke AI-verhalen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #generatieveAI #gaming #Ubisoft #gameindustrie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530678202965356545/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 18:04",
+  "text": "Niet de chips, maar het geld remt China af\n\nHet debat over China's AI-ambities draait vaak om Amerikaanse exportcontroles op chips. Een analyse in The New York Times wijst op een ander obstakel: kapitaal.\n\nIn 2025 ging er 12,4 miljard dollar aan private AI-investeringen naar China, tegenover 280 miljard in de VS, volgens de Stanford AI Index.\n\nTegelijk verdubbelen Chinese techbedrijven zoals Alibaba, Baidu en Tencent hun investeringen dit jaar tot 139 miljard dollar. Hun AI-labs halen daarvan minder dan 8 procent op aan omzet, berekende Rhodium Group.\n\nOpen source vergroot die kloof. Chinese modellen verspreiden zich snel, maar elke aanbieder mag ze draaien en verkopen.\n\nZ.ai bracht in augustus het open model GLM-5.3 Flash uit. In november boden zo'n twintig andere aanbieders toegang tot dat model goedkoper aan dan Z.ai zelf.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #China #opensource #AIinvesteringen #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530677572355989506/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 17:45",
+  "text": "Elf dagen, een bocht van 180 graden\n\nOp 12 november nam Jensen Huang ontslag als CEO van Nvidia, na onthullingen over buitenechtelijke relaties. Vorige week zei voorzitter Harvey Jones nog dat het bestuur hem niet zou terughalen.\n\nVandaag is Huang terug. Het bestuur stemde unaniem, na \"input van de hoogste niveaus van de Amerikaanse overheid\".\n\nTrump bevestigde op CNBC dat hij met het bestuur sprak en er \"vertegenwoordigd\" was. Volgens The Wall Street Journal veranderde ook minister van Financiën Scott Bessent dit weekend van toon.\n\nOpvallend, want een van die relaties was met een vrouw van wie Amerikaanse officials vermoedden dat ze voor de Chinese inlichtingendienst werkte. Volgens Reuters lopen er onderzoeken van de SEC en het Amerikaanse ministerie van Justitie.\n\nDe beurs reageerde met een koerssprong van ruim 30 procent, goed voor zo'n 900 miljard dollar aan beurswaarde.\n\nOp 1 en 2 december beantwoordt Huang achter gesloten deuren vragen van drie commissies van het Amerikaanse Huis van Afgevaardigden.\n\nPS: Zulke verhalen over AI en macht ontleed ik elke week in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIbeleid #Nvidia #CorporateGovernance #AI #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530672816720056320/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 17:36",
+  "text": "€1,1 miljoen voor Gentse AI die compliancewerk automatiseert\n\nWie een rekening opent bij een bank of instapt in een beleggingsfonds, kent het: identiteitsbewijzen, statuten en financiële gegevens doorsturen, vaak gewoon via mail.\n\nDe Gentse regtech-startup Nabu wil dat veranderen. Het platform haalt gegevens rechtstreeks op uit officiële ondernemingsregisters en databanken, stelt het klantendossier automatisch samen en vraagt enkel de ontbrekende documenten nog op.\n\nVolgens NABU automatiseert de software tot 90 procent van de controles op witwassen en klantidentificatie. De eindbeslissing blijft bij een medewerker van het compliance-team.\n\nHet bedrijf werd pas in 2025 opgericht en haalde nu €1,1 miljoen op bij business angels. \n\nVolgende stap: verzekeraars, juridische dienstverleners en betaalbedrijven, en een uitbreiding naar Nederland en Luxemburg.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #regtech #fintech #compliance #Gent",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530670591570448387/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-23 17:21",
+  "text": "Noah haalt €800.000 op om AI-kansen in bedrijven in kaart te brengen\n\nVeel bedrijven willen met AI aan de slag, maar weten niet waar ze moeten beginnen. De Antwerpse startup Noah speelt in op die vraag.\n\nEen AI-interviewer, een spraaksysteem, neemt gesprekken van 20 minuten af met medewerkers, in meerdere talen.\n\nVolgens het bedrijf lukt dat voor 100 mensen binnen 24 uur. Een consultant heeft voor 20 interviews doorgaans een maand nodig.\n\nHet platform combineert die antwoorden met marktdata. Zo ontstaat een geprioriteerde lijst van mogelijke AI-toepassingen, met een eerste schatting van de tijd- en kostenbesparing.\n\nHet geld komt van business angels, onder wie Rudi Deruytter, ex-CEO van B-Bank. Noah telt nu al klanten als UCB, Delhaize, Water-link en Sweco.\n\nHet bedrijf mikt tegen 2027 op €2 miljoen jaarlijks terugkerende omzet en wil daarna internationaal uitbreiden.\n\nPS: Benieuwd naar meer AI-verhalen van bij ons en daarbuiten? Elke week bundel ik ze in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #startups #digitaletransformatie #Antwerpen #BelgischeTech",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7530666940659359745/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-23 09:05",
   "text": "Kunst wordt een product, AI versnelt het\n\nCabaretier André Manuel vertelt in een interview met Jelle Brumsen voor NRC dat AI volgens hem het einde betekent van kunst zoals we die kennen.\n\nOpvallend: zijn kritiek begint niet bij AI. Hij zag eerst de experimentele jongerencentra verdwijnen. In hun plaats kwamen luxueuze poptempels, die vaak draaien op tributebands.\n\nOp een vergadering hoorde hij zijn eigen werk omschreven als \"een product\". Zijn antwoord: \"Ik wil geen product zijn.\"\n\nAI past perfect in die logica. Iemand schrijft een programma, dat genereert voorstellingen, aantrekkelijke mensen spelen ze, en alleen de vorm telt nog.\n\nVoor Manuel is de inhoud honderd keer belangrijker. Zijn twintigste voorstelling, De eenzame ziel, gaat op 25 november in première. Hij speelt het liefst in kleine zalen, waar het publiek bijna bij hem op schoot zit.\n\nPS: Elke week haal ik in 'Het masker van AI' zulke verhalen onder het vergrootglas: https://lnkd.in/eWX-BPpu\n\n#AIethiek #AI #kunst #cultuur #generatieveAI #creativiteit",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7530542088501985280/",
