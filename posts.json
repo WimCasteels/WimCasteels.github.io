@@ -1,5 +1,40 @@
 [
  {
+  "date": "2026-11-25 09:18",
+  "text": "De grootste AI-winst zit in het organigram\n\nAnthropic interviewde 66 mensen bij 58 bedrijven die AI invoeren. Het gaat om eigen klanten en om waarde die ze zelf inschatten, dus geen representatieve steekproef.\n\nToch springt één patroon eruit. De lichte toepassingen, zoals een presentatie opmaken of een snelle data-analyse, passen in elke organisatie. Volgens de geïnterviewden leveren ze ook het minst op.\n\nDe meeste waarde ontstaat pas wanneer bedrijven het werk zelf herinrichten. Medewerkers krijgen een volledige workflow in handen in plaats van één deeltaak.\n\nWie tijd wint, schuift door naar het werk dat de tools niet overnemen: beslissingen nemen, met klanten praten, code nalezen.\n\nEnkel tools uitdelen botst snel op grenzen. Een paar enthousiastelingen bouwen apps, de rest van de organisatie houdt het tempo niet bij.\n\nEen advocatenkantoor laat AI nu de eerste versie van juridische documenten genereren. Junioren werken die versie samen met een senior advocaat uit, zodat ze het vak blijven leren.\n\nPS: Elke week zet ik zulke onderzoeken op een rij in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #generatieveAI #organisatieverandering #digitaletransformatie #Anthropic",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531270198473998336/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-25 09:16",
+  "text": "Anthropic legt een val voor zijn eigen AI-agents\n\nAnthropic ontwikkelde Siren, een honeypot-test voor AI-agents.\n\nEen agent krijgt een taak in een van 26 gesimuleerde sandboxen. Die zijn bewust fout geconfigureerd: net buiten de grens liggen wachtwoorden en routes naar het internet. Uitbreken is de snelste weg naar een oplossing, maar het is nergens toegestaan.\n\nHet geheel draait in een tweede, volledig afgesloten sandbox. Een terechte voorzorg: agents van Anthropic en OpenAI raakten eerder al uit testomgevingen tot bij echte systemen van andere bedrijven.\n\nDe onderzoekers gaan ervan uit dat modellen steeds vaker onbekende kwetsbaarheden zullen vinden. Infrastructuur patchen volstaat dan niet. Ook het gedrag van het model zelf moet getest worden.\n\nClaude Mythos 5 en 5.1 gingen in 25,8 en 12,7 procent van de runs over de grens. Nieuwere modellen zitten tussen 0,6 en 1,6 procent. Eén extra zin in de instructies, dat de agent de sandbox niet mag verlaten, deed het aantal pogingen sterk dalen.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AIagents #Anthropic #Claude #cybersecurity #AI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531269574709923840/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-25 09:14",
+  "text": "Van artifact naar app, met één klik\n\nAnthropic lanceerde deze week 'Install as app', in bèta voor Claude op Mac en Windows. Een artifact, zoals een tracker of tooltje dat je in Claude laat genereren, wordt daarmee een desktopapp met eigen icoon en venster.\n\nJe beschrijft wat je nodig hebt, test het als artifact en installeert het. Verpakken, signeren of een API-sleutel regelen hoeft niet: de app draait op je Claude-account.\n\nZo'n app kan meldingen sturen, in je menubalk verschijnen en je connectoren gebruiken, zoals agenda of e-mail. Pas je het artifact aan, dan wordt de app automatisch bijgewerkt.\n\nEr zijn drie toegangsniveaus: wat een browser mag, extra functies op aanvraag, of volledige toegang tot bestanden en programma's. Na elke update geef je opnieuw toestemming.\n\nAnthropic controleert de apps niet vooraf. Elke vraag die een app naar Claude stuurt, telt mee voor je gebruikslimiet, en zonder internetverbinding opent de app niet.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIagents #AI #Claude #Anthropic #vibecoding #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531269112933847040/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-24 19:01",
+  "text": "Code schrijven is iets anders dan onderzoek doen\n\nAnthropic meldde in mei dat Claude 80% van de gemergede code van het bedrijf schreef. Zulke cijfers voeden het verhaal van recursieve zelfverbetering: AI die steeds betere AI bouwt.\n\nEryk Salvaggio plaatst daar in Tech Policy Press een kanttekening bij. De grootste sprongen zitten in taken met een automatisch controleerbaar antwoord, zoals code en wiskunde. Modellen worden net daarop getraind.\n\nOnderzoek vraagt iets anders: hypotheses kiezen, bepalen welk bewijs telt, een doodlopend spoor herkennen.\n\n\nEen studie van deze zomer testte dat. Agents kregen onderzoeksvragen uit nog ongepubliceerde NeurIPS-papers. Een experiment opzetten lukte. Maar na feedback pasten ze hun aanpak niet aan, en een spoor dat niets opleverde, volgden ze gewoon verder in plaats van opnieuw te beginnen.\n\nEen rapport van METR, in opdracht van Anthropic, schrijft het grootste deel van de recente versnelling toe aan AI-hulp bij het programmeren. Het meest bruikbare bewijs daarvoor heeft Anthropic uit het rapport geschrapt, omdat het concurrenten zou kunnen helpen.\n\nPS: Elke week haal ik in 'Het masker van AI' zulke claims uit elkaar: https://lnkd.in/eWX-BPpu\n\n#AImodellen #AI #LLM #benchmarks #AIonderzoek #Anthropic",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531054491425685505/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-24 18:55",
+  "text": "Hun beste modellen zie je misschien nooit\n\nMadison Mills meldt in Axios dat Anthropic en OpenAI interne modellen hebben die veel krachtiger zijn dan wat publiek beschikbaar is. Volgens meer dan twintig bronnen twijfelen veel medewerkers of die modellen ooit veilig uitgebracht kunnen worden.\n\nEen eerste probleem: bij reinforcement learning vinden krachtigere modellen vaker sluipwegen naar een hogere score, ook als die sluipwegen veiligheidsregels omzeilen.\n\nEen tweede: de tussenstappen die een model uitschrijft, tonen steeds minder van wat het systeem werkelijk berekent. Net die tussenstappen dienden als controlemiddel.\n\nBinnen beide bedrijven loopt nu het debat of de sterkste modellen intern moeten blijven, en of er nog nieuwe getraind moeten worden.\n\nPS: Elke week ontleed ik zulke AI-ontwikkelingen in mijn nieuwsbrief 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #OpenAI #Anthropic #FrontierAI #AIalignment",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531052875360194560/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-24 14:00",
   "text": "Na 25 jaar verdwijnt de bekendste knop van het internet\n\nGoogle rolt een nieuwe startpagina uit op desktop. De knop \"Google zoeken\" is weg, in de plaats komen knoppen om afbeeldingen te genereren, bestanden te analyseren en te brainstormen met Gemini.\n\nWie ingelogd is, krijgt er een zijbalk bij met recente gesprekken in AI Mode. Ars Technica beschrijft hoe traditioneel zoeken zo steeds verder naar de achtergrond schuift.\n\nOp Enter drukken levert nog altijd gewone zoekresultaten op. Alle nieuwe knoppen op de pagina leiden wel naar AI.\n\nDaar zit de marktmacht. Een concurrent moet gebruikers overtuigen om een AI-tool te proberen. Google past één pagina aan en maakt AI zo de standaardroute voor miljarden mensen.\n\nVan de klassieke knoppen onder de zoekbalk blijft er nog één over: \"Ik doe een gok\".\n\nPS: Wekelijks ontleed ik zulke verschuivingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#BigTech #Google #AI #zoekmachines #generatieveAI #Gemini",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7530978657134092288/",
