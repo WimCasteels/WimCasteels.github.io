@@ -1,5 +1,33 @@
 [
  {
+  "date": "2026-11-25 18:08",
+  "text": "AI verlaagt de drempel voor cybercrime, ook in Vlaanderen\n\nEen hacker stal de identiteitsgegevens van zo'n 1,2 miljoen Vlamingen uit 82 gemeenten, schrijft Joppe De Hert voor VRT NWS. Het gaat om namen, adressen, rijksregisternummers en IBAN-nummers, afkomstig van een centrale server van recyclageparken.\n\nVolgens Secutec had de dader opvallend weinig technische kennis. Hij liet het Chinese model DeepSeek de opdrachten uitwerken.\n\nDe server maakte het hem extra makkelijk. De bestanden waren niet versleuteld en via één toegang bereikte hij de mappen van alle betrokken gemeenten.\n\nHet Centrum voor Cybersecurity België kan de cijfers niet bevestigen, maar spreekt van een zeer ernstig incident. Het parket van Oost-Vlaanderen is een onderzoek gestart.\n\nTussen 6 en 15 november stuurde de hacker meer dan 5.800 opdrachten naar DeepSeek. Het model blokkeerde er 41.\n\nPS: Wekelijks ontleed ik zulke AI-ontwikkelingen in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#AIveiligheid #AI #cybersecurity #DeepSeek #datalek #Vlaanderen",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531403398768955392/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-25 16:55",
+  "text": "Acht maanden geleden had Armenië stroom over\n\nDat vertelde premier Nikol Pashinyan deze week op DigiTec 2026 in Yerevan. Nu de datacenters groeien, moet het land op zoek naar stroom uit het buitenland.\n\nDe grootste verbruiker is de AI-fabriek van Firebird in Hrazdan, die in augustus de deuren opende. Tegen eind 2027 moet die 300 megawatt aan capaciteit halen, met meer dan 70.000 Nvidia-chips.\n\nArmenië is al verbonden met de stroomnetten van Iran en Georgië. Nu volgen Azerbeidzjan en Turkije, twee buurlanden waarmee de relaties lang vijandig waren. \n\nDaarnaast zet de regering in op zonne-energie, opslag, zuinigere gebouwen en een nieuwe kerncentrale.\n\nVoor Nvidia-vicevoorzitter Rev Lebaredian, wiens bedrijf de chips levert, is dat nog maar een begin. Hij wil dat Armenië van honderden megawatt naar \"vele gigawatt\" gaat.\n\nPS: Elke week leg ik in 'Het masker van AI' de mechanismen achter zulke AI-verhalen bloot: https://lnkd.in/eWX-BPpu\n\n#AIinfrastructuur #AI #datacenters #energie #Armenië #Nvidia",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531385097787285504/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-25 16:54",
+  "text": "Hij bouwt superintelligentie en waarschuwt ervoor\n\nAlexandr Wang leidt de superintelligentie-afdeling van Meta. Zondag schreef hij op X dat we een 'overdracht' van de samenleving aan AI niet zomaar mogen aanvaarden.\n\nDe aanleiding: een wiskundige van Anthropic presenteerde vorige week met hulp van Claude een bewijs van de Riemann-hypothese. Een computercontrole in Lean keurde het goed. Wiskundigen beoordelen het nog.\n\nWang noemt het idee dat superintelligentie onvermijdelijk is \"lui denkwerk\". Volgens hem moet de industrie afwijken van het standaardpad.\n\nAlleen hoort hij zelf bij die industrie. Meta investeert miljarden in precies de systemen waarvoor hij waarschuwt. Ook OpenAI en onderzoekers van Google DeepMind waarschuwden dezelfde week, terwijl ze zelf volop meedoen aan de race.\n\nPS: In 'Het masker van AI' ontleed ik elke week wat er achter zulke uitspraken zit: https://lnkd.in/eWX-BPpu\n\n#BigTech #AI #superintelligentie #Meta #Anthropic #technologie",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531384711085039616/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
+  "date": "2026-11-25 15:32",
+  "text": "Werk je in IT? Dan zoeken we jouw ervaring met AI.\n\nMet de IT & AI barometer brengt AP Hogeschool Antwerpen in kaart hoe IT'ers in Vlaanderen AI gebruiken, met de steun van Agoria.\n\nWelke tools gebruik je, voor welke taken, en wat verandert er aan je werk, je vaardigheden en je loopbaan? Over die vragen bestaan veel meningen, maar weinig cijfers.\n\nDe bevraging is voor iedereen die met IT bezig is: werknemers, freelancers, studenten en werkzoekenden. Ook wie (nog) weinig met AI doet, telt mee.\n\nInvullen duurt ongeveer 15 minuten en is volledig anoniem. De link vind je in de eerste comment.\n\nDeel dit gerust met collega's, je team of je klas. Hoe breder de deelname, hoe betrouwbaarder het beeld. Wie wil, ontvangt achteraf de resultaten.\n\n#ToekomstVanWerk #AI #IT #Vlaanderen #onderzoek #generatieveAI",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7531364309981995008/",
+  "sharedUrl": "",
+  "deleted": false
+ },
+ {
   "date": "2026-11-25 09:18",
   "text": "De grootste AI-winst zit in het organigram\n\nAnthropic interviewde 66 mensen bij 58 bedrijven die AI invoeren. Het gaat om eigen klanten en om waarde die ze zelf inschatten, dus geen representatieve steekproef.\n\nToch springt één patroon eruit. De lichte toepassingen, zoals een presentatie opmaken of een snelle data-analyse, passen in elke organisatie. Volgens de geïnterviewden leveren ze ook het minst op.\n\nDe meeste waarde ontstaat pas wanneer bedrijven het werk zelf herinrichten. Medewerkers krijgen een volledige workflow in handen in plaats van één deeltaak.\n\nWie tijd wint, schuift door naar het werk dat de tools niet overnemen: beslissingen nemen, met klanten praten, code nalezen.\n\nEnkel tools uitdelen botst snel op grenzen. Een paar enthousiastelingen bouwen apps, de rest van de organisatie houdt het tempo niet bij.\n\nEen advocatenkantoor laat AI nu de eerste versie van juridische documenten genereren. Junioren werken die versie samen met een senior advocaat uit, zodat ze het vak blijven leren.\n\nPS: Elke week zet ik zulke onderzoeken op een rij in 'Het masker van AI': https://lnkd.in/eWX-BPpu\n\n#ToekomstVanWerk #AI #generatieveAI #organisatieverandering #digitaletransformatie #Anthropic",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7531270198473998336/",
